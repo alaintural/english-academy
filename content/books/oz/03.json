@@ -1,0 +1,220 @@
+{
+  "book": "oz",
+  "number": 3,
+  "title_en": "The Scarecrow",
+  "title_tr": "Korkuluk",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Dorothy puts on the silver shoes.",
+      "tr": "Dorothy gümüş ayakkabıları giyiyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["put","koyuyor (put on: giymek)"], ["on","(put on: giymek)"], ["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabılar"]]
+    },
+    {
+      "en": "They are just right for her feet.",
+      "tr": "Ayaklarına tam uyuyorlar.",
+      "w": [["they","onlar"], ["be","-dir (olmak)"], ["just","tam"], ["right","doğru, uygun"], ["for","için"], ["her","onun (kadın)"], ["foot","ayaklar"]]
+    },
+    {
+      "en": "Then she walks on the yellow brick road with Toto.",
+      "tr": "Sonra Toto ile sarı tuğlalı yolda yürüyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["walk","yürüyor"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"], ["with","ile, -le"], ["Toto","Toto (köpeğin adı)"]]
+    },
+    {
+      "en": "The sun is bright, and the birds sing.",
+      "tr": "Güneş parlak, kuşlar şarkı söylüyor.",
+      "w": [["the","(belirli tanımlık)"], ["sun","güneş"], ["be","-dir (olmak)"], ["bright","parlak"], ["and","ve"], ["the","(belirli tanımlık)"], ["bird","kuşlar"], ["sing","şarkı söylüyor"]]
+    },
+    {
+      "p": true,
+      "en": "After some hours, Dorothy is tired.",
+      "tr": "Birkaç saat sonra Dorothy yoruluyor.",
+      "w": [["after","sonra"], ["some","birkaç"], ["hour","saatler"], ["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["tired","yorgun"]]
+    },
+    {
+      "en": "She sits down near a big field of corn.",
+      "tr": "Büyük bir mısır tarlasının yanına oturuyor.",
+      "w": [["she","o (kadın)"], ["sit","oturuyor"], ["down","aşağı"], ["near","yanına, yakınına"], ["a","bir"], ["big","büyük"], ["field","tarla"], ["of","-in"], ["corn","mısır"]]
+    },
+    {
+      "en": "In the field, there is a scarecrow on a pole.",
+      "tr": "Tarlada, bir direğin üstünde bir korkuluk var.",
+      "w": [["in","-de"], ["the","(belirli tanımlık)"], ["field","tarla"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["scarecrow","korkuluk"], ["on","üstünde"], ["a","bir"], ["pole","direk, sırık"]]
+    },
+    {
+      "en": "His head is a small bag of straw.",
+      "tr": "Başı, içi saman dolu küçük bir torba.",
+      "w": [["his","onun (erkek)"], ["head","baş, kafa"], ["be","-dir (olmak)"], ["a","bir"], ["small","küçük"], ["bag","torba, çanta"], ["of","-li, dolu"], ["straw","saman"]]
+    },
+    {
+      "en": "He has a painted face and an old blue hat.",
+      "tr": "Boyanmış bir yüzü ve eski, mavi bir şapkası var.",
+      "w": [["he","o (erkek)"], ["have","sahip, -si var"], ["a","bir"], ["painted","boyalı"], ["face","yüz"], ["and","ve"], ["an","bir"], ["old","eski"], ["blue","mavi"], ["hat","şapka"]]
+    },
+    {
+      "p": true,
+      "en": "Suddenly the Scarecrow winks at Dorothy.",
+      "tr": "Birden Korkuluk, Dorothy'ye göz kırpıyor.",
+      "w": [["suddenly","birden"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["wink","göz kırpıyor"], ["at","-e"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Good day,” says the Scarecrow.",
+      "tr": "“İyi günler,” diyor Korkuluk.",
+      "w": [["good","iyi"], ["day","gün"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“Can you talk?” asks Dorothy.",
+      "tr": "“Konuşabiliyor musun?” diye soruyor Dorothy.",
+      "w": [["can","-ebilir mi"], ["you","sen"], ["talk","konuşmak"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Yes, I can,” he says. “How are you?”",
+      "tr": "“Evet, konuşabiliyorum,” diyor. “Nasılsın?”",
+      "w": [["yes","evet"], ["I","ben"], ["can","-ebilirim"], ["he","o (erkek)"], ["say","diyor"], ["how","nasıl"], ["be","-sin (olmak)"], ["you","sen"]]
+    },
+    {
+      "en": "“I am well, thank you,” says Dorothy. “And how are you?”",
+      "tr": "“İyiyim, teşekkür ederim,” diyor Dorothy. “Peki sen nasılsın?”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["well","iyi"], ["thank","teşekkür etmek"], ["you","sana"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"], ["and","peki, ve"], ["how","nasıl"], ["be","-sin (olmak)"], ["you","sen"]]
+    },
+    {
+      "en": "“I am not very well,” says the Scarecrow.",
+      "tr": "“Pek iyi değilim,” diyor Korkuluk.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["not","değil"], ["very","pek, çok"], ["well","iyi"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“I am on this pole day and night.”",
+      "tr": "“Gece gündüz bu direğin üstündeyim.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["on","üstünde"], ["this","bu"], ["pole","direk"], ["day","gün, gündüz"], ["and","ve"], ["night","gece"]]
+    },
+    {
+      "en": "“Please take me down.”",
+      "tr": "“Lütfen beni indir.”",
+      "w": [["please","lütfen"], ["take","almak (take down: indirmek)"], ["me","beni"], ["down","aşağı"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy takes him down from the pole.",
+      "tr": "Dorothy onu direkten indiriyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["take","alıyor (take down: indirmek)"], ["him","onu"], ["down","aşağı"], ["from","-den / -dan"], ["the","(belirli tanımlık)"], ["pole","direk"]]
+    },
+    {
+      "en": "He is very light, because he is only straw.",
+      "tr": "Çok hafif, çünkü sadece samandan yapılmış.",
+      "w": [["he","o (erkek)"], ["be","-dir (olmak)"], ["very","çok"], ["light","hafif"], ["because","çünkü"], ["he","o (erkek)"], ["be","-dir (olmak)"], ["only","sadece"], ["straw","saman"]]
+    },
+    {
+      "en": "“Thank you!” he says. “Now I feel like a new man.”",
+      "tr": "“Teşekkür ederim!” diyor. “Şimdi yeni bir adam gibi hissediyorum.”",
+      "w": [["thank","teşekkür etmek"], ["you","sana"], ["he","o (erkek)"], ["say","diyor"], ["now","şimdi"], ["I","ben"], ["feel","hissediyorum"], ["like","gibi"], ["a","bir"], ["new","yeni"], ["man","adam"]]
+    },
+    {
+      "en": "“Who are you, and where are you going?”",
+      "tr": "“Sen kimsin ve nereye gidiyorsun?”",
+      "w": [["who","kim"], ["be","-sin (olmak)"], ["you","sen"], ["and","ve"], ["where","nereye"], ["be","(yardımcı fiil)"], ["you","sen"], ["go","gidiyorsun"]]
+    },
+    {
+      "en": "“My name is Dorothy,” she says.",
+      "tr": "“Benim adım Dorothy,” diyor.",
+      "w": [["my","benim"], ["name","ad, isim"], ["be","-dir (olmak)"], ["Dorothy","Dorothy (kız adı)"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“I am going to the Emerald City.”",
+      "tr": "“Zümrüt Şehir'e gidiyorum.”",
+      "w": [["I","ben"], ["be","(yardımcı fiil)"], ["go","gidiyorum"], ["to","-e"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"]]
+    },
+    {
+      "en": "“I want to ask Oz to send me home to Kansas.”",
+      "tr": "“Oz'dan beni Kansas'a, evime göndermesini rica etmek istiyorum.”",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["ask","istemek, rica etmek"], ["Oz","Oz (büyücünün adı)"], ["to","(mastar eki) -mesini"], ["send","göndermek"], ["me","beni"], ["home","eve"], ["to","-e"], ["Kansas","Kansas (ABD'de bir eyalet)"]]
+    },
+    {
+      "p": true,
+      "en": "“Who is Oz?” asks the Scarecrow.",
+      "tr": "“Oz kim?” diye soruyor Korkuluk.",
+      "w": [["who","kim"], ["be","-dir (olmak)"], ["Oz","Oz (büyücünün adı)"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“Don't you know?” asks Dorothy.",
+      "tr": "“Bilmiyor musun?” diye soruyor Dorothy.",
+      "w": [["do","-maz mı (olumsuz soru)"], ["you","sen"], ["know","bilmek"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“No, I don't know anything,” he says sadly.",
+      "tr": "“Hayır, hiçbir şey bilmiyorum,” diyor üzgün bir sesle.",
+      "w": [["no","hayır"], ["I","ben"], ["do","-maz (olumsuz)"], ["know","bilmek"], ["anything","hiçbir şey"], ["he","o (erkek)"], ["say","diyor"], ["sadly","üzgün bir şekilde"]]
+    },
+    {
+      "en": "“My head is full of straw. I have no brains.”",
+      "tr": "“Kafam saman dolu. Hiç beynim yok.”",
+      "w": [["my","benim"], ["head","kafa"], ["be","-dir (olmak)"], ["full","dolu"], ["of","-ile (full of: dolu)"], ["straw","saman"], ["I","ben"], ["have","sahip olmak"], ["no","hiç (yok)"], ["brain","beyin"]]
+    },
+    {
+      "en": "“The crows know this, and they are not afraid of me.”",
+      "tr": "“Kargalar bunu biliyor ve benden korkmuyorlar.”",
+      "w": [["the","(belirli tanımlık)"], ["crow","kargalar"], ["know","biliyor"], ["this","bunu"], ["and","ve"], ["they","onlar"], ["be","-dir (olmak)"], ["not","değil"], ["afraid","korkmuş (afraid of: -den korkmak)"], ["of","-den"], ["me","ben"]]
+    },
+    {
+      "en": "“Can Oz give me some brains?”",
+      "tr": "“Oz bana biraz beyin verebilir mi?”",
+      "w": [["can","-ebilir mi"], ["Oz","Oz (büyücünün adı)"], ["give","vermek"], ["me","bana"], ["some","biraz"], ["brain","beyin"]]
+    },
+    {
+      "en": "“I don't know,” says Dorothy. “But you can come with me.”",
+      "tr": "“Bilmiyorum,” diyor Dorothy. “Ama benimle gelebilirsin.”",
+      "w": [["I","ben"], ["do","-maz (olumsuz)"], ["know","bilmek"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"], ["but","ama"], ["you","sen"], ["can","-ebilirsin"], ["come","gelmek"], ["with","ile, -le"], ["me","ben, benimle"]]
+    },
+    {
+      "en": "“Maybe Oz can help you too.”",
+      "tr": "“Belki Oz sana da yardım edebilir.”",
+      "w": [["maybe","belki"], ["Oz","Oz (büyücünün adı)"], ["can","-ebilir"], ["help","yardım etmek"], ["you","sana"], ["too","de, da"]]
+    },
+    {
+      "p": true,
+      "en": "The Scarecrow is very happy.",
+      "tr": "Korkuluk çok mutlu.",
+      "w": [["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["be","-dir (olmak)"], ["very","çok"], ["happy","mutlu"]]
+    },
+    {
+      "en": "“I am afraid of only one thing,” he says.",
+      "tr": "“Sadece bir şeyden korkuyorum,” diyor.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["afraid","korkmuş (afraid of: -den korkmak)"], ["of","-den"], ["only","sadece"], ["one","bir"], ["thing","şey"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "“What is it?” asks Dorothy.",
+      "tr": "“Ne o?” diye soruyor Dorothy.",
+      "w": [["what","ne"], ["be","-dir (olmak)"], ["it","o"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Fire,” says the Scarecrow.",
+      "tr": "“Ateş,” diyor Korkuluk.",
+      "w": [["fire","ateş"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "So the new friends walk on the yellow brick road together.",
+      "tr": "Böylece yeni arkadaşlar sarı tuğlalı yolda birlikte yürüyor.",
+      "w": [["so","böylece"], ["the","(belirli tanımlık)"], ["new","yeni"], ["friend","arkadaşlar"], ["walk","yürüyor"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"], ["together","birlikte"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"scarecrow","pos":"noun","tr":"korkuluk","ipa":"/ˈskeəkrəʊ/","ex_en":"In the field, there is a scarecrow on a pole.","ex_tr":"Tarlada, bir direğin üstünde bir korkuluk var."},
+    {"lemma":"field","pos":"noun","tr":"tarla","ipa":"/fiːld/","ex_en":"She sits down near a big field of corn.","ex_tr":"Büyük bir mısır tarlasının yanına oturuyor."},
+    {"lemma":"corn","pos":"noun","tr":"mısır","ipa":"/kɔːn/","ex_en":"There is a lot of corn in the field.","ex_tr":"Tarlada çok mısır var."},
+    {"lemma":"pole","pos":"noun","tr":"direk, sırık","ipa":"/pəʊl/","ex_en":"I am on this pole day and night.","ex_tr":"Gece gündüz bu direğin üstündeyim."},
+    {"lemma":"straw","pos":"noun","tr":"saman","ipa":"/strɔː/","ex_en":"My head is full of straw.","ex_tr":"Kafam saman dolu."},
+    {"lemma":"head","pos":"noun","tr":"baş, kafa","ipa":"/hed/","ex_en":"His head is a small bag of straw.","ex_tr":"Başı, içi saman dolu küçük bir torba."},
+    {"lemma":"brain","pos":"noun","tr":"beyin","ipa":"/breɪn/","ex_en":"I have no brains.","ex_tr":"Hiç beynim yok."},
+    {"lemma":"crow","pos":"noun","tr":"karga","ipa":"/krəʊ/","ex_en":"The crows are not afraid of me.","ex_tr":"Kargalar benden korkmuyor."},
+    {"lemma":"know","pos":"verb","tr":"bilmek","ipa":"/nəʊ/","ex_en":"I don't know anything.","ex_tr":"Hiçbir şey bilmiyorum."},
+    {"lemma":"afraid","pos":"adjective","tr":"korkmuş (afraid of: -den korkmak)","ipa":"/əˈfreɪd/","ex_en":"I am afraid of only one thing.","ex_tr":"Sadece bir şeyden korkuyorum."},
+    {"lemma":"fire","pos":"noun","tr":"ateş","ipa":"/ˈfaɪə/","ex_en":"The Scarecrow is afraid of fire.","ex_tr":"Korkuluk ateşten korkuyor."},
+    {"lemma":"happy","pos":"adjective","tr":"mutlu","ipa":"/ˈhæpi/","ex_en":"The Scarecrow is very happy.","ex_tr":"Korkuluk çok mutlu."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"Where is the Scarecrow?","prompt_tr":"Korkuluk nerede?","options":["In a house","On a pole in a field of corn","Under a tree"],"answer":1},
+    {"type":"mcq","prompt":"What is in the Scarecrow's head?","prompt_tr":"Korkuluğun kafasında ne var?","options":["Straw","Brains","Water"],"answer":0},
+    {"type":"mcq","prompt":"What does the Scarecrow want?","prompt_tr":"Korkuluk ne istiyor?","options":["A heart","A new hat","Some brains"],"answer":2},
+    {"type":"mcq","prompt":"What is the Scarecrow afraid of?","prompt_tr":"Korkuluk neyden korkuyor?","options":["Crows","Fire","Dorothy"],"answer":1},
+    {"type":"mcq","prompt":"Where do Dorothy and the Scarecrow go?","prompt_tr":"Dorothy ile Korkuluk nereye gidiyor?","options":["To the field of corn","To Kansas","To the Emerald City"],"answer":2}
+  ]
+}

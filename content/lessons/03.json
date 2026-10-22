@@ -1,0 +1,157 @@
+{
+  "id": 3,
+  "unit": 1,
+  "title_tr": "Sayılar ve yaş",
+  "title_en": "Numbers and Age",
+  "summary_tr": "0'dan 100'e kadar saymayı, yaşını söylemeyi ve telefon numarası okumayı öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Sayılar her yerde karşına çıkar: yaş, telefon, fiyat. Önce **0–10** arasını öğren; diğer sayılar bunların üstüne kurulur."
+    },
+    {
+      "type": "table",
+      "title_tr": "0–10",
+      "head": ["Sayı", "İngilizce", "Okunuş"],
+      "rows": [
+        ["0", "zero", "ziırou"],
+        ["1", "one", "van"],
+        ["2", "two", "tu"],
+        ["3", "three", "thrii (th sesi)"],
+        ["4", "four", "foo"],
+        ["5", "five", "fayv"],
+        ["6", "six", "siks"],
+        ["7", "seven", "sevın"],
+        ["8", "eight", "eyt"],
+        ["9", "nine", "nayn"],
+        ["10", "ten", "ten"]
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "11–20",
+      "head": ["Sayı", "İngilizce", "Okunuş"],
+      "rows": [
+        ["11", "eleven", "ilevın"],
+        ["12", "twelve", "tuelv"],
+        ["13", "thirteen", "thöötiin"],
+        ["14", "fourteen", "footiin"],
+        ["15", "fifteen", "fiftiin"],
+        ["16", "sixteen", "sikstiin"],
+        ["17", "seventeen", "sevıntiin"],
+        ["18", "eighteen", "eytiin"],
+        ["19", "nineteen", "nayntiin"],
+        ["20", "twenty", "tuenti"]
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "Onluklar",
+      "head": ["Sayı", "İngilizce"],
+      "rows": [
+        ["30", "thirty"],
+        ["40", "forty"],
+        ["50", "fifty"],
+        ["60", "sixty"],
+        ["70", "seventy"],
+        ["80", "eighty"],
+        ["90", "ninety"],
+        ["100", "one hundred"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**-teen** ve **-ty** karışmasın! **thirTEEN** (13): vurgu sonda, “tiin” uzun. **THIRty** (30): vurgu başta, “ti” kısa. Aynı kural 13–19 ve 30–90 için de geçerli: fifteen (15) / fifty (50)."
+    },
+    {
+      "type": "tip",
+      "tr": "Yazım tuzakları: **forty** (40) içinde “u” yok, four ama forty. **fifty** (50) doğru, “fivety” yanlış. **twelve** (12) ile **twenty** (20) karışmasın."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Bileşik sayılar",
+      "items": [
+        { "en": "twenty-one", "tr": "21", "note_tr": "Önce onluk, sonra birlik. Araya kısa çizgi (-) konur." },
+        { "en": "thirty-five", "tr": "35" },
+        { "en": "forty-eight", "tr": "48" },
+        { "en": "ninety-nine", "tr": "99" }
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Yaş sormak ve söylemek",
+      "items": [
+        { "en": "How old are you?", "tr": "Kaç yaşındasın?", "note_tr": "**old** = yaşlı, eski. Bu soruda “kaç yaşında” anlamına gelir." },
+        { "en": "I'm 25.", "tr": "25 yaşındayım." },
+        { "en": "I'm 25 years old.", "tr": "25 yaşındayım.", "note_tr": "İkisi de doğru. Ama “I'm 25 years.” yanlış: ya sadece sayı ya da **years old** birlikte." },
+        { "en": "I'm thirteen. And you?", "tr": "On üç yaşındayım. Ya sen?" }
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Telefon numarası",
+      "items": [
+        { "en": "What's your phone number?", "tr": "Telefon numaran ne?", "note_tr": "**What's** = What is (… ne?)" },
+        { "en": "It's 0 5 3 2, 7 1 4, 2 8 5 6.", "tr": "0532 714 2856.", "note_tr": "Rakamlar tek tek okunur. 0 için **oh** (ou) ya da **zero** denir." },
+        { "en": "Double five.", "tr": "55 (iki tane beş)", "note_tr": "Yan yana iki aynı rakam için **double** denir, tıpkı alfabedeki gibi." }
+      ]
+    }
+  ],
+  "listen": [
+    { "en": "one, two, three, four, five", "tr": "bir, iki, üç, dört, beş" },
+    { "en": "six, seven, eight, nine, ten", "tr": "altı, yedi, sekiz, dokuz, on" },
+    { "en": "eleven, twelve, thirteen, fourteen, fifteen", "tr": "11, 12, 13, 14, 15" },
+    { "en": "sixteen, seventeen, eighteen, nineteen, twenty", "tr": "16, 17, 18, 19, 20" },
+    { "en": "thirteen, thirty", "tr": "13, 30" },
+    { "en": "fifteen, fifty", "tr": "15, 50" },
+    { "en": "forty, sixty, eighty, one hundred", "tr": "40, 60, 80, 100" },
+    { "en": "How old are you?", "tr": "Kaç yaşındasın?" },
+    { "en": "I'm twenty-five years old.", "tr": "Yirmi beş yaşındayım." },
+    { "en": "What's your phone number?", "tr": "Telefon numaran ne?" },
+    { "en": "It's 0 5 3 2, 7 1 4, 2 8 5 6.", "tr": "0532 714 2856." }
+  ],
+  "practice": [
+    { "type": "listen", "audio": "thirteen", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["30", "13", "3"], "answer": 1, "explain_tr": "thirTEEN = 13. Vurgu sondadır." },
+    { "type": "listen", "audio": "forty", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["14", "4", "40"], "answer": 2, "explain_tr": "FORty = 40. Vurgu baştadır." },
+    { "type": "match", "prompt_tr": "Sayıyı rakamla eşleştir.", "pairs": [["one", "1"], ["eight", "8"], ["twelve", "12"], ["twenty", "20"]] },
+    { "type": "fill", "prompt": "How ___ are you?", "tr": "Kaç yaşındasın?", "options": ["old", "fine", "much"], "answer": 0, "explain_tr": "Yaş sorusu: How old are you?" },
+    { "type": "order", "answer": "I'm twenty years old.", "tr": "Yirmi yaşındayım." },
+    { "type": "mcq", "prompt": "50", "prompt_tr": "Doğru yazımı seç.", "options": ["fivety", "fiveteen", "fifty"], "answer": 2, "explain_tr": "50 = fifty. “fivety” diye bir kelime yok." },
+    { "type": "listen", "audio": "eighteen", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["18", "80", "8"], "answer": 0, "explain_tr": "eighTEEN = 18." },
+    { "type": "fill", "prompt": "I'm 30 years ___.", "tr": "30 yaşındayım.", "options": ["fine", "old", "you"], "answer": 1, "explain_tr": "years old birlikte kullanılır." },
+    { "type": "mcq", "prompt": "seventy-two", "prompt_tr": "Bu sayı kaç?", "options": ["27", "17", "72", "70"], "answer": 2, "explain_tr": "seventy (70) + two (2) = 72." },
+    { "type": "match", "prompt_tr": "Dikkat: -teen mi, -ty mi?", "pairs": [["thirteen", "13"], ["thirty", "30"], ["fifteen", "15"], ["fifty", "50"]] }
+  ],
+  "test": [
+    { "type": "listen", "audio": "fifteen", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["50", "15", "5"], "answer": 1, "explain_tr": "fifTEEN: sondaki “tiin” uzun ve vurgulu. 15." },
+    { "type": "listen", "audio": "sixty", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["16", "6", "60"], "answer": 2, "explain_tr": "SIXty: vurgu başta. 60." },
+    { "type": "mcq", "prompt": "40", "prompt_tr": "Doğru yazımı seç.", "options": ["forty", "fourty", "fourteen"], "answer": 0, "explain_tr": "40 = forty. four (4) ama forty (40); “u” yok." },
+    { "type": "fill", "prompt": "How old ___ you?", "tr": "Kaç yaşındasın?", "options": ["is", "are", "am"], "answer": 1, "explain_tr": "Kalıp: How old are you?" },
+    { "type": "order", "answer": "How old are you?", "tr": "Kaç yaşındasın?", "explain_tr": "Soru How old ile başlar." },
+    { "type": "mcq", "prompt": "I'm 25 years.", "prompt_tr": "Bu cümle doğru mu?", "options": ["Doğru", "Yanlış: “I'm 25.” ya da “I'm 25 years old.” olmalı"], "answer": 1, "explain_tr": "years tek başına kullanılmaz; years old birlikte gelir." },
+    { "type": "match", "prompt_tr": "Eşleştir.", "pairs": [["zero", "0"], ["eleven", "11"], ["twelve", "12"], ["one hundred", "100"]] },
+    { "type": "listen", "audio": "ninety-nine", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["99", "19", "90"], "answer": 0, "explain_tr": "ninety (90) + nine (9) = 99." },
+    { "type": "mcq", "prompt": "0 5 5 1", "prompt_tr": "İngilizler telefon numarasındaki 55'i genelde nasıl okur?", "options": ["fifteen", "five fifty", "double five"], "answer": 2, "explain_tr": "Yan yana iki aynı rakam: double five." },
+    { "type": "fill", "prompt": "I'm ___.", "tr": "On üç yaşındayım.", "options": ["thirteen", "thirty", "three"], "answer": 0, "explain_tr": "13 = thirteen. 30 = thirty, 3 = three." }
+  ],
+  "vocab": [
+    { "lemma": "zero", "pos": "num", "tr": "sıfır", "ipa": "/ˈzɪərəʊ/", "ex_en": "zero, one, two", "ex_tr": "sıfır, bir, iki" },
+    { "lemma": "one", "pos": "num", "tr": "bir", "ipa": "/wʌn/", "ex_en": "I'm twenty-one.", "ex_tr": "Yirmi bir yaşındayım." },
+    { "lemma": "two", "pos": "num", "tr": "iki", "ipa": "/tuː/", "ex_en": "I'm thirty-two years old.", "ex_tr": "Otuz iki yaşındayım." },
+    { "lemma": "three", "pos": "num", "tr": "üç", "ipa": "/θriː/", "ex_en": "one, two, three", "ex_tr": "bir, iki, üç" },
+    { "lemma": "four", "pos": "num", "tr": "dört", "ipa": "/fɔː/", "ex_en": "I'm forty-four.", "ex_tr": "Kırk dört yaşındayım." },
+    { "lemma": "five", "pos": "num", "tr": "beş", "ipa": "/faɪv/", "ex_en": "Double five.", "ex_tr": "İki tane beş (55)." },
+    { "lemma": "ten", "pos": "num", "tr": "on", "ipa": "/ten/", "ex_en": "I'm ten years old.", "ex_tr": "On yaşındayım." },
+    { "lemma": "eleven", "pos": "num", "tr": "on bir", "ipa": "/ɪˈlevn/", "ex_en": "I'm eleven.", "ex_tr": "On bir yaşındayım." },
+    { "lemma": "twelve", "pos": "num", "tr": "on iki", "ipa": "/twelv/", "ex_en": "I'm twelve. And you?", "ex_tr": "On iki yaşındayım. Ya sen?" },
+    { "lemma": "thirteen", "pos": "num", "tr": "on üç", "ipa": "/ˌθɜːˈtiːn/", "ex_en": "I'm thirteen years old.", "ex_tr": "On üç yaşındayım." },
+    { "lemma": "twenty", "pos": "num", "tr": "yirmi", "ipa": "/ˈtwenti/", "ex_en": "I'm twenty.", "ex_tr": "Yirmi yaşındayım." },
+    { "lemma": "thirty", "pos": "num", "tr": "otuz", "ipa": "/ˈθɜːti/", "ex_en": "I'm thirty years old.", "ex_tr": "Otuz yaşındayım." },
+    { "lemma": "forty", "pos": "num", "tr": "kırk", "ipa": "/ˈfɔːti/", "ex_en": "I'm forty.", "ex_tr": "Kırk yaşındayım." },
+    { "lemma": "hundred", "pos": "num", "tr": "yüz", "ipa": "/ˈhʌndrəd/", "ex_en": "one hundred", "ex_tr": "yüz (100)" },
+    { "lemma": "number", "pos": "noun", "tr": "sayı, numara", "ipa": "/ˈnʌmbə/", "ex_en": "What's your number?", "ex_tr": "Numaran ne?" },
+    { "lemma": "phone number", "pos": "noun", "tr": "telefon numarası", "ipa": "/ˈfəʊn ˌnʌmbə/", "ex_en": "What's your phone number?", "ex_tr": "Telefon numaran ne?" },
+    { "lemma": "old", "pos": "adj", "tr": "yaşında; yaşlı, eski", "ipa": "/əʊld/", "ex_en": "How old are you?", "ex_tr": "Kaç yaşındasın?" },
+    { "lemma": "year", "pos": "noun", "tr": "yıl", "ipa": "/jɪə/", "ex_en": "I'm 25 years old.", "ex_tr": "25 yaşındayım." }
+  ]
+}

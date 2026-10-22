@@ -1,0 +1,133 @@
+{
+  "id": 2,
+  "unit": 1,
+  "title_tr": "Selamlaşma",
+  "title_en": "Greetings",
+  "summary_tr": "Selam vermeyi, hâl hatır sormayı, vedalaşmayı ve kibar sözcükleri öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Birini selamlamanın en kolay yolu: **Hello!** (helou) ya da **Hi!** (hay). **Hello** her yerde kullanılır. **Hi** daha samimidir; arkadaşlarla ve ailede kullanılır."
+    },
+    {
+      "type": "table",
+      "title_tr": "Günün saatine göre selam",
+      "head": ["İngilizce", "Türkçe", "Ne zaman?"],
+      "rows": [
+        ["Good morning", "Günaydın", "Sabah, öğlene kadar"],
+        ["Good afternoon", "İyi günler", "Öğleden sonra"],
+        ["Good evening", "İyi akşamlar", "Akşam, selam verirken"],
+        ["Good night", "İyi geceler", "Gece ayrılırken, yatarken"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**Good night** bir selam değildir! Sadece ayrılırken ya da yatmadan önce söylenir. Akşam biriyle karşılaşınca **Good evening** de."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Nasılsın?",
+      "items": [
+        { "en": "How are you?", "tr": "Nasılsın? / Nasılsınız?" },
+        { "en": "I'm fine, thank you. And you?", "tr": "İyiyim, teşekkür ederim. Ya sen?", "note_tr": "**I'm** = I am (ben …im). Karşındakine de sormak kibarlıktır: **And you?**" },
+        { "en": "I'm OK, thanks.", "tr": "İyiyim, sağ ol." },
+        { "en": "Very well, thank you.", "tr": "Çok iyiyim, teşekkür ederim.", "note_tr": "Biraz daha resmî bir cevap." }
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "Vedalaşma",
+      "head": ["İngilizce", "Türkçe"],
+      "rows": [
+        ["Goodbye", "Hoşça kal / Güle güle"],
+        ["Bye!", "Bay bay! / Hoşça kal!"],
+        ["See you!", "Görüşürüz!"],
+        ["See you later!", "Sonra görüşürüz!"],
+        ["Good night!", "İyi geceler!"]
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Kibar sözcükler",
+      "items": [
+        { "en": "Please.", "tr": "Lütfen." },
+        { "en": "Thank you. Thanks.", "tr": "Teşekkür ederim. Sağ ol." },
+        { "en": "Thank you very much.", "tr": "Çok teşekkür ederim." },
+        { "en": "Sorry!", "tr": "Özür dilerim! / Pardon!", "note_tr": "Bir hata yaptığında ya da birine çarptığında." },
+        { "en": "Excuse me.", "tr": "Affedersiniz.", "note_tr": "Birinin dikkatini çekmek ya da yol istemek için." }
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "Resmî mi, samimi mi?",
+      "head": ["Resmî (iş, yabancılar)", "Samimi (arkadaşlar)"],
+      "rows": [
+        ["Hello", "Hi"],
+        ["Goodbye", "Bye / See you"],
+        ["Thank you", "Thanks"],
+        ["Very well, thank you.", "Fine, thanks."]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Resmî ortamda soyadıyla birlikte **Mr** (Bay) ya da **Ms** (Bayan) kullanılır: **Good morning, Mr Brown.** Arkadaşına ise sadece adıyla seslen: **Hi, Tom!**"
+    }
+  ],
+  "listen": [
+    { "en": "Hello!", "tr": "Merhaba!" },
+    { "en": "Hi, Tom!", "tr": "Selam, Tom!" },
+    { "en": "Good morning.", "tr": "Günaydın." },
+    { "en": "Good afternoon.", "tr": "İyi günler." },
+    { "en": "Good evening.", "tr": "İyi akşamlar." },
+    { "en": "Good night.", "tr": "İyi geceler." },
+    { "en": "How are you?", "tr": "Nasılsın?" },
+    { "en": "I'm fine, thank you. And you?", "tr": "İyiyim, teşekkür ederim. Ya sen?" },
+    { "en": "Goodbye! See you later.", "tr": "Hoşça kal! Sonra görüşürüz." },
+    { "en": "Thank you very much.", "tr": "Çok teşekkür ederim." },
+    { "en": "Excuse me.", "tr": "Affedersiniz." },
+    { "en": "Sorry!", "tr": "Özür dilerim!" }
+  ],
+  "practice": [
+    { "type": "match", "prompt_tr": "Eşleştir.", "pairs": [["hello", "merhaba"], ["goodbye", "hoşça kal"], ["thank you", "teşekkür ederim"], ["please", "lütfen"]] },
+    { "type": "listen", "audio": "Good evening.", "prompt_tr": "Duyduğunun anlamını seç.", "options": ["Günaydın", "İyi akşamlar", "İyi geceler"], "answer": 1, "explain_tr": "Good evening = İyi akşamlar." },
+    { "type": "fill", "prompt": "Good ___!", "tr": "Günaydın!", "options": ["night", "evening", "morning"], "answer": 2, "explain_tr": "Good morning = Günaydın." },
+    { "type": "mcq", "prompt": "How are you?", "prompt_tr": "En uygun cevabı seç.", "options": ["Good night.", "I'm fine, thank you.", "Excuse me."], "answer": 1, "explain_tr": "How are you? sorusuna “I'm fine, thank you.” diye cevap verilir." },
+    { "type": "order", "answer": "I'm fine, thank you.", "tr": "İyiyim, teşekkür ederim." },
+    { "type": "mcq", "prompt": "Birine yanlışlıkla çarptın. Ne dersin?", "options": ["Please!", "Hi!", "Sorry!"], "answer": 2, "explain_tr": "Özür dilemek için **Sorry!** denir." },
+    { "type": "listen", "audio": "See you later!", "prompt_tr": "Duyduğunun anlamını seç.", "options": ["Sonra görüşürüz!", "Nasılsın?", "Lütfen."], "answer": 0, "explain_tr": "See you later = Sonra görüşürüz." },
+    { "type": "fill", "prompt": "I'm fine, thank you. And ___?", "tr": "İyiyim, teşekkür ederim. Ya sen?", "options": ["it", "my", "you"], "answer": 2, "explain_tr": "And you? = Ya sen?" },
+    { "type": "mcq", "prompt": "Thank you", "prompt_tr": "“Thank you” ifadesinin samimi hâli hangisi?", "options": ["Thanks", "Please", "Sorry"], "answer": 0, "explain_tr": "Arkadaşlar arasında kısaca **Thanks** denir." },
+    { "type": "match", "prompt_tr": "Selamı anlamıyla eşleştir.", "pairs": [["Good morning", "Günaydın"], ["Good afternoon", "İyi günler"], ["Good evening", "İyi akşamlar"], ["Good night", "İyi geceler"]] }
+  ],
+  "test": [
+    { "type": "mcq", "prompt": "Saat 22.00, arkadaşından ayrılıyorsun. Ne dersin?", "options": ["Good morning!", "Good afternoon!", "Good night!"], "answer": 2, "explain_tr": "Good night ayrılırken ya da yatarken söylenir." },
+    { "type": "listen", "audio": "Good afternoon.", "prompt_tr": "Duyduğun selamı seç.", "options": ["Good morning", "Good afternoon", "Good evening"], "answer": 1, "explain_tr": "Good afternoon öğleden sonra kullanılır." },
+    { "type": "fill", "prompt": "How ___ you?", "tr": "Nasılsın?", "options": ["is", "are", "my"], "answer": 1, "explain_tr": "Kalıbı ezberle: **How are you?**" },
+    { "type": "order", "answer": "How are you?", "tr": "Nasılsın?", "explain_tr": "Soru “How” ile başlar: How are you?" },
+    { "type": "mcq", "prompt": "Excuse me.", "prompt_tr": "Bu ifade ne zaman kullanılır?", "options": ["Birinin dikkatini çekmek için", "Teşekkür etmek için", "Yatmadan önce"], "answer": 0, "explain_tr": "Excuse me = Affedersiniz. Dikkat çekmek ya da yol istemek için kullanılır." },
+    { "type": "match", "prompt_tr": "Eşleştir.", "pairs": [["sorry", "özür dilerim"], ["please", "lütfen"], ["see you", "görüşürüz"], ["thanks", "sağ ol"]] },
+    { "type": "fill", "prompt": "Thank you very ___.", "tr": "Çok teşekkür ederim.", "options": ["fine", "well", "much"], "answer": 2, "explain_tr": "Kalıp: Thank you very much." },
+    { "type": "listen", "audio": "I'm fine, thank you. And you?", "prompt_tr": "Konuşan kişi ne dedi?", "options": ["İyi olduğunu söyledi ve sana sordu.", "Vedalaştı.", "Özür diledi."], "answer": 0, "explain_tr": "I'm fine = İyiyim. And you? = Ya sen?" },
+    { "type": "mcq", "prompt": "Yeni patronunla tanışıyorsun, saat sabah 9. Hangisi en uygun?", "options": ["Hi!", "Bye!", "Good morning, Mr Brown.", "See you!"], "answer": 2, "explain_tr": "Resmî ortamda selam + Mr/Ms + soyadı kullanılır." },
+    { "type": "mcq", "prompt": "Hangisi bir veda ifadesi DEĞİL?", "options": ["See you later!", "Bye!", "Good night!", "Good morning!"], "answer": 3, "explain_tr": "Good morning bir selamdır. Diğerleri ayrılırken söylenir." }
+  ],
+  "vocab": [
+    { "lemma": "hello", "pos": "interj", "tr": "merhaba", "ipa": "/həˈləʊ/", "ex_en": "Hello! How are you?", "ex_tr": "Merhaba! Nasılsın?" },
+    { "lemma": "hi", "pos": "interj", "tr": "selam (samimi)", "ipa": "/haɪ/", "ex_en": "Hi, Tom!", "ex_tr": "Selam, Tom!" },
+    { "lemma": "good morning", "pos": "phrase", "tr": "günaydın", "ipa": "/ɡʊd ˈmɔːnɪŋ/", "ex_en": "Good morning, Mr Brown.", "ex_tr": "Günaydın, Bay Brown." },
+    { "lemma": "good afternoon", "pos": "phrase", "tr": "iyi günler (öğleden sonra)", "ipa": "/ɡʊd ˌɑːftəˈnuːn/", "ex_en": "Good afternoon! How are you?", "ex_tr": "İyi günler! Nasılsınız?" },
+    { "lemma": "good evening", "pos": "phrase", "tr": "iyi akşamlar (selam)", "ipa": "/ɡʊd ˈiːvnɪŋ/", "ex_en": "Good evening, Ms Smith.", "ex_tr": "İyi akşamlar, Bayan Smith." },
+    { "lemma": "good night", "pos": "phrase", "tr": "iyi geceler", "ipa": "/ɡʊd ˈnaɪt/", "ex_en": "Good night! See you.", "ex_tr": "İyi geceler! Görüşürüz." },
+    { "lemma": "goodbye", "pos": "interj", "tr": "hoşça kal, güle güle", "ipa": "/ɡʊdˈbaɪ/", "ex_en": "Goodbye, Mr Brown.", "ex_tr": "Hoşça kalın, Bay Brown." },
+    { "lemma": "bye", "pos": "interj", "tr": "bay bay, hoşça kal", "ipa": "/baɪ/", "ex_en": "Bye, Tom!", "ex_tr": "Hoşça kal, Tom!" },
+    { "lemma": "see you", "pos": "phrase", "tr": "görüşürüz", "ipa": "/ˈsiː juː/", "ex_en": "Bye! See you later.", "ex_tr": "Hoşça kal! Sonra görüşürüz." },
+    { "lemma": "how are you", "pos": "phrase", "tr": "nasılsın", "ipa": "/ˌhaʊ ˈɑː juː/", "ex_en": "Hi, Emma! How are you?", "ex_tr": "Selam, Emma! Nasılsın?" },
+    { "lemma": "fine", "pos": "adj", "tr": "iyi", "ipa": "/faɪn/", "ex_en": "I'm fine, thank you.", "ex_tr": "İyiyim, teşekkür ederim." },
+    { "lemma": "thank you", "pos": "phrase", "tr": "teşekkür ederim", "ipa": "/ˈθæŋk juː/", "ex_en": "Thank you very much.", "ex_tr": "Çok teşekkür ederim." },
+    { "lemma": "thanks", "pos": "interj", "tr": "sağ ol, teşekkürler", "ipa": "/θæŋks/", "ex_en": "I'm OK, thanks.", "ex_tr": "İyiyim, sağ ol." },
+    { "lemma": "please", "pos": "adv", "tr": "lütfen", "ipa": "/pliːz/", "ex_en": "Spell it, please.", "ex_tr": "Lütfen harf harf söyle." },
+    { "lemma": "sorry", "pos": "adj", "tr": "özür dilerim, pardon", "ipa": "/ˈsɒri/", "ex_en": "Sorry! Excuse me.", "ex_tr": "Pardon! Affedersiniz." },
+    { "lemma": "excuse me", "pos": "phrase", "tr": "affedersiniz", "ipa": "/ɪkˈskjuːz miː/", "ex_en": "Excuse me, Ms Smith.", "ex_tr": "Affedersiniz, Bayan Smith." },
+    { "lemma": "very", "pos": "adv", "tr": "çok", "ipa": "/ˈveri/", "ex_en": "Very well, thank you.", "ex_tr": "Çok iyiyim, teşekkür ederim." }
+  ]
+}

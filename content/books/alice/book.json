@@ -1,0 +1,17 @@
+{
+  "id": "alice",
+  "title": "Alice's Adventures in Wonderland",
+  "title_tr": "Alice Harikalar Diyarında",
+  "author": "Lewis Carroll",
+  "year": 1865,
+  "category": "Fantastik",
+  "description_tr": "Alice beyaz bir tavşanın peşinden bir deliğe düşer ve tuhaf karakterlerle dolu bir dünyayı keşfeder.",
+  "cover": {
+    "bg": "#3B2A6B",
+    "fg": "#FDF2FF",
+    "accent": "#F6A6C8",
+    "motif": "rabbit"
+  },
+  "chapters_planned": 12,
+  "order": 2
+}

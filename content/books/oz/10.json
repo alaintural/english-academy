@@ -1,0 +1,244 @@
+{
+  "book": "oz",
+  "number": 10,
+  "title_en": "The Truth About Oz",
+  "title_tr": "Oz Hakkındaki Gerçek",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The Winkies help Dorothy and the Lion.",
+      "tr": "Winkiler, Dorothy'ye ve Aslan'a yardım ediyor.",
+      "w": [["the","(belirli tanımlık)"], ["Winkie","Winkiler (Batı'daki halk)"], ["help","yardım ediyorlar"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "They find the Tin Woodman and make him new again.",
+      "tr": "Teneke Adam'ı buluyorlar ve onu yeniden yepyeni hâle getiriyorlar.",
+      "w": [["they","onlar"], ["find","buluyorlar"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["and","ve"], ["make","yapıyorlar"], ["him","onu"], ["new","yeni"], ["again","yeniden"]]
+    },
+    {
+      "en": "They find the Scarecrow's clothes and put new straw in them.",
+      "tr": "Korkuluk'un giysilerini buluyorlar ve içine yeni saman koyuyorlar.",
+      "w": [["they","onlar"], ["find","buluyorlar"], ["the","(belirli tanımlık)"], ["scarecrow","Korkuluk'un"], ["clothes","giysiler"], ["and","ve"], ["put","koyuyorlar"], ["new","yeni"], ["straw","saman"], ["in","içine"], ["them","onların"]]
+    },
+    {
+      "en": "Then Dorothy takes the Golden Cap.",
+      "tr": "Sonra Dorothy Altın Şapka'yı alıyor.",
+      "w": [["then","sonra"], ["Dorothy","Dorothy (kız adı)"], ["take","alıyor"], ["the","(belirli tanımlık)"], ["golden","altın"], ["cap","şapka"]]
+    },
+    {
+      "en": "The Winged Monkeys carry the friends back to the Emerald City.",
+      "tr": "Kanatlı Maymunlar arkadaşları Zümrüt Şehir'e geri taşıyor.",
+      "w": [["the","(belirli tanımlık)"], ["winged","kanatlı"], ["monkey","maymunlar"], ["carry","taşıyorlar"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["back","geri"], ["to","-e"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"]]
+    },
+    {
+      "p": true,
+      "en": "This time, they all go to the throne room together.",
+      "tr": "Bu kez hepsi birlikte taht odasına gidiyor.",
+      "w": [["this","bu"], ["time","kez, sefer"], ["they","onlar"], ["all","hepsi"], ["go","gidiyorlar"], ["to","-e"], ["the","(belirli tanımlık)"], ["throne","taht"], ["room","oda"], ["together","birlikte"]]
+    },
+    {
+      "en": "But there is nobody on the throne.",
+      "tr": "Ama tahtta kimse yok.",
+      "w": [["but","ama"], ["there","(there is: var)"], ["be","olmak"], ["nobody","hiç kimse"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["throne","taht"]]
+    },
+    {
+      "en": "They only hear a voice.",
+      "tr": "Sadece bir ses duyuyorlar.",
+      "w": [["they","onlar"], ["only","sadece"], ["hear","duyuyorlar"], ["a","bir"], ["voice","ses"]]
+    },
+    {
+      "en": "“I am Oz, the Great and Terrible. What do you want?”",
+      "tr": "“Ben Büyük ve Korkunç Oz'um. Ne istiyorsunuz?”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["Oz","Oz (büyücünün adı)"], ["the","(belirli tanımlık)"], ["great","büyük"], ["and","ve"], ["terrible","korkunç"], ["what","ne"], ["do","(soru yardımcısı)"], ["you","siz"], ["want","istemek"]]
+    },
+    {
+      "en": "“The Wicked Witch of the West is dead,” says Dorothy.",
+      "tr": "“Batı'nın Kötü Cadısı öldü,” diyor Dorothy.",
+      "w": [["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"], ["be","-dir (olmak)"], ["dead","ölü"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Now please keep your promise.”",
+      "tr": "“Şimdi lütfen sözünü tut.”",
+      "w": [["now","şimdi"], ["please","lütfen"], ["keep","tutmak"], ["your","senin"], ["promise","söz"]]
+    },
+    {
+      "en": "“Come back tomorrow,” says the voice.",
+      "tr": "“Yarın tekrar gelin,” diyor ses.",
+      "w": [["come","gelin"], ["back","geri, tekrar"], ["tomorrow","yarın"], ["say","diyor"], ["the","(belirli tanımlık)"], ["voice","ses"]]
+    },
+    {
+      "en": "The Lion is angry, and he roars very loudly.",
+      "tr": "Aslan kızgın ve çok yüksek sesle kükrüyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["angry","kızgın"], ["and","ve"], ["he","o (erkek)"], ["roar","kükrüyor"], ["very","çok"], ["loudly","yüksek sesle"]]
+    },
+    {
+      "en": "Toto is afraid. He jumps and hits a screen in the corner.",
+      "tr": "Toto korkuyor. Zıplıyor ve köşedeki bir paravana çarpıyor.",
+      "w": [["Toto","Toto (köpeğin adı)"], ["be","-dir (olmak)"], ["afraid","korkmuş"], ["he","o (erkek)"], ["jump","zıplıyor"], ["and","ve"], ["hit","çarpıyor"], ["a","bir"], ["screen","paravan"], ["in","-deki"], ["the","(belirli tanımlık)"], ["corner","köşe"]]
+    },
+    {
+      "en": "The screen falls down.",
+      "tr": "Paravan yere düşüyor.",
+      "w": [["the","(belirli tanımlık)"], ["screen","paravan"], ["fall","düşüyor"], ["down","aşağı"]]
+    },
+    {
+      "p": true,
+      "en": "Behind the screen, there is a little old man.",
+      "tr": "Paravanın arkasında küçük, yaşlı bir adam var.",
+      "w": [["behind","arkasında"], ["the","(belirli tanımlık)"], ["screen","paravan"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["little","küçük"], ["old","yaşlı"], ["man","adam"]]
+    },
+    {
+      "en": "He has no hair on his head.",
+      "tr": "Kafasında hiç saç yok.",
+      "w": [["he","o (erkek)"], ["have","sahip, -si var"], ["no","hiç (yok)"], ["hair","saç"], ["on","üstünde"], ["his","onun (erkek)"], ["head","kafa"]]
+    },
+    {
+      "en": "“Who are you?” asks the Tin Woodman.",
+      "tr": "“Sen kimsin?” diye soruyor Teneke Adam.",
+      "w": [["who","kim"], ["be","-sin (olmak)"], ["you","sen"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“I am Oz, the Great and Terrible,” says the little man.",
+      "tr": "“Ben Büyük ve Korkunç Oz'um,” diyor küçük adam.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["Oz","Oz (büyücünün adı)"], ["the","(belirli tanımlık)"], ["great","büyük"], ["and","ve"], ["terrible","korkunç"], ["say","diyor"], ["the","(belirli tanımlık)"], ["little","küçük"], ["man","adam"]]
+    },
+    {
+      "en": "“But please don't hurt me!”",
+      "tr": "“Ama lütfen bana zarar vermeyin!”",
+      "w": [["but","ama"], ["please","lütfen"], ["do","-ma (olumsuz emir)"], ["hurt","zarar vermek"], ["me","bana"]]
+    },
+    {
+      "en": "“You are not a great wizard?” asks Dorothy.",
+      "tr": "“Sen büyük bir büyücü değil misin?” diye soruyor Dorothy.",
+      "w": [["you","sen"], ["be","-sin (olmak)"], ["not","değil"], ["a","bir"], ["great","büyük"], ["wizard","büyücü"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“No, my dear. I am only a common man.”",
+      "tr": "“Hayır, canım. Ben sadece sıradan bir adamım.”",
+      "w": [["no","hayır"], ["my","benim"], ["dear","canım, sevgili"], ["I","ben"], ["be","-im (olmak)"], ["only","sadece"], ["a","bir"], ["common","sıradan"], ["man","adam"]]
+    },
+    {
+      "en": "“You are a humbug!” says the Scarecrow.",
+      "tr": "“Sen bir sahtekârsın!” diyor Korkuluk.",
+      "w": [["you","sen"], ["be","-sin (olmak)"], ["a","bir"], ["humbug","sahtekâr, şarlatan"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“Yes, I am a humbug,” says Oz sadly.",
+      "tr": "“Evet, ben bir sahtekârım,” diyor Oz üzgün bir sesle.",
+      "w": [["yes","evet"], ["I","ben"], ["be","-im (olmak)"], ["a","bir"], ["humbug","sahtekâr, şarlatan"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"], ["sadly","üzgün bir şekilde"]]
+    },
+    {
+      "p": true,
+      "en": "Then Oz tells them his story.",
+      "tr": "Sonra Oz onlara hikâyesini anlatıyor.",
+      "w": [["then","sonra"], ["Oz","Oz (büyücünün adı)"], ["tell","anlatıyor"], ["them","onlara"], ["his","onun (erkek)"], ["story","hikâye"]]
+    },
+    {
+      "en": "“I am from Omaha. It is not far from Kansas.”",
+      "tr": "“Ben Omahalıyım. Orası Kansas'tan uzak değil.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["from","-den, -li"], ["Omaha","Omaha (ABD'de bir şehir)"], ["it","o, orası"], ["be","-dir (olmak)"], ["not","değil"], ["far","uzak"], ["from","-den"], ["Kansas","Kansas (ABD'de bir eyalet)"]]
+    },
+    {
+      "en": "“One day, my balloon flies up into the sky.”",
+      "tr": "“Bir gün balonum gökyüzüne doğru uçuyor.”",
+      "w": [["one","bir"], ["day","gün"], ["my","benim"], ["balloon","balon"], ["fly","uçuyor"], ["up","yukarı"], ["into","içine"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "“The wind takes it to this land.”",
+      "tr": "“Rüzgâr onu bu ülkeye getiriyor.”",
+      "w": [["the","(belirli tanımlık)"], ["wind","rüzgâr"], ["take","götürüyor, getiriyor"], ["it","onu"], ["to","-e"], ["this","bu"], ["land","ülke"]]
+    },
+    {
+      "en": "“The people see me come from the sky.”",
+      "tr": "“İnsanlar benim gökyüzünden geldiğimi görüyor.”",
+      "w": [["the","(belirli tanımlık)"], ["people","insanlar"], ["see","görüyorlar"], ["me","beni"], ["come","gelmek"], ["from","-den"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "“So they think I am a great wizard.”",
+      "tr": "“Bu yüzden benim büyük bir büyücü olduğumu düşünüyorlar.”",
+      "w": [["so","bu yüzden"], ["they","onlar"], ["think","düşünüyorlar"], ["I","ben"], ["be","-im (olmak)"], ["a","bir"], ["great","büyük"], ["wizard","büyücü"]]
+    },
+    {
+      "p": true,
+      "en": "Now the friends know the truth.",
+      "tr": "Artık arkadaşlar gerçeği biliyor.",
+      "w": [["now","artık"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["know","biliyorlar"], ["the","(belirli tanımlık)"], ["truth","gerçek"]]
+    },
+    {
+      "en": "But Oz wants to help them.",
+      "tr": "Ama Oz onlara yardım etmek istiyor.",
+      "w": [["but","ama"], ["Oz","Oz (büyücünün adı)"], ["want","istiyor"], ["to","(mastar eki) -mek"], ["help","yardım etmek"], ["them","onlara"]]
+    },
+    {
+      "en": "He puts bran and pins in the Scarecrow's head.",
+      "tr": "Korkuluk'un kafasına kepek ve toplu iğneler koyuyor.",
+      "w": [["he","o (erkek)"], ["put","koyuyor"], ["bran","kepek"], ["and","ve"], ["pin","toplu iğneler"], ["in","içine"], ["the","(belirli tanımlık)"], ["scarecrow","Korkuluk'un"], ["head","kafa"]]
+    },
+    {
+      "en": "“Now you have new brains!” he says.",
+      "tr": "“Artık yeni bir beynin var!” diyor.",
+      "w": [["now","artık"], ["you","sen"], ["have","sahip, -in var"], ["new","yeni"], ["brain","beyin"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "“I feel very clever!” says the Scarecrow.",
+      "tr": "“Kendimi çok akıllı hissediyorum!” diyor Korkuluk.",
+      "w": [["I","ben"], ["feel","hissediyorum"], ["very","çok"], ["clever","akıllı, zeki"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "Then Oz gives the Tin Woodman a beautiful silk heart.",
+      "tr": "Sonra Oz, Teneke Adam'a güzel, ipekten bir kalp veriyor.",
+      "w": [["then","sonra"], ["Oz","Oz (büyücünün adı)"], ["give","veriyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["a","bir"], ["beautiful","güzel"], ["silk","ipek"], ["heart","kalp"]]
+    },
+    {
+      "en": "“It is a good heart,” says the Tin Woodman happily.",
+      "tr": "“Bu iyi bir kalp,” diyor Teneke Adam mutlu bir şekilde.",
+      "w": [["it","o, bu"], ["be","-dir (olmak)"], ["a","bir"], ["good","iyi"], ["heart","kalp"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["happily","mutlu bir şekilde"]]
+    },
+    {
+      "en": "Then Oz gives the Lion a green drink.",
+      "tr": "Sonra Oz, Aslan'a yeşil bir içecek veriyor.",
+      "w": [["then","sonra"], ["Oz","Oz (büyücünün adı)"], ["give","veriyor"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["a","bir"], ["green","yeşil"], ["drink","içecek"]]
+    },
+    {
+      "en": "“Drink this, and you can be brave,” says Oz.",
+      "tr": "“Bunu iç, cesur olabilirsin,” diyor Oz.",
+      "w": [["drink","iç"], ["this","bunu"], ["and","ve"], ["you","sen"], ["can","-ebilirsin"], ["be","olmak"], ["brave","cesur"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "The Lion drinks it. “Now I am full of courage!” he says.",
+      "tr": "Aslan onu içiyor. “Artık cesaret doluyum!” diyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["drink","içiyor"], ["it","onu"], ["now","artık"], ["I","ben"], ["be","-im (olmak)"], ["full","dolu"], ["of","-ile (full of: dolu)"], ["courage","cesaret"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "The three friends are very happy.",
+      "tr": "Üç arkadaş çok mutlu.",
+      "w": [["the","(belirli tanımlık)"], ["three","üç"], ["friend","arkadaşlar"], ["be","-dir (olmak)"], ["very","çok"], ["happy","mutlu"]]
+    },
+    {
+      "en": "“But how can I go home?” asks Dorothy.",
+      "tr": "“Peki ben eve nasıl gidebilirim?” diye soruyor Dorothy.",
+      "w": [["but","ama, peki"], ["how","nasıl"], ["can","-ebilirim"], ["I","ben"], ["go","gitmek"], ["home","eve"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"truth","pos":"noun","tr":"gerçek","ipa":"/truːθ/","ex_en":"Now the friends know the truth.","ex_tr":"Artık arkadaşlar gerçeği biliyor."},
+    {"lemma":"promise","pos":"noun","tr":"söz","ipa":"/ˈprɒmɪs/","ex_en":"Now please keep your promise.","ex_tr":"Şimdi lütfen sözünü tut."},
+    {"lemma":"screen","pos":"noun","tr":"paravan","ipa":"/skriːn/","ex_en":"The screen falls down.","ex_tr":"Paravan yere düşüyor."},
+    {"lemma":"corner","pos":"noun","tr":"köşe","ipa":"/ˈkɔːnə/","ex_en":"He hits a screen in the corner.","ex_tr":"Köşedeki bir paravana çarpıyor."},
+    {"lemma":"humbug","pos":"noun","tr":"sahtekâr, şarlatan","ipa":"/ˈhʌmbʌɡ/","ex_en":"You are a humbug!","ex_tr":"Sen bir sahtekârsın!"},
+    {"lemma":"story","pos":"noun","tr":"hikâye","ipa":"/ˈstɔːri/","ex_en":"Oz tells them his story.","ex_tr":"Oz onlara hikâyesini anlatıyor."},
+    {"lemma":"balloon","pos":"noun","tr":"balon","ipa":"/bəˈluːn/","ex_en":"One day, my balloon flies up into the sky.","ex_tr":"Bir gün balonum gökyüzüne doğru uçuyor."},
+    {"lemma":"bran","pos":"noun","tr":"kepek","ipa":"/bræn/","ex_en":"He puts bran and pins in the Scarecrow's head.","ex_tr":"Korkuluk'un kafasına kepek ve toplu iğneler koyuyor."},
+    {"lemma":"pin","pos":"noun","tr":"toplu iğne","ipa":"/pɪn/","ex_en":"He puts bran and pins in the Scarecrow's head.","ex_tr":"Korkuluk'un kafasına kepek ve toplu iğneler koyuyor."},
+    {"lemma":"clever","pos":"adjective","tr":"akıllı, zeki","ipa":"/ˈklevə/","ex_en":"I feel very clever!","ex_tr":"Kendimi çok akıllı hissediyorum!"},
+    {"lemma":"silk","pos":"noun","tr":"ipek","ipa":"/sɪlk/","ex_en":"Oz gives the Tin Woodman a silk heart.","ex_tr":"Oz, Teneke Adam'a ipekten bir kalp veriyor."},
+    {"lemma":"drink","pos":"verb, noun","tr":"içmek; içecek","ipa":"/drɪŋk/","ex_en":"The Lion drinks it.","ex_tr":"Aslan onu içiyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"Who hits the screen?","prompt_tr":"Paravana kim çarpıyor?","options":["The Lion","Toto","Dorothy"],"answer":1},
+    {"type":"mcq","prompt":"Who is behind the screen?","prompt_tr":"Paravanın arkasında kim var?","options":["A big head","A beautiful lady","A little old man"],"answer":2},
+    {"type":"mcq","prompt":"Where is Oz from?","prompt_tr":"Oz nereli?","options":["Omaha","The Emerald City","The West"],"answer":0},
+    {"type":"mcq","prompt":"What does Oz put in the Scarecrow's head?","prompt_tr":"Oz, Korkuluk'un kafasına ne koyuyor?","options":["Water","Bran and pins","Emeralds"],"answer":1},
+    {"type":"mcq","prompt":"What does the Lion get?","prompt_tr":"Aslan ne alıyor?","options":["A silk heart","A golden cap","A green drink"],"answer":2}
+  ]
+}

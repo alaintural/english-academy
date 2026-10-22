@@ -1,0 +1,17 @@
+{
+  "id": "secret-garden",
+  "title": "The Secret Garden",
+  "title_tr": "Gizli Bahçe",
+  "author": "Frances Hodgson Burnett",
+  "year": 1911,
+  "category": "Gizem / Dram",
+  "description_tr": "Yalnız bir kız olan Mary, büyük bir malikânede kilitli bir bahçe ve onun sırlarını keşfeder.",
+  "cover": {
+    "bg": "#2F5233",
+    "fg": "#F4F9EC",
+    "accent": "#E58FA0",
+    "motif": "key"
+  },
+  "chapters_planned": 12,
+  "order": 4
+}

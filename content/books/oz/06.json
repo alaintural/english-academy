@@ -1,0 +1,227 @@
+{
+  "book": "oz",
+  "number": 6,
+  "title_en": "The Dangerous Road",
+  "title_tr": "Tehlikeli Yol",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Soon the friends come to a big ditch in the road.",
+      "tr": "Kısa süre sonra arkadaşlar yolda büyük bir hendeğe geliyor.",
+      "w": [["soon","kısa süre sonra"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["come","geliyorlar"], ["to","-e"], ["a","bir"], ["big","büyük"], ["ditch","hendek"], ["in","-de"], ["the","(belirli tanımlık)"], ["road","yol"]]
+    },
+    {
+      "en": "It is very wide and very deep.",
+      "tr": "Hendek çok geniş ve çok derin.",
+      "w": [["it","o"], ["be","-dir (olmak)"], ["very","çok"], ["wide","geniş"], ["and","ve"], ["very","çok"], ["deep","derin"]]
+    },
+    {
+      "en": "“I can jump over it,” says the Lion.",
+      "tr": "“Onun üstünden atlayabilirim,” diyor Aslan.",
+      "w": [["I","ben"], ["can","-ebilirim"], ["jump","atlamak"], ["over","üstünden"], ["it","onun"], ["say","diyor"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "He carries his friends on his back, one by one.",
+      "tr": "Arkadaşlarını tek tek sırtında taşıyor.",
+      "w": [["he","o (erkek)"], ["carry","taşıyor"], ["his","onun (erkek)"], ["friend","arkadaşlar"], ["on","üstünde"], ["his","onun (erkek)"], ["back","sırt"], ["one","bir"], ["by","(one by one: tek tek)"], ["one","bir"]]
+    },
+    {
+      "p": true,
+      "en": "Strange beasts live in this forest. They are the Kalidahs.",
+      "tr": "Bu ormanda tuhaf canavarlar yaşıyor. Onlar Kalidahlar.",
+      "w": [["strange","tuhaf"], ["beast","canavarlar"], ["live","yaşıyor"], ["in","-de"], ["this","bu"], ["forest","orman"], ["they","onlar"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["Kalidah","Kalidahlar (canavarların adı)"]]
+    },
+    {
+      "en": "They have bodies like bears and heads like tigers.",
+      "tr": "Ayı gibi gövdeleri ve kaplan gibi kafaları var.",
+      "w": [["they","onlar"], ["have","sahip, -leri var"], ["body","gövdeler"], ["like","gibi"], ["bear","ayılar"], ["and","ve"], ["head","kafalar"], ["like","gibi"], ["tiger","kaplanlar"]]
+    },
+    {
+      "en": "Soon the friends hear the Kalidahs behind them!",
+      "tr": "Çok geçmeden arkadaşlar arkalarında Kalidahları duyuyor!",
+      "w": [["soon","çok geçmeden"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["hear","duyuyorlar"], ["the","(belirli tanımlık)"], ["Kalidah","Kalidahlar"], ["behind","arkasında"], ["them","onlar"]]
+    },
+    {
+      "en": "There is another ditch in the road.",
+      "tr": "Yolda bir hendek daha var.",
+      "w": [["there","(there is: var)"], ["be","var (olmak)"], ["another","bir başka, bir ... daha"], ["ditch","hendek"], ["in","-de"], ["the","(belirli tanımlık)"], ["road","yol"]]
+    },
+    {
+      "en": "The Tin Woodman cuts a big tree with his axe.",
+      "tr": "Teneke Adam baltasıyla büyük bir ağacı kesiyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["cut","kesiyor"], ["a","bir"], ["big","büyük"], ["tree","ağaç"], ["with","ile, -le"], ["his","onun (erkek)"], ["axe","balta"]]
+    },
+    {
+      "en": "The tree falls over the ditch, and the friends walk over it.",
+      "tr": "Ağaç hendeğin üstüne düşüyor ve arkadaşlar onun üstünden yürüyor.",
+      "w": [["the","(belirli tanımlık)"], ["tree","ağaç"], ["fall","düşüyor"], ["over","üstüne"], ["the","(belirli tanımlık)"], ["ditch","hendek"], ["and","ve"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["walk","yürüyorlar"], ["over","üstünden"], ["it","onun"]]
+    },
+    {
+      "en": "The Kalidahs come onto the tree too.",
+      "tr": "Kalidahlar da ağacın üstüne çıkıyor.",
+      "w": [["the","(belirli tanımlık)"], ["Kalidah","Kalidahlar"], ["come","geliyorlar"], ["onto","üstüne"], ["the","(belirli tanımlık)"], ["tree","ağaç"], ["too","de, da"]]
+    },
+    {
+      "en": "But the Tin Woodman cuts the tree, and the Kalidahs fall down.",
+      "tr": "Ama Teneke Adam ağacı kesiyor ve Kalidahlar aşağı düşüyor.",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["cut","kesiyor"], ["the","(belirli tanımlık)"], ["tree","ağaç"], ["and","ve"], ["the","(belirli tanımlık)"], ["Kalidah","Kalidahlar"], ["fall","düşüyorlar"], ["down","aşağı"]]
+    },
+    {
+      "p": true,
+      "en": "Then the friends come to a big river.",
+      "tr": "Sonra arkadaşlar büyük bir nehre geliyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["come","geliyorlar"], ["to","-e"], ["a","bir"], ["big","büyük"], ["river","nehir"]]
+    },
+    {
+      "en": "“How can we go over the water?” asks Dorothy.",
+      "tr": "“Suyun karşısına nasıl geçebiliriz?” diye soruyor Dorothy.",
+      "w": [["how","nasıl"], ["can","-ebilir"], ["we","biz"], ["go","gitmek, geçmek"], ["over","karşısına"], ["the","(belirli tanımlık)"], ["water","su"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "The Tin Woodman makes a raft from trees.",
+      "tr": "Teneke Adam ağaçlardan bir sal yapıyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["make","yapıyor"], ["a","bir"], ["raft","sal"], ["from","-den"], ["tree","ağaçlar"]]
+    },
+    {
+      "en": "They go over the river on the raft.",
+      "tr": "Sal ile nehrin karşısına geçiyorlar.",
+      "w": [["they","onlar"], ["go","gidiyorlar, geçiyorlar"], ["over","karşısına"], ["the","(belirli tanımlık)"], ["river","nehir"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["raft","sal"]]
+    },
+    {
+      "p": true,
+      "en": "On the other side, there is a big field of red flowers.",
+      "tr": "Karşı tarafta, kırmızı çiçeklerle dolu büyük bir tarla var.",
+      "w": [["on","-de"], ["the","(belirli tanımlık)"], ["other","diğer, karşı"], ["side","taraf"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["big","büyük"], ["field","tarla"], ["of","-li, dolu"], ["red","kırmızı"], ["flower","çiçekler"]]
+    },
+    {
+      "en": "They are poppies.",
+      "tr": "Bunlar gelincik.",
+      "w": [["they","onlar, bunlar"], ["be","-dir (olmak)"], ["poppy","gelincikler"]]
+    },
+    {
+      "en": "The poppies smell very strong.",
+      "tr": "Gelinciklerin kokusu çok ağır.",
+      "w": [["the","(belirli tanımlık)"], ["poppy","gelincikler"], ["smell","kokuyor"], ["very","çok"], ["strong","güçlü, ağır"]]
+    },
+    {
+      "en": "Their smell makes people sleep.",
+      "tr": "Kokuları insanları uyutuyor.",
+      "w": [["their","onların"], ["smell","koku"], ["make","-dırıyor (make sleep: uyutmak)"], ["people","insanlar"], ["sleep","uyumak"]]
+    },
+    {
+      "en": "Soon Dorothy and Toto sleep in the flowers.",
+      "tr": "Kısa süre sonra Dorothy ile Toto çiçeklerin arasında uyuyor.",
+      "w": [["soon","kısa süre sonra"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["Toto","Toto (köpeğin adı)"], ["sleep","uyuyor"], ["in","içinde, arasında"], ["the","(belirli tanımlık)"], ["flower","çiçekler"]]
+    },
+    {
+      "en": "“Run, Lion!” says the Scarecrow. “Go out of this field!”",
+      "tr": "“Koş, Aslan!” diyor Korkuluk. “Bu tarladan çık!”",
+      "w": [["run","koş"], ["lion","aslan"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["go","git, çık"], ["out","dışarı"], ["of","-den"], ["this","bu"], ["field","tarla"]]
+    },
+    {
+      "en": "The poppies cannot hurt the Scarecrow and the Tin Woodman.",
+      "tr": "Gelincikler Korkuluk'a ve Teneke Adam'a zarar veremez.",
+      "w": [["the","(belirli tanımlık)"], ["poppy","gelincikler"], ["can","-emez (cannot: yapamamak)"], ["hurt","zarar vermek"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["and","ve"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "They carry Dorothy and Toto out of the field.",
+      "tr": "Dorothy ile Toto'yu tarladan dışarı taşıyorlar.",
+      "w": [["they","onlar"], ["carry","taşıyorlar"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["Toto","Toto (köpeğin adı)"], ["out","dışarı"], ["of","-den"], ["the","(belirli tanımlık)"], ["field","tarla"]]
+    },
+    {
+      "en": "But the big Lion sleeps in the flowers too.",
+      "tr": "Ama koca Aslan da çiçeklerin arasında uyuyor.",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["big","büyük"], ["lion","aslan"], ["sleep","uyuyor"], ["in","arasında"], ["the","(belirli tanımlık)"], ["flower","çiçekler"], ["too","de, da"]]
+    },
+    {
+      "en": "“He is too heavy for us,” says the Tin Woodman sadly.",
+      "tr": "“O bizim için fazla ağır,” diyor Teneke Adam üzgün bir sesle.",
+      "w": [["he","o (erkek)"], ["be","-dir (olmak)"], ["too","fazla, çok"], ["heavy","ağır"], ["for","için"], ["us","biz, bizim"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["sadly","üzgün bir şekilde"]]
+    },
+    {
+      "p": true,
+      "en": "Then a wild cat runs after a little grey mouse.",
+      "tr": "Sonra vahşi bir kedi küçük, gri bir farenin peşinden koşuyor.",
+      "w": [["then","sonra"], ["a","bir"], ["wild","vahşi"], ["cat","kedi"], ["run","koşuyor"], ["after","peşinden"], ["a","bir"], ["little","küçük"], ["grey","gri"], ["mouse","fare"]]
+    },
+    {
+      "en": "The Tin Woodman kills the cat with his axe.",
+      "tr": "Teneke Adam kediyi baltasıyla öldürüyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["kill","öldürüyor"], ["the","(belirli tanımlık)"], ["cat","kedi"], ["with","ile, -le"], ["his","onun (erkek)"], ["axe","balta"]]
+    },
+    {
+      "en": "The mouse is the Queen of the Field Mice.",
+      "tr": "Fare, Tarla Farelerinin Kraliçesi.",
+      "w": [["the","(belirli tanımlık)"], ["mouse","fare"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["queen","kraliçe"], ["of","-in"], ["the","(belirli tanımlık)"], ["field","tarla"], ["mouse","fareler"]]
+    },
+    {
+      "en": "“Thank you,” she says. “What can I do for you?”",
+      "tr": "“Teşekkür ederim,” diyor. “Senin için ne yapabilirim?”",
+      "w": [["thank","teşekkür etmek"], ["you","sana"], ["she","o (kadın)"], ["say","diyor"], ["what","ne"], ["can","-ebilirim"], ["I","ben"], ["do","yapmak"], ["for","için"], ["you","sen, senin"]]
+    },
+    {
+      "en": "“Please help our friend, the Lion,” says the Scarecrow.",
+      "tr": "“Lütfen arkadaşımız Aslan'a yardım et,” diyor Korkuluk.",
+      "w": [["please","lütfen"], ["help","yardım et"], ["our","bizim"], ["friend","arkadaş"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "The Tin Woodman makes a little cart.",
+      "tr": "Teneke Adam küçük bir araba yapıyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["make","yapıyor"], ["a","bir"], ["little","küçük"], ["cart","araba (el arabası)"]]
+    },
+    {
+      "en": "Then many, many mice come.",
+      "tr": "Sonra çok, çok sayıda fare geliyor.",
+      "w": [["then","sonra"], ["many","birçok"], ["many","birçok"], ["mouse","fareler"], ["come","geliyorlar"]]
+    },
+    {
+      "en": "Together they pull the Lion out of the field on the cart.",
+      "tr": "Hep birlikte Aslan'ı araba ile tarladan dışarı çekiyorlar.",
+      "w": [["together","birlikte"], ["they","onlar"], ["pull","çekiyorlar"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["out","dışarı"], ["of","-den"], ["the","(belirli tanımlık)"], ["field","tarla"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["cart","araba"]]
+    },
+    {
+      "p": true,
+      "en": "Soon Dorothy wakes up.",
+      "tr": "Kısa süre sonra Dorothy uyanıyor.",
+      "w": [["soon","kısa süre sonra"], ["Dorothy","Dorothy (kız adı)"], ["wake","uyanıyor"], ["up","(wake up: uyanmak)"]]
+    },
+    {
+      "en": "She sees her friends and many little mice.",
+      "tr": "Arkadaşlarını ve birçok küçük fareyi görüyor.",
+      "w": [["she","o (kadın)"], ["see","görüyor"], ["her","onun (kadın)"], ["friend","arkadaşlar"], ["and","ve"], ["many","birçok"], ["little","küçük"], ["mouse","fareler"]]
+    },
+    {
+      "en": "Then the Lion wakes up too.",
+      "tr": "Sonra Aslan da uyanıyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["wake","uyanıyor"], ["up","(wake up: uyanmak)"], ["too","de, da"]]
+    },
+    {
+      "en": "“Thank you, little mice!” he says.",
+      "tr": "“Teşekkürler, küçük fareler!” diyor.",
+      "w": [["thank","teşekkür etmek"], ["you","size"], ["little","küçük"], ["mouse","fareler"], ["he","o (erkek)"], ["say","diyor"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"ditch","pos":"noun","tr":"hendek","ipa":"/dɪtʃ/","ex_en":"Soon the friends come to a big ditch in the road.","ex_tr":"Kısa süre sonra arkadaşlar yolda büyük bir hendeğe geliyor."},
+    {"lemma":"back","pos":"noun","tr":"sırt","ipa":"/bæk/","ex_en":"He carries his friends on his back.","ex_tr":"Arkadaşlarını sırtında taşıyor."},
+    {"lemma":"bear","pos":"noun","tr":"ayı","ipa":"/beə/","ex_en":"They have bodies like bears.","ex_tr":"Ayı gibi gövdeleri var."},
+    {"lemma":"tiger","pos":"noun","tr":"kaplan","ipa":"/ˈtaɪɡə/","ex_en":"They have heads like tigers.","ex_tr":"Kaplan gibi kafaları var."},
+    {"lemma":"river","pos":"noun","tr":"nehir","ipa":"/ˈrɪvə/","ex_en":"Then the friends come to a big river.","ex_tr":"Sonra arkadaşlar büyük bir nehre geliyor."},
+    {"lemma":"water","pos":"noun","tr":"su","ipa":"/ˈwɔːtə/","ex_en":"How can we go over the water?","ex_tr":"Suyun karşısına nasıl geçebiliriz?"},
+    {"lemma":"raft","pos":"noun","tr":"sal","ipa":"/rɑːft/","ex_en":"The Tin Woodman makes a raft from trees.","ex_tr":"Teneke Adam ağaçlardan bir sal yapıyor."},
+    {"lemma":"flower","pos":"noun","tr":"çiçek","ipa":"/ˈflaʊə/","ex_en":"There is a big field of red flowers.","ex_tr":"Kırmızı çiçeklerle dolu büyük bir tarla var."},
+    {"lemma":"poppy","pos":"noun","tr":"gelincik (çiçek)","ipa":"/ˈpɒpi/","ex_en":"The poppies smell very strong.","ex_tr":"Gelinciklerin kokusu çok ağır."},
+    {"lemma":"red","pos":"adjective","tr":"kırmızı","ipa":"/red/","ex_en":"There is a big field of red flowers.","ex_tr":"Kırmızı çiçeklerle dolu büyük bir tarla var."},
+    {"lemma":"smell","pos":"verb, noun","tr":"kokmak; koku","ipa":"/smel/","ex_en":"Their smell makes people sleep.","ex_tr":"Kokuları insanları uyutuyor."},
+    {"lemma":"mouse","pos":"noun","tr":"fare (çoğulu: mice)","ipa":"/maʊs/","ex_en":"Thank you, little mice!","ex_tr":"Teşekkürler, küçük fareler!"},
+    {"lemma":"queen","pos":"noun","tr":"kraliçe","ipa":"/kwiːn/","ex_en":"The mouse is the Queen of the Field Mice.","ex_tr":"Fare, Tarla Farelerinin Kraliçesi."},
+    {"lemma":"wake","pos":"verb","tr":"uyanmak (wake up)","ipa":"/weɪk/","ex_en":"Soon Dorothy wakes up.","ex_tr":"Kısa süre sonra Dorothy uyanıyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"How do the friends go over the first ditch?","prompt_tr":"Arkadaşlar ilk hendeği nasıl geçiyor?","options":["The Lion carries them on his back.","They fly over it.","They make a raft."],"answer":0},
+    {"type":"mcq","prompt":"What do the Kalidahs look like?","prompt_tr":"Kalidahlar neye benziyor?","options":["Birds","Bears with tiger heads","Big mice"],"answer":1},
+    {"type":"mcq","prompt":"What does the Tin Woodman make for the river?","prompt_tr":"Teneke Adam nehir için ne yapıyor?","options":["A cart","A house","A raft"],"answer":2},
+    {"type":"mcq","prompt":"Why do Dorothy and the Lion sleep?","prompt_tr":"Dorothy ile Aslan neden uyuyor?","options":["They are very tired.","The smell of the poppies makes them sleep.","The witch kisses them."],"answer":1},
+    {"type":"mcq","prompt":"Who helps the Lion out of the field?","prompt_tr":"Aslan'ı tarladan kim çıkarıyor?","options":["The crows","Aunt Em","The field mice"],"answer":2}
+  ]
+}

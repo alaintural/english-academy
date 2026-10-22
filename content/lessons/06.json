@@ -1,0 +1,232 @@
+{
+  "id": 6,
+  "unit": 2,
+  "title_tr": "I am / You are",
+  "title_en": "The verb 'to be': I and you",
+  "summary_tr": "Kendini ve karşındakini tanıtmak için am / are kullanmayı öğren: meslekler ve duygular.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "İngilizcede “olmak” fiiline **to be** denir. Türkçede bu anlamı ekle veririz: öğrenci**yim**, öğrenci**sin**. İngilizcede ise ayrı bir kelime kullanırız: **I am** (ben …-im) ve **you are** (sen …-sin / siz …-siniz)."
+    },
+    {
+      "type": "table",
+      "title_tr": "Uzun ve kısa biçim",
+      "head": ["Uzun biçim", "Kısa biçim", "Türkçe"],
+      "rows": [
+        ["I am", "I'm", "Ben …-im"],
+        ["You are", "You're", "Sen …-sin / Siz …-siniz"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Konuşmada hep **kısa biçim** kullanılır: **I'm**, **you're**. Kesme işareti ( ' ) bir harfin düştüğünü gösterir: I a̶m → I'm."
+    },
+    {
+      "type": "text",
+      "tr": "Meslek söylerken isimden önce **a** ya da **an** gelir. Türkçede “Ben öğretmenim” deriz, ama İngilizcede “bir” kelimesi şarttır: **I'm a teacher.** Kelime sesli harf sesiyle (a, e, i, o, u) başlıyorsa **an** kullanılır: **an engineer**, **an actor**."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Meslekler",
+      "items": [
+        { "en": "I'm a student.", "tr": "Ben bir öğrenciyim." },
+        { "en": "You're a teacher.", "tr": "Sen bir öğretmensin." },
+        { "en": "I'm a doctor.", "tr": "Ben bir doktorum." },
+        { "en": "You're an engineer.", "tr": "Sen bir mühendissin.", "note_tr": "engineer sesli harfle başlar → an" },
+        { "en": "I'm a nurse.", "tr": "Ben bir hemşireyim." }
+      ]
+    },
+    {
+      "type": "text",
+      "tr": "Duygularımızı da **am / are** ile söyleriz. Burada **a / an kullanılmaz**, çünkü bunlar sıfattır: **I'm happy.** (Mutluyum.)"
+    },
+    {
+      "type": "examples",
+      "title_tr": "Duygular",
+      "items": [
+        { "en": "I'm happy.", "tr": "Mutluyum." },
+        { "en": "I'm tired.", "tr": "Yorgunum." },
+        { "en": "You're hungry.", "tr": "Açsın." },
+        { "en": "You're sad.", "tr": "Üzgünsün." },
+        { "en": "I'm fine, thank you.", "tr": "İyiyim, teşekkür ederim." }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**You** hem “sen” hem “siz” demektir. Öğretmenine de arkadaşına da **you are** dersin. Kolay, değil mi?"
+    }
+  ],
+  "listen": [
+    { "en": "I am a student.", "tr": "Ben bir öğrenciyim." },
+    { "en": "I'm a teacher.", "tr": "Ben bir öğretmenim." },
+    { "en": "You are a doctor.", "tr": "Sen bir doktorsun." },
+    { "en": "You're an engineer.", "tr": "Sen bir mühendissin." },
+    { "en": "I'm a nurse.", "tr": "Ben bir hemşireyim." },
+    { "en": "You're a good student.", "tr": "Sen iyi bir öğrencisin." },
+    { "en": "I'm happy today.", "tr": "Bugün mutluyum." },
+    { "en": "I'm tired.", "tr": "Yorgunum." },
+    { "en": "You're hungry.", "tr": "Açsın." },
+    { "en": "I'm a cook and you're a waiter.", "tr": "Ben bir aşçıyım, sen de bir garsonsun." }
+  ],
+  "practice": [
+    {
+      "type": "match",
+      "prompt_tr": "Meslekleri eşleştir.",
+      "pairs": [["student", "öğrenci"], ["teacher", "öğretmen"], ["doctor", "doktor"], ["engineer", "mühendis"], ["nurse", "hemşire"]]
+    },
+    {
+      "type": "fill",
+      "prompt": "I ___ a student.",
+      "tr": "Ben bir öğrenciyim.",
+      "options": ["are", "am", "is"],
+      "answer": 1,
+      "explain_tr": "I ile her zaman am kullanılır."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ a teacher.",
+      "tr": "Sen bir öğretmensin.",
+      "options": ["am", "is", "are"],
+      "answer": 2,
+      "explain_tr": "You ile her zaman are kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "I'm ___ engineer.",
+      "prompt_tr": "Boşluğa ne gelir?",
+      "options": ["an", "a"],
+      "answer": 0,
+      "explain_tr": "engineer sesli harfle başlar, bu yüzden an kullanılır."
+    },
+    {
+      "type": "listen",
+      "audio": "I'm tired.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["I'm happy.", "I'm hungry.", "I'm tired."],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "answer": "I am a doctor.",
+      "tr": "Ben bir doktorum."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“I am” kelimesinin kısa biçimi hangisi?",
+      "prompt_tr": "Kısa biçimi seç.",
+      "options": ["Im", "I'm", "I's"],
+      "answer": 1,
+      "explain_tr": "I am → I'm. Kesme işaretini unutma."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Duyguları eşleştir.",
+      "pairs": [["happy", "mutlu"], ["tired", "yorgun"], ["hungry", "aç"], ["sad", "üzgün"]]
+    },
+    {
+      "type": "listen",
+      "audio": "You're an engineer.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["You're an engineer.", "I'm an engineer.", "You're a teacher."],
+      "answer": 0
+    },
+    {
+      "type": "order",
+      "answer": "You're a good student.",
+      "tr": "Sen iyi bir öğrencisin."
+    }
+  ],
+  "test": [
+    {
+      "type": "fill",
+      "prompt": "I ___ happy.",
+      "tr": "Mutluyum.",
+      "options": ["are", "am", "be"],
+      "answer": 1,
+      "explain_tr": "I ile am kullanılır: I am happy."
+    },
+    {
+      "type": "fill",
+      "prompt": "You ___ a nurse.",
+      "tr": "Sen bir hemşiresin.",
+      "options": ["are", "am", "an"],
+      "answer": 0,
+      "explain_tr": "You ile are kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["I'm teacher.", "I'm a teacher.", "I'm an teacher."],
+      "answer": 1,
+      "explain_tr": "Meslekten önce a / an gelir. teacher sessiz harfle başlar → a."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["You're a engineer.", "You're engineer.", "You're an engineer."],
+      "answer": 2,
+      "explain_tr": "engineer sesli harfle başlar → an engineer."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“You are” = ?",
+      "prompt_tr": "Kısa biçimi seç.",
+      "options": ["Your", "You're", "Youre"],
+      "answer": 1,
+      "explain_tr": "You are → You're. “Your” farklı bir kelimedir: senin."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Eşleştir.",
+      "pairs": [["I'm hungry.", "Açım."], ["I'm tired.", "Yorgunum."], ["I'm happy.", "Mutluyum."], ["I'm a cook.", "Ben bir aşçıyım."]]
+    },
+    {
+      "type": "listen",
+      "audio": "I'm a doctor.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["I'm a doctor.", "You're a doctor.", "I'm a teacher."],
+      "answer": 0,
+      "explain_tr": "I'm = ben. Cümle “I'm a doctor” idi."
+    },
+    {
+      "type": "order",
+      "answer": "I'm a student from Turkey.",
+      "tr": "Ben Türkiyeli bir öğrenciyim."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“Açım.” İngilizcesi hangisi?",
+      "prompt_tr": "Doğru çeviriyi seç.",
+      "options": ["I'm a hungry.", "I'm tired.", "I'm hungry."],
+      "answer": 2,
+      "explain_tr": "Duygu (sıfat) söylerken a / an kullanılmaz: I'm hungry."
+    },
+    {
+      "type": "fill",
+      "prompt": "I'm ___ actor.",
+      "tr": "Ben bir oyuncuyum.",
+      "options": ["a", "an"],
+      "answer": 1,
+      "explain_tr": "actor sesli harfle başlar → an actor."
+    }
+  ],
+  "vocab": [
+    { "lemma": "be", "pos": "verb", "tr": "olmak (am / is / are)", "ipa": "/biː/", "ex_en": "I am a student.", "ex_tr": "Ben bir öğrenciyim." },
+    { "lemma": "student", "pos": "noun", "tr": "öğrenci", "ipa": "/ˈstjuːdənt/", "ex_en": "I'm a student.", "ex_tr": "Ben bir öğrenciyim." },
+    { "lemma": "teacher", "pos": "noun", "tr": "öğretmen", "ipa": "/ˈtiːtʃə/", "ex_en": "You're a teacher.", "ex_tr": "Sen bir öğretmensin." },
+    { "lemma": "doctor", "pos": "noun", "tr": "doktor", "ipa": "/ˈdɒktə/", "ex_en": "I'm a doctor.", "ex_tr": "Ben bir doktorum." },
+    { "lemma": "engineer", "pos": "noun", "tr": "mühendis", "ipa": "/ˌendʒɪˈnɪə/", "ex_en": "You're an engineer.", "ex_tr": "Sen bir mühendissin." },
+    { "lemma": "nurse", "pos": "noun", "tr": "hemşire", "ipa": "/nɜːs/", "ex_en": "I'm a nurse.", "ex_tr": "Ben bir hemşireyim." },
+    { "lemma": "cook", "pos": "noun", "tr": "aşçı", "ipa": "/kʊk/", "ex_en": "I'm a cook.", "ex_tr": "Ben bir aşçıyım." },
+    { "lemma": "waiter", "pos": "noun", "tr": "garson", "ipa": "/ˈweɪtə/", "ex_en": "You're a waiter.", "ex_tr": "Sen bir garsonsun." },
+    { "lemma": "actor", "pos": "noun", "tr": "oyuncu, aktör", "ipa": "/ˈæktə/", "ex_en": "I'm an actor.", "ex_tr": "Ben bir oyuncuyum." },
+    { "lemma": "happy", "pos": "adj", "tr": "mutlu", "ipa": "/ˈhæpi/", "ex_en": "I'm happy.", "ex_tr": "Mutluyum." },
+    { "lemma": "tired", "pos": "adj", "tr": "yorgun", "ipa": "/ˈtaɪəd/", "ex_en": "I'm tired.", "ex_tr": "Yorgunum." },
+    { "lemma": "hungry", "pos": "adj", "tr": "aç", "ipa": "/ˈhʌŋɡri/", "ex_en": "You're hungry.", "ex_tr": "Açsın." },
+    { "lemma": "sad", "pos": "adj", "tr": "üzgün", "ipa": "/sæd/", "ex_en": "You're sad.", "ex_tr": "Üzgünsün." },
+    { "lemma": "good", "pos": "adj", "tr": "iyi", "ipa": "/ɡʊd/", "ex_en": "You're a good teacher.", "ex_tr": "Sen iyi bir öğretmensin." }
+  ]
+}

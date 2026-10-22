@@ -1,0 +1,210 @@
+{
+  "book": "oz",
+  "number": 7,
+  "title_en": "The Emerald City",
+  "title_tr": "Zümrüt Şehir",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The friends walk on the yellow brick road again.",
+      "tr": "Arkadaşlar yine sarı tuğlalı yolda yürüyor.",
+      "w": [["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["walk","yürüyor"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"], ["again","yine, tekrar"]]
+    },
+    {
+      "en": "After many days, they see a green light in the sky.",
+      "tr": "Günler sonra gökyüzünde yeşil bir ışık görüyorlar.",
+      "w": [["after","sonra"], ["many","birçok"], ["day","günler"], ["they","onlar"], ["see","görüyorlar"], ["a","bir"], ["green","yeşil"], ["light","ışık"], ["in","-de"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "“That is the Emerald City!” says Dorothy.",
+      "tr": "“İşte Zümrüt Şehir!” diyor Dorothy.",
+      "w": [["that","o, işte"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "Soon they come to a big green wall.",
+      "tr": "Kısa süre sonra büyük, yeşil bir duvara geliyorlar.",
+      "w": [["soon","kısa süre sonra"], ["they","onlar"], ["come","geliyorlar"], ["to","-e"], ["a","bir"], ["big","büyük"], ["green","yeşil"], ["wall","duvar"]]
+    },
+    {
+      "en": "In the wall, there is a big gate with emeralds on it.",
+      "tr": "Duvarda, üstünde zümrütler olan büyük bir kapı var.",
+      "w": [["in","-de"], ["the","(belirli tanımlık)"], ["wall","duvar"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["big","büyük"], ["gate","büyük kapı"], ["with","-li, ile"], ["emerald","zümrütler"], ["on","üstünde"], ["it","onun"]]
+    },
+    {
+      "en": "Emeralds are beautiful green stones.",
+      "tr": "Zümrütler güzel, yeşil taşlardır.",
+      "w": [["emerald","zümrütler"], ["be","-dir (olmak)"], ["beautiful","güzel"], ["green","yeşil"], ["stone","taşlar"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy rings a bell, and the gate opens.",
+      "tr": "Dorothy bir zil çalıyor ve kapı açılıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["ring","çalıyor"], ["a","bir"], ["bell","zil"], ["and","ve"], ["the","(belirli tanımlık)"], ["gate","büyük kapı"], ["open","açılıyor"]]
+    },
+    {
+      "en": "A little man in green clothes is there.",
+      "tr": "Orada yeşil giysili küçük bir adam var.",
+      "w": [["a","bir"], ["little","küçük"], ["man","adam"], ["in","içinde (giymiş)"], ["green","yeşil"], ["clothes","giysiler"], ["be","var (olmak)"], ["there","orada"]]
+    },
+    {
+      "en": "He has a big green box.",
+      "tr": "Büyük, yeşil bir kutusu var.",
+      "w": [["he","o (erkek)"], ["have","sahip, -si var"], ["a","bir"], ["big","büyük"], ["green","yeşil"], ["box","kutu"]]
+    },
+    {
+      "en": "“I am the Guardian of the Gates,” he says. “Why are you here?”",
+      "tr": "“Ben Kapıların Bekçisiyim,” diyor. “Neden buradasınız?”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["the","(belirli tanımlık)"], ["guardian","bekçi, koruyucu"], ["of","-in"], ["the","(belirli tanımlık)"], ["gate","kapılar"], ["he","o (erkek)"], ["say","diyor"], ["why","neden"], ["be","-siniz (olmak)"], ["you","siz"], ["here","burada"]]
+    },
+    {
+      "en": "“We want to see the great Oz,” says Dorothy.",
+      "tr": "“Büyük Oz'u görmek istiyoruz,” diyor Dorothy.",
+      "w": [["we","biz"], ["want","istiyoruz"], ["to","(mastar eki) -mek"], ["see","görmek"], ["the","(belirli tanımlık)"], ["great","büyük, ulu"], ["Oz","Oz (büyücünün adı)"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "The little man is very surprised.",
+      "tr": "Küçük adam çok şaşırıyor.",
+      "w": [["the","(belirli tanımlık)"], ["little","küçük"], ["man","adam"], ["be","-dir (olmak)"], ["very","çok"], ["surprised","şaşkın"]]
+    },
+    {
+      "en": "“People do not often ask to see Oz,” he says.",
+      "tr": "“İnsanlar Oz'u görmeyi pek istemez,” diyor.",
+      "w": [["people","insanlar"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["often","sık sık, pek"], ["ask","istemek"], ["to","(mastar eki) -meyi"], ["see","görmek"], ["Oz","Oz (büyücünün adı)"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "“He is great and terrible. But he is a good Wizard.”",
+      "tr": "“O büyük ve korkunçtur. Ama iyi bir büyücüdür.”",
+      "w": [["he","o (erkek)"], ["be","-dir (olmak)"], ["great","büyük"], ["and","ve"], ["terrible","korkunç"], ["but","ama"], ["he","o (erkek)"], ["be","-dir (olmak)"], ["a","bir"], ["good","iyi"], ["wizard","büyücü"]]
+    },
+    {
+      "en": "“I can take you to his palace.”",
+      "tr": "“Sizi onun sarayına götürebilirim.”",
+      "w": [["I","ben"], ["can","-ebilirim"], ["take","götürmek"], ["you","sizi"], ["to","-e"], ["his","onun (erkek)"], ["palace","saray"]]
+    },
+    {
+      "en": "“But first, you must put on these glasses.”",
+      "tr": "“Ama önce bu gözlükleri takmalısınız.”",
+      "w": [["but","ama"], ["first","önce"], ["you","siz"], ["must","-meli"], ["put","koymak (put on: takmak)"], ["on","(put on: takmak)"], ["these","bu"], ["glasses","gözlük"]]
+    },
+    {
+      "en": "“Why?” asks the Scarecrow.",
+      "tr": "“Neden?” diye soruyor Korkuluk.",
+      "w": [["why","neden"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“The Emerald City is very bright,” says the Guardian.",
+      "tr": "“Zümrüt Şehir çok parlak,” diyor Bekçi.",
+      "w": [["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"], ["be","-dir (olmak)"], ["very","çok"], ["bright","parlak"], ["say","diyor"], ["the","(belirli tanımlık)"], ["guardian","bekçi"]]
+    },
+    {
+      "en": "“Without glasses, the light can hurt your eyes.”",
+      "tr": "“Gözlük olmadan ışık gözlerinize zarar verebilir.”",
+      "w": [["without","olmadan"], ["glasses","gözlük"], ["the","(belirli tanımlık)"], ["light","ışık"], ["can","-ebilir"], ["hurt","zarar vermek"], ["your","sizin"], ["eye","gözler"]]
+    },
+    {
+      "en": "“Everybody in the city wears green glasses, day and night.”",
+      "tr": "“Şehirde herkes gece gündüz yeşil gözlük takar.”",
+      "w": [["everybody","herkes"], ["in","-de"], ["the","(belirli tanımlık)"], ["city","şehir"], ["wear","takar, giyer"], ["green","yeşil"], ["glasses","gözlük"], ["day","gün, gündüz"], ["and","ve"], ["night","gece"]]
+    },
+    {
+      "p": true,
+      "en": "The Guardian opens his box. It is full of green glasses.",
+      "tr": "Bekçi kutusunu açıyor. Kutu yeşil gözlüklerle dolu.",
+      "w": [["the","(belirli tanımlık)"], ["guardian","bekçi"], ["open","açıyor"], ["his","onun (erkek)"], ["box","kutu"], ["it","o"], ["be","-dir (olmak)"], ["full","dolu"], ["of","-ile (full of: dolu)"], ["green","yeşil"], ["glasses","gözlükler"]]
+    },
+    {
+      "en": "He puts glasses on Dorothy and all her friends.",
+      "tr": "Dorothy'ye ve bütün arkadaşlarına gözlük takıyor.",
+      "w": [["he","o (erkek)"], ["put","koyuyor, takıyor"], ["glasses","gözlük"], ["on","üstüne"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["all","bütün"], ["her","onun (kadın)"], ["friend","arkadaşlar"]]
+    },
+    {
+      "en": "Even little Toto has glasses!",
+      "tr": "Küçük Toto'nun bile gözlüğü var!",
+      "w": [["even","bile"], ["little","küçük"], ["Toto","Toto (köpeğin adı)"], ["have","sahip, -si var"], ["glasses","gözlük"]]
+    },
+    {
+      "en": "Then the Guardian locks the glasses with a little key.",
+      "tr": "Sonra Bekçi gözlükleri küçük bir anahtarla kilitliyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["guardian","bekçi"], ["lock","kilitliyor"], ["the","(belirli tanımlık)"], ["glasses","gözlükler"], ["with","ile, -le"], ["a","bir"], ["little","küçük"], ["key","anahtar"]]
+    },
+    {
+      "p": true,
+      "en": "Now they walk into the Emerald City. Everything is green!",
+      "tr": "Şimdi Zümrüt Şehir'e giriyorlar. Her şey yeşil!",
+      "w": [["now","şimdi"], ["they","onlar"], ["walk","yürüyorlar"], ["into","içine"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"], ["everything","her şey"], ["be","-dir (olmak)"], ["green","yeşil"]]
+    },
+    {
+      "en": "The houses are green, and the streets are green.",
+      "tr": "Evler yeşil, sokaklar da yeşil.",
+      "w": [["the","(belirli tanımlık)"], ["house","evler"], ["be","-dir (olmak)"], ["green","yeşil"], ["and","ve"], ["the","(belirli tanımlık)"], ["street","sokaklar"], ["be","-dir (olmak)"], ["green","yeşil"]]
+    },
+    {
+      "en": "The windows are green, and even the sky is green.",
+      "tr": "Pencereler yeşil, gökyüzü bile yeşil.",
+      "w": [["the","(belirli tanımlık)"], ["window","pencereler"], ["be","-dir (olmak)"], ["green","yeşil"], ["and","ve"], ["even","bile"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"], ["be","-dir (olmak)"], ["green","yeşil"]]
+    },
+    {
+      "en": "The people wear green clothes, and their skin is a little green.",
+      "tr": "İnsanlar yeşil giysiler giyiyor ve tenleri biraz yeşil.",
+      "w": [["the","(belirli tanımlık)"], ["people","insanlar"], ["wear","giyiyorlar"], ["green","yeşil"], ["clothes","giysiler"], ["and","ve"], ["their","onların"], ["skin","ten, deri"], ["be","-dir (olmak)"], ["a","(a little: biraz)"], ["little","(a little: biraz)"], ["green","yeşil"]]
+    },
+    {
+      "en": "They look at the four strange friends.",
+      "tr": "Dört tuhaf arkadaşa bakıyorlar.",
+      "w": [["they","onlar"], ["look","bakıyorlar"], ["at","-e"], ["the","(belirli tanımlık)"], ["four","dört"], ["strange","tuhaf"], ["friend","arkadaşlar"]]
+    },
+    {
+      "en": "There are many shops in the streets.",
+      "tr": "Sokaklarda birçok dükkân var.",
+      "w": [["there","(there are: var)"], ["be","var (olmak)"], ["many","birçok"], ["shop","dükkânlar"], ["in","-de"], ["the","(belirli tanımlık)"], ["street","sokaklar"]]
+    },
+    {
+      "en": "The shops sell green shoes, green hats and green sweets.",
+      "tr": "Dükkânlar yeşil ayakkabılar, yeşil şapkalar ve yeşil şekerler satıyor.",
+      "w": [["the","(belirli tanımlık)"], ["shop","dükkânlar"], ["sell","satıyor"], ["green","yeşil"], ["shoe","ayakkabılar"], ["green","yeşil"], ["hat","şapkalar"], ["and","ve"], ["green","yeşil"], ["sweet","şekerler"]]
+    },
+    {
+      "en": "Children buy green lemonade with green money.",
+      "tr": "Çocuklar yeşil parayla yeşil limonata alıyor.",
+      "w": [["child","çocuklar"], ["buy","satın alıyor"], ["green","yeşil"], ["lemonade","limonata"], ["with","ile"], ["green","yeşil"], ["money","para"]]
+    },
+    {
+      "p": true,
+      "en": "The Guardian takes them to the palace of Oz.",
+      "tr": "Bekçi onları Oz'un sarayına götürüyor.",
+      "w": [["the","(belirli tanımlık)"], ["guardian","bekçi"], ["take","götürüyor"], ["them","onları"], ["to","-e"], ["the","(belirli tanımlık)"], ["palace","saray"], ["of","-in"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "A soldier with a long green beard stands at the door.",
+      "tr": "Kapıda uzun, yeşil sakallı bir asker duruyor.",
+      "w": [["a","bir"], ["soldier","asker"], ["with","-li, ile"], ["a","bir"], ["long","uzun"], ["green","yeşil"], ["beard","sakal"], ["stand","duruyor"], ["at","-de"], ["the","(belirli tanımlık)"], ["door","kapı"]]
+    },
+    {
+      "en": "“Please wait here,” he says. “I can tell Oz about you.”",
+      "tr": "“Lütfen burada bekleyin,” diyor. “Oz'a sizden bahsedebilirim.”",
+      "w": [["please","lütfen"], ["wait","bekleyin"], ["here","burada"], ["he","o (erkek)"], ["say","diyor"], ["I","ben"], ["can","-ebilirim"], ["tell","söylemek, anlatmak"], ["Oz","Oz (büyücünün adı)"], ["about","hakkında"], ["you","siz"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"emerald","pos":"noun","tr":"zümrüt","ipa":"/ˈemərəld/","ex_en":"Emeralds are beautiful green stones.","ex_tr":"Zümrütler güzel, yeşil taşlardır."},
+    {"lemma":"green","pos":"adjective","tr":"yeşil","ipa":"/ɡriːn/","ex_en":"Everything is green!","ex_tr":"Her şey yeşil!"},
+    {"lemma":"wall","pos":"noun","tr":"duvar","ipa":"/wɔːl/","ex_en":"Soon they come to a big green wall.","ex_tr":"Kısa süre sonra büyük, yeşil bir duvara geliyorlar."},
+    {"lemma":"gate","pos":"noun","tr":"büyük kapı, dış kapı","ipa":"/ɡeɪt/","ex_en":"Dorothy rings a bell, and the gate opens.","ex_tr":"Dorothy bir zil çalıyor ve kapı açılıyor."},
+    {"lemma":"stone","pos":"noun","tr":"taş","ipa":"/stəʊn/","ex_en":"Emeralds are beautiful green stones.","ex_tr":"Zümrütler güzel, yeşil taşlardır."},
+    {"lemma":"guardian","pos":"noun","tr":"bekçi, koruyucu","ipa":"/ˈɡɑːdiən/","ex_en":"I am the Guardian of the Gates.","ex_tr":"Ben Kapıların Bekçisiyim."},
+    {"lemma":"palace","pos":"noun","tr":"saray","ipa":"/ˈpæləs/","ex_en":"I can take you to his palace.","ex_tr":"Sizi onun sarayına götürebilirim."},
+    {"lemma":"glasses","pos":"noun","tr":"gözlük","ipa":"/ˈɡlɑːsɪz/","ex_en":"You must put on these glasses.","ex_tr":"Bu gözlükleri takmalısınız."},
+    {"lemma":"lock","pos":"verb","tr":"kilitlemek","ipa":"/lɒk/","ex_en":"The Guardian locks the glasses with a little key.","ex_tr":"Bekçi gözlükleri küçük bir anahtarla kilitliyor."},
+    {"lemma":"key","pos":"noun","tr":"anahtar","ipa":"/kiː/","ex_en":"The Guardian locks the glasses with a little key.","ex_tr":"Bekçi gözlükleri küçük bir anahtarla kilitliyor."},
+    {"lemma":"street","pos":"noun","tr":"sokak, cadde","ipa":"/striːt/","ex_en":"The houses are green, and the streets are green.","ex_tr":"Evler yeşil, sokaklar da yeşil."},
+    {"lemma":"shop","pos":"noun","tr":"dükkân","ipa":"/ʃɒp/","ex_en":"There are many shops in the streets.","ex_tr":"Sokaklarda birçok dükkân var."},
+    {"lemma":"soldier","pos":"noun","tr":"asker","ipa":"/ˈsəʊldʒə/","ex_en":"A soldier stands at the door.","ex_tr":"Kapıda bir asker duruyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"What colour is the wall of the city?","prompt_tr":"Şehrin duvarı ne renk?","options":["Yellow","Red","Green"],"answer":2},
+    {"type":"mcq","prompt":"Who opens the gate?","prompt_tr":"Kapıyı kim açıyor?","options":["The Guardian of the Gates","The Wicked Witch","A little mouse"],"answer":0},
+    {"type":"mcq","prompt":"What must everybody wear in the city?","prompt_tr":"Şehirde herkes ne takmalı?","options":["Silver shoes","Green glasses","Red hats"],"answer":1},
+    {"type":"mcq","prompt":"What does the Guardian do with the key?","prompt_tr":"Bekçi anahtarla ne yapıyor?","options":["He opens a shop.","He locks the glasses.","He gives it to Toto."],"answer":1},
+    {"type":"mcq","prompt":"Who stands at the door of the palace?","prompt_tr":"Sarayın kapısında kim duruyor?","options":["The Lion","The Wizard Oz","A soldier with a green beard"],"answer":2}
+  ]
+}

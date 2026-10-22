@@ -1,0 +1,17 @@
+{
+  "id": "treasure-island",
+  "title": "Treasure Island",
+  "title_tr": "Define Adası",
+  "author": "Robert Louis Stevenson",
+  "year": 1883,
+  "category": "Macera",
+  "description_tr": "Genç Jim Hawkins eline geçen bir hazine haritasıyla korsanlarla dolu tehlikeli bir yolculuğa çıkar.",
+  "cover": {
+    "bg": "#7A2E1D",
+    "fg": "#FFF1DC",
+    "accent": "#E9B44C",
+    "motif": "map"
+  },
+  "chapters_planned": 14,
+  "order": 3
+}

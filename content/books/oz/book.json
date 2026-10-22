@@ -1,0 +1,17 @@
+{
+  "id": "oz",
+  "title": "The Wonderful Wizard of Oz",
+  "title_tr": "Oz Büyücüsü",
+  "author": "L. Frank Baum",
+  "year": 1900,
+  "category": "Fantastik",
+  "description_tr": "Dorothy bir kasırgayla Oz ülkesine düşer. Korkuluk, Teneke Adam ve Korkak Aslan'la birlikte eve dönmenin yolunu arar.",
+  "cover": {
+    "bg": "#0E4D3A",
+    "fg": "#FFF6D8",
+    "accent": "#F2C14E",
+    "motif": "road"
+  },
+  "chapters_planned": 12,
+  "order": 1
+}

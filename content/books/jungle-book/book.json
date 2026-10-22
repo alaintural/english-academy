@@ -1,0 +1,17 @@
+{
+  "id": "jungle-book",
+  "title": "The Jungle Book",
+  "title_tr": "Orman Çocuğu",
+  "author": "Rudyard Kipling",
+  "year": 1894,
+  "category": "Macera / Hayvan",
+  "description_tr": "Kurtlar tarafından büyütülen Mowgli'nin ormandaki hayatı ve kaplan Shere Khan ile mücadelesi.",
+  "cover": {
+    "bg": "#245C2A",
+    "fg": "#F1FAE9",
+    "accent": "#F08A24",
+    "motif": "leaf"
+  },
+  "chapters_planned": 12,
+  "order": 7
+}

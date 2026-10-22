@@ -1,0 +1,26 @@
+{
+  "unit": 1,
+  "title_tr": "Temel Başlangıç — Ünite Testi",
+  "questions": [
+    { "type": "listen", "audio": "G", "prompt_tr": "Duyduğun harfi seç.", "options": ["J", "G", "Y"], "answer": 1, "explain_tr": "G “ci” okunur, J ise “cey”." },
+    { "type": "mcq", "prompt": "Which one is a vowel?", "prompt_tr": "Hangisi sesli harf?", "options": ["E", "B", "T", "K"], "answer": 0, "explain_tr": "Sesli harfler: A, E, I, O, U." },
+    { "type": "fill", "prompt": "How do you ___ your name?", "tr": "Adını nasıl yazıyorsun?", "options": ["name", "spell", "old"], "answer": 1, "explain_tr": "spell = harf harf söylemek." },
+    { "type": "mcq", "prompt": "Adı “Gül” olan biri adını nasıl heceler?", "options": ["C, U, L", "G, Ü, L", "G, U, L"], "answer": 2, "explain_tr": "İngilizcede Ü yok; onun yerine U söylenir." },
+    { "type": "mcq", "prompt": "Saat 15.00, bir mağazaya giriyorsun. Ne dersin?", "options": ["Good night!", "Good afternoon!", "Goodbye!"], "answer": 1, "explain_tr": "Öğleden sonra selam: Good afternoon." },
+    { "type": "match", "prompt_tr": "Eşleştir.", "pairs": [["hello", "merhaba"], ["please", "lütfen"], ["sorry", "özür dilerim"], ["excuse me", "affedersiniz"]] },
+    { "type": "order", "answer": "I'm fine, thank you.", "tr": "İyiyim, teşekkür ederim.", "explain_tr": "How are you? sorusunun cevabı." },
+    { "type": "listen", "audio": "See you later!", "prompt_tr": "Duyduğunun anlamını seç.", "options": ["Günaydın!", "Lütfen!", "Sonra görüşürüz!"], "answer": 2, "explain_tr": "See you later = Sonra görüşürüz." },
+    { "type": "listen", "audio": "thirty", "prompt_tr": "Duyduğun sayıyı seç.", "options": ["13", "30", "3"], "answer": 1, "explain_tr": "THIRty: vurgu başta. 30." },
+    { "type": "mcq", "prompt": "How old are you?", "prompt_tr": "En uygun cevap hangisi?", "options": ["I'm 18.", "I'm Turkish.", "I'm fine."], "answer": 0, "explain_tr": "Yaş sorusuna sayı ile cevap verilir: I'm 18." },
+    { "type": "fill", "prompt": "I'm twenty years ___.", "tr": "Yirmi yaşındayım.", "options": ["fine", "you", "old"], "answer": 2, "explain_tr": "years old birlikte kullanılır." },
+    { "type": "match", "prompt_tr": "Sayıyı rakamla eşleştir.", "pairs": [["fourteen", "14"], ["forty", "40"], ["seventy", "70"], ["one hundred", "100"]] },
+    { "type": "fill", "prompt": "Where are you ___?", "tr": "Nerelisin?", "options": ["name", "from", "old"], "answer": 1, "explain_tr": "Where are you from? = Nerelisin?" },
+    { "type": "fill", "prompt": "I'm from France. I'm ___.", "tr": "Fransa'danım. Fransızım.", "options": ["France", "Spanish", "French"], "answer": 2, "explain_tr": "France ülke, French milliyet." },
+    { "type": "order", "answer": "Nice to meet you.", "tr": "Tanıştığımıza memnun oldum.", "explain_tr": "Tanışırken söylenir." },
+    { "type": "listen", "audio": "I'm from Germany. I'm German.", "prompt_tr": "Bu kişi nereli?", "options": ["Fransız", "Alman", "İngiliz", "İspanyol"], "answer": 1, "explain_tr": "Germany = Almanya, German = Alman." },
+    { "type": "fill", "prompt": "This ___ my phone.", "tr": "Bu benim telefonum.", "options": ["am", "are", "is"], "answer": 2, "explain_tr": "This ile is kullanılır." },
+    { "type": "mcq", "prompt": "Şu beyaz bir araba.", "prompt_tr": "Bu cümlenin İngilizcesi hangisi?", "options": ["That is a white car.", "This is a white car.", "That is a black car."], "answer": 0, "explain_tr": "şu = that, beyaz = white." },
+    { "type": "listen", "audio": "It's a yellow bag.", "prompt_tr": "Ne duydun?", "options": ["Mavi bir çanta.", "Sarı bir kitap.", "Yeşil bir çanta.", "Sarı bir çanta."], "answer": 3, "explain_tr": "yellow = sarı, bag = çanta." },
+    { "type": "order", "answer": "What colour is it?", "tr": "Ne renk?", "explain_tr": "Renk sorusu What colour ile başlar." }
+  ]
+}

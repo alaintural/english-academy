@@ -1,0 +1,247 @@
+{
+  "book": "oz",
+  "number": 1,
+  "title_en": "Dorothy's Home",
+  "title_tr": "Dorothy'nin Evi",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Dorothy is a little girl.",
+      "tr": "Dorothy küçük bir kız.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["a","bir"], ["little","küçük"], ["girl","kız"]]
+    },
+    {
+      "en": "She lives in Kansas, in the middle of a big, grey land.",
+      "tr": "Kansas'ta, büyük ve gri bir toprağın ortasında yaşıyor.",
+      "w": [["she","o (kadın)"], ["live","yaşıyor"], ["in","-de"], ["Kansas","Kansas (ABD'de bir eyalet)"], ["in","-de"], ["the","(belirli tanımlık)"], ["middle","orta"], ["of","-in"], ["a","bir"], ["big","büyük"], ["grey","gri"], ["land","toprak, arazi"]]
+    },
+    {
+      "en": "She lives with Uncle Henry and Aunt Em.",
+      "tr": "Henry Amca ve Em Teyze ile yaşıyor.",
+      "w": [["she","o (kadın)"], ["live","yaşıyor"], ["with","ile, -le"], ["uncle","amca"], ["Henry","Henry (erkek adı)"], ["and","ve"], ["aunt","teyze"], ["Em","Em (kadın adı)"]]
+    },
+    {
+      "en": "Uncle Henry has a small farm.",
+      "tr": "Henry Amca'nın küçük bir çiftliği var.",
+      "w": [["uncle","amca"], ["Henry","Henry (erkek adı)"], ["have","sahip, -si var"], ["a","bir"], ["small","küçük"], ["farm","çiftlik"]]
+    },
+    {
+      "p": true,
+      "en": "Their house is very small.",
+      "tr": "Evleri çok küçük.",
+      "w": [["their","onların"], ["house","ev"], ["be","-dir (olmak)"], ["very","çok"], ["small","küçük"]]
+    },
+    {
+      "en": "It has only one room.",
+      "tr": "Sadece bir odası var.",
+      "w": [["it","o"], ["have","sahip, -si var"], ["only","sadece"], ["one","bir"], ["room","oda"]]
+    },
+    {
+      "en": "There is a dark hole in the floor.",
+      "tr": "Yerde karanlık bir delik var.",
+      "w": [["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["dark","karanlık"], ["hole","delik"], ["in","-de"], ["the","(belirli tanımlık)"], ["floor","yer, zemin"]]
+    },
+    {
+      "en": "In a big storm, the family can go into the hole.",
+      "tr": "Büyük bir fırtınada aile bu deliğe girebilir.",
+      "w": [["in","-de"], ["a","bir"], ["big","büyük"], ["storm","fırtına"], ["the","(belirli tanımlık)"], ["family","aile"], ["can","-ebilir"], ["go","gitmek, girmek"], ["into","içine"], ["the","(belirli tanımlık)"], ["hole","delik"]]
+    },
+    {
+      "p": true,
+      "en": "Everything around the house is grey.",
+      "tr": "Evin etrafındaki her şey gri.",
+      "w": [["everything","her şey"], ["around","etrafında"], ["the","(belirli tanımlık)"], ["house","ev"], ["be","-dir (olmak)"], ["grey","gri"]]
+    },
+    {
+      "en": "The grass is grey, and the house is grey.",
+      "tr": "Çimenler gri, ev de gri.",
+      "w": [["the","(belirli tanımlık)"], ["grass","çimen, ot"], ["be","-dir (olmak)"], ["grey","gri"], ["and","ve"], ["the","(belirli tanımlık)"], ["house","ev"], ["be","-dir (olmak)"], ["grey","gri"]]
+    },
+    {
+      "en": "Aunt Em is thin and grey too.",
+      "tr": "Em Teyze de zayıf ve gri.",
+      "w": [["aunt","teyze"], ["Em","Em (kadın adı)"], ["be","-dir (olmak)"], ["thin","zayıf"], ["and","ve"], ["grey","gri"], ["too","de, da"]]
+    },
+    {
+      "en": "She never smiles.",
+      "tr": "Hiç gülümsemez.",
+      "w": [["she","o (kadın)"], ["never","asla, hiç"], ["smile","gülümser"]]
+    },
+    {
+      "en": "Uncle Henry never laughs.",
+      "tr": "Henry Amca hiç gülmez.",
+      "w": [["uncle","amca"], ["Henry","Henry (erkek adı)"], ["never","asla, hiç"], ["laugh","güler"]]
+    },
+    {
+      "en": "He works from morning to night.",
+      "tr": "Sabahtan akşama kadar çalışır.",
+      "w": [["he","o (erkek)"], ["work","çalışır"], ["from","-den"], ["morning","sabah"], ["to","-e kadar"], ["night","gece"]]
+    },
+    {
+      "p": true,
+      "en": "But Dorothy is not grey and sad.",
+      "tr": "Ama Dorothy gri ve üzgün değil.",
+      "w": [["but","ama"], ["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["not","değil"], ["grey","gri"], ["and","ve"], ["sad","üzgün"]]
+    },
+    {
+      "en": "She has a little black dog.",
+      "tr": "Küçük, siyah bir köpeği var.",
+      "w": [["she","o (kadın)"], ["have","sahip, -si var"], ["a","bir"], ["little","küçük"], ["black","siyah"], ["dog","köpek"]]
+    },
+    {
+      "en": "His name is Toto.",
+      "tr": "Adı Toto.",
+      "w": [["his","onun (erkek)"], ["name","ad, isim"], ["be","-dir (olmak)"], ["Toto","Toto (köpeğin adı)"]]
+    },
+    {
+      "en": "Toto has long hair and small black eyes.",
+      "tr": "Toto'nun uzun tüyleri ve küçük siyah gözleri var.",
+      "w": [["Toto","Toto (köpeğin adı)"], ["have","sahip, -si var"], ["long","uzun"], ["hair","tüy, saç"], ["and","ve"], ["small","küçük"], ["black","siyah"], ["eye","gözler"]]
+    },
+    {
+      "en": "He plays all day, and Dorothy laughs with him.",
+      "tr": "Bütün gün oynar, Dorothy de onunla güler.",
+      "w": [["he","o (erkek)"], ["play","oynar"], ["all","bütün"], ["day","gün"], ["and","ve"], ["Dorothy","Dorothy (kız adı)"], ["laugh","güler"], ["with","ile, -le"], ["him","onu, onunla"]]
+    },
+    {
+      "en": "She loves Toto very much.",
+      "tr": "Toto'yu çok seviyor.",
+      "w": [["she","o (kadın)"], ["love","seviyor"], ["Toto","Toto (köpeğin adı)"], ["very","çok"], ["much","fazla, çok"]]
+    },
+    {
+      "p": true,
+      "en": "Today Toto and Dorothy do not play.",
+      "tr": "Bugün Toto ile Dorothy oynamıyor.",
+      "w": [["today","bugün"], ["Toto","Toto (köpeğin adı)"], ["and","ve"], ["Dorothy","Dorothy (kız adı)"], ["do","(yardımcı fiil)"], ["not","-ma, -me (olumsuz)"], ["play","oynamak"]]
+    },
+    {
+      "en": "Uncle Henry looks at the sky.",
+      "tr": "Henry Amca gökyüzüne bakıyor.",
+      "w": [["uncle","amca"], ["Henry","Henry (erkek adı)"], ["look","bakıyor"], ["at","-e"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "The sky is very grey today.",
+      "tr": "Gökyüzü bugün çok gri.",
+      "w": [["the","(belirli tanımlık)"], ["sky","gökyüzü"], ["be","-dir (olmak)"], ["very","çok"], ["grey","gri"], ["today","bugün"]]
+    },
+    {
+      "en": "Then they hear a strong wind.",
+      "tr": "Sonra güçlü bir rüzgâr duyuyorlar.",
+      "w": [["then","sonra"], ["they","onlar"], ["hear","duyuyorlar"], ["a","bir"], ["strong","güçlü"], ["wind","rüzgâr"]]
+    },
+    {
+      "en": "“A storm is coming, Em!” says Uncle Henry.",
+      "tr": "“Fırtına geliyor, Em!” diyor Henry Amca.",
+      "w": [["a","bir"], ["storm","fırtına"], ["be","(yardımcı fiil)"], ["come","geliyor"], ["Em","Em (kadın adı)"], ["say","diyor"], ["uncle","amca"], ["Henry","Henry (erkek adı)"]]
+    },
+    {
+      "en": "He runs to the animals.",
+      "tr": "Hayvanlara doğru koşuyor.",
+      "w": [["he","o (erkek)"], ["run","koşuyor"], ["to","-e"], ["the","(belirli tanımlık)"], ["animal","hayvanlar"]]
+    },
+    {
+      "p": true,
+      "en": "“Quick, Dorothy! Go into the hole!” says Aunt Em.",
+      "tr": "“Çabuk, Dorothy! Deliğe gir!” diyor Em Teyze.",
+      "w": [["quick","çabuk"], ["Dorothy","Dorothy (kız adı)"], ["go","git, gir"], ["into","içine"], ["the","(belirli tanımlık)"], ["hole","delik"], ["say","diyor"], ["aunt","teyze"], ["Em","Em (kadın adı)"]]
+    },
+    {
+      "en": "Toto runs under the bed.",
+      "tr": "Toto yatağın altına koşuyor.",
+      "w": [["Toto","Toto (köpeğin adı)"], ["run","koşuyor"], ["under","altına"], ["the","(belirli tanımlık)"], ["bed","yatak"]]
+    },
+    {
+      "en": "Dorothy runs after him.",
+      "tr": "Dorothy onun peşinden koşuyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["run","koşuyor"], ["after","peşinden, arkasından"], ["him","onun"]]
+    },
+    {
+      "en": "Aunt Em goes down into the hole.",
+      "tr": "Em Teyze deliğe iniyor.",
+      "w": [["aunt","teyze"], ["Em","Em (kadın adı)"], ["go","gidiyor"], ["down","aşağı"], ["into","içine"], ["the","(belirli tanımlık)"], ["hole","delik"]]
+    },
+    {
+      "en": "Dorothy finds Toto under the bed.",
+      "tr": "Dorothy, Toto'yu yatağın altında buluyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["find","buluyor"], ["Toto","Toto (köpeğin adı)"], ["under","altında"], ["the","(belirli tanımlık)"], ["bed","yatak"]]
+    },
+    {
+      "en": "Then the house shakes.",
+      "tr": "Sonra ev sallanıyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["house","ev"], ["shake","sallanıyor"]]
+    },
+    {
+      "en": "Dorothy sits down on the floor.",
+      "tr": "Dorothy yere oturuyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["sit","oturuyor"], ["down","aşağı"], ["on","üstüne"], ["the","(belirli tanımlık)"], ["floor","yer, zemin"]]
+    },
+    {
+      "en": "The wind turns it around and around.",
+      "tr": "Rüzgâr onu döndürüp duruyor.",
+      "w": [["the","(belirli tanımlık)"], ["wind","rüzgâr"], ["turn","döndürüyor"], ["it","onu"], ["around","etrafında, döne döne"], ["and","ve"], ["around","etrafında, döne döne"]]
+    },
+    {
+      "en": "Then the house goes up into the sky!",
+      "tr": "Sonra ev gökyüzüne yükseliyor!",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["house","ev"], ["go","gidiyor"], ["up","yukarı"], ["into","içine"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "p": true,
+      "en": "The house flies in the wind for many hours.",
+      "tr": "Ev saatlerce rüzgârda uçuyor.",
+      "w": [["the","(belirli tanımlık)"], ["house","ev"], ["fly","uçuyor"], ["in","-de"], ["the","(belirli tanımlık)"], ["wind","rüzgâr"], ["for","boyunca"], ["many","birçok"], ["hour","saatler"]]
+    },
+    {
+      "en": "Dorothy and Toto are alone in the house.",
+      "tr": "Dorothy ile Toto evde yalnızlar.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["Toto","Toto (köpeğin adı)"], ["be","-dir (olmak)"], ["alone","yalnız"], ["in","-de"], ["the","(belirli tanımlık)"], ["house","ev"]]
+    },
+    {
+      "en": "Toto falls into the hole in the floor.",
+      "tr": "Toto yerdeki deliğe düşüyor.",
+      "w": [["Toto","Toto (köpeğin adı)"], ["fall","düşüyor"], ["into","içine"], ["the","(belirli tanımlık)"], ["hole","delik"], ["in","-deki"], ["the","(belirli tanımlık)"], ["floor","yer, zemin"]]
+    },
+    {
+      "en": "Dorothy pulls him out by his ear.",
+      "tr": "Dorothy onu kulağından tutup çıkarıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["pull","çekiyor"], ["him","onu"], ["out","dışarı"], ["by","-den (tutarak)"], ["his","onun (erkek)"], ["ear","kulak"]]
+    },
+    {
+      "en": "Dorothy is very tired.",
+      "tr": "Dorothy çok yorgun.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["very","çok"], ["tired","yorgun"]]
+    },
+    {
+      "en": "Then she goes to her bed with Toto.",
+      "tr": "Sonra Toto ile yatağına gidiyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["go","gidiyor"], ["to","-e"], ["her","onun (kadın)"], ["bed","yatak"], ["with","ile, -le"], ["Toto","Toto (köpeğin adı)"]]
+    },
+    {
+      "en": "The house flies and shakes, but Dorothy sleeps.",
+      "tr": "Ev uçuyor ve sallanıyor, ama Dorothy uyuyor.",
+      "w": [["the","(belirli tanımlık)"], ["house","ev"], ["fly","uçuyor"], ["and","ve"], ["shake","sallanıyor"], ["but","ama"], ["Dorothy","Dorothy (kız adı)"], ["sleep","uyuyor"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"farm","pos":"noun","tr":"çiftlik","ipa":"/fɑːm/","ex_en":"Uncle Henry has a small farm.","ex_tr":"Henry Amca'nın küçük bir çiftliği var."},
+    {"lemma":"aunt","pos":"noun","tr":"teyze, hala","ipa":"/ɑːnt/","ex_en":"She lives with Uncle Henry and Aunt Em.","ex_tr":"Henry Amca ve Em Teyze ile yaşıyor."},
+    {"lemma":"uncle","pos":"noun","tr":"amca, dayı","ipa":"/ˈʌŋkl/","ex_en":"Uncle Henry never laughs.","ex_tr":"Henry Amca hiç gülmez."},
+    {"lemma":"grey","pos":"adjective","tr":"gri","ipa":"/ɡreɪ/","ex_en":"Everything around the house is grey.","ex_tr":"Evin etrafındaki her şey gri."},
+    {"lemma":"hole","pos":"noun","tr":"delik","ipa":"/həʊl/","ex_en":"There is a dark hole in the floor.","ex_tr":"Yerde karanlık bir delik var."},
+    {"lemma":"dog","pos":"noun","tr":"köpek","ipa":"/dɒɡ/","ex_en":"She has a little black dog.","ex_tr":"Küçük, siyah bir köpeği var."},
+    {"lemma":"laugh","pos":"verb","tr":"gülmek","ipa":"/lɑːf/","ex_en":"Dorothy laughs with Toto.","ex_tr":"Dorothy, Toto ile güler."},
+    {"lemma":"love","pos":"verb","tr":"sevmek","ipa":"/lʌv/","ex_en":"She loves Toto very much.","ex_tr":"Toto'yu çok seviyor."},
+    {"lemma":"sky","pos":"noun","tr":"gökyüzü","ipa":"/skaɪ/","ex_en":"Uncle Henry looks at the sky.","ex_tr":"Henry Amca gökyüzüne bakıyor."},
+    {"lemma":"wind","pos":"noun","tr":"rüzgâr","ipa":"/wɪnd/","ex_en":"Then they hear a strong wind.","ex_tr":"Sonra güçlü bir rüzgâr duyuyorlar."},
+    {"lemma":"storm","pos":"noun","tr":"fırtına","ipa":"/stɔːm/","ex_en":"A storm is coming!","ex_tr":"Fırtına geliyor!"},
+    {"lemma":"fly","pos":"verb","tr":"uçmak","ipa":"/flaɪ/","ex_en":"The house flies in the wind.","ex_tr":"Ev rüzgârda uçuyor."},
+    {"lemma":"sleep","pos":"verb","tr":"uyumak","ipa":"/sliːp/","ex_en":"The house shakes, but Dorothy sleeps.","ex_tr":"Ev sallanıyor, ama Dorothy uyuyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"Who lives with Dorothy?","prompt_tr":"Dorothy ile kim yaşıyor?","options":["Her mother and father","Uncle Henry and Aunt Em","Two little girls"],"answer":1},
+    {"type":"mcq","prompt":"What colour is everything around the house?","prompt_tr":"Evin etrafındaki her şey ne renk?","options":["Green","Yellow","Grey"],"answer":2},
+    {"type":"mcq","prompt":"What is Toto?","prompt_tr":"Toto nedir?","options":["A little black dog","A big grey cat","A small bird"],"answer":0},
+    {"type":"mcq","prompt":"Where does Aunt Em go?","prompt_tr":"Em Teyze nereye gidiyor?","options":["To the city","Into the hole in the floor","Under the bed"],"answer":1},
+    {"type":"mcq","prompt":"What does the wind do to the house?","prompt_tr":"Rüzgâr eve ne yapıyor?","options":["It breaks the door.","It makes the house green.","It takes the house up into the sky."],"answer":2}
+  ]
+}

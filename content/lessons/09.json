@@ -1,0 +1,247 @@
+{
+  "id": 9,
+  "unit": 2,
+  "title_tr": "Basit sorular",
+  "title_en": "Simple questions with 'to be'",
+  "summary_tr": "Are you…? Is she…? gibi evet/hayır soruları sor, kısa cevap ver ve soru kelimelerini öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Türkçede soru yapmak için **mi** ekleriz: Öğrenci **misin**? İngilizcede ise kelimelerin **yeri değişir**: **am / is / are** cümlenin başına geçer.\n\nYou **are** a student. → **Are** you a student?"
+    },
+    {
+      "type": "table",
+      "title_tr": "Evet / hayır soruları",
+      "head": ["Cümle", "Soru", "Türkçe"],
+      "rows": [
+        ["I am late.", "Am I late?", "Geç mi kaldım?"],
+        ["You are tired.", "Are you tired?", "Yorgun musun?"],
+        ["He is a doctor.", "Is he a doctor?", "O doktor mu?"],
+        ["She is from Spain.", "Is she from Spain?", "O İspanyol mu?"],
+        ["It is your bag.", "Is it your bag?", "Bu senin çantan mı?"],
+        ["They are friends.", "Are they friends?", "Onlar arkadaş mı?"]
+      ]
+    },
+    {
+      "type": "text",
+      "tr": "Bu sorulara sadece “Yes” ya da “No” demek biraz kaba durur. **Kısa cevap** verilir: Yes / No + zamir + am / is / are (olumsuzsa not)."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Kısa cevaplar",
+      "items": [
+        { "en": "Are you a student? Yes, I am.", "tr": "Öğrenci misin? Evet, öyleyim." },
+        { "en": "Are you tired? No, I'm not.", "tr": "Yorgun musun? Hayır, değilim." },
+        { "en": "Is she a teacher? Yes, she is.", "tr": "O öğretmen mi? Evet, öyle." },
+        { "en": "Is he from Italy? No, he isn't.", "tr": "O İtalyan mı? Hayır, değil." },
+        { "en": "Are they hungry? Yes, they are.", "tr": "Onlar aç mı? Evet, açlar." }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Olumlu kısa cevapta kısaltma **yapılmaz**: “Yes, I am.” doğru, “Yes, I'm.” yanlış. Olumsuzda kısaltma serbesttir: “No, I'm not.”"
+    },
+    {
+      "type": "table",
+      "title_tr": "Soru kelimeleri",
+      "head": ["Soru kelimesi", "Türkçe", "Örnek"],
+      "rows": [
+        ["What", "Ne", "What's your name?"],
+        ["Where", "Nerede / Nereden", "Where are you from?"],
+        ["Who", "Kim", "Who is she?"],
+        ["How old", "Kaç yaşında", "How old are you?"],
+        ["How", "Nasıl", "How are you?"]
+      ]
+    },
+    {
+      "type": "text",
+      "tr": "Soru kelimesi her zaman **en başa** gelir, sonra **am / is / are**, sonra kişi. Türkçede soru kelimesi ortada olabilir (Sen **nerelisin**?), ama İngilizcede sıra sabittir: **Where are you from?**"
+    },
+    {
+      "type": "examples",
+      "title_tr": "Soru ve cevap",
+      "items": [
+        { "en": "Who is he? He's my teacher.", "tr": "O kim? O benim öğretmenim." },
+        { "en": "Where is she from? She's from Spain.", "tr": "O nereli? İspanya'dan." },
+        { "en": "How old is your brother? He's ten.", "tr": "Kardeşin kaç yaşında? On yaşında." },
+        { "en": "What's this? It's a phone.", "tr": "Bu ne? Bu bir telefon.", "note_tr": "What's = What is" },
+        { "en": "Where is my bag? It's here.", "tr": "Çantam nerede? Burada." }
+      ]
+    }
+  ],
+  "listen": [
+    { "en": "Are you a student?", "tr": "Öğrenci misin?" },
+    { "en": "Yes, I am.", "tr": "Evet, öyleyim." },
+    { "en": "Is he a doctor?", "tr": "O doktor mu?" },
+    { "en": "No, he isn't.", "tr": "Hayır, değil." },
+    { "en": "Is she from Spain?", "tr": "O İspanyol mu?" },
+    { "en": "Are they your friends?", "tr": "Onlar senin arkadaşların mı?" },
+    { "en": "Who is she?", "tr": "O kim?" },
+    { "en": "Where are you from?", "tr": "Nerelisin?" },
+    { "en": "How old is your sister?", "tr": "Kız kardeşin kaç yaşında?" },
+    { "en": "What's this?", "tr": "Bu ne?" },
+    { "en": "Where is the teacher?", "tr": "Öğretmen nerede?" },
+    { "en": "How are you today?", "tr": "Bugün nasılsın?" }
+  ],
+  "practice": [
+    {
+      "type": "match",
+      "prompt_tr": "Soru kelimelerini eşleştir.",
+      "pairs": [["what", "ne"], ["where", "nerede"], ["who", "kim"], ["how old", "kaç yaşında"], ["how", "nasıl"]]
+    },
+    {
+      "type": "fill",
+      "prompt": "___ you a teacher?",
+      "tr": "Sen öğretmen misin?",
+      "options": ["Is", "Am", "Are"],
+      "answer": 2,
+      "explain_tr": "you → are. Soruda are başa gelir."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ she from Turkey?",
+      "tr": "O Türkiyeli mi?",
+      "options": ["Is", "Are", "Am"],
+      "answer": 0,
+      "explain_tr": "she → is. Soruda is başa gelir."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Are you hungry?",
+      "prompt_tr": "Olumlu kısa cevabı seç.",
+      "options": ["Yes, I'm.", "Yes, I am.", "Yes, you are."],
+      "answer": 1,
+      "explain_tr": "Olumlu kısa cevapta kısaltma yapılmaz: Yes, I am."
+    },
+    {
+      "type": "listen",
+      "audio": "Where are you from?",
+      "prompt_tr": "Duyduğun soruyu seç.",
+      "options": ["Who are you?", "How are you?", "Where are you from?"],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "answer": "Is he a doctor?",
+      "tr": "O doktor mu?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Is Ali your brother?",
+      "prompt_tr": "Olumsuz kısa cevabı seç.",
+      "options": ["No, he isn't.", "No, she isn't.", "No, I'm not."],
+      "answer": 0,
+      "explain_tr": "Ali erkek → he. Olumsuz: No, he isn't."
+    },
+    {
+      "type": "listen",
+      "audio": "How old is your sister?",
+      "prompt_tr": "Duyduğun soruyu seç.",
+      "options": ["How is your sister?", "How old is your sister?", "Who is your sister?"],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "answer": "How old are you?",
+      "tr": "Kaç yaşındasın?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ is she? She's my sister.",
+      "prompt_tr": "Hangi soru kelimesi gelir?",
+      "options": ["What", "Where", "Who"],
+      "answer": 2,
+      "explain_tr": "Cevap bir kişi → Who (kim)."
+    }
+  ],
+  "test": [
+    {
+      "type": "fill",
+      "prompt": "___ they your friends?",
+      "tr": "Onlar senin arkadaşların mı?",
+      "options": ["Is", "Are", "Am"],
+      "answer": 1,
+      "explain_tr": "they → are."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which question is correct?",
+      "prompt_tr": "Hangi soru doğru?",
+      "options": ["You are a student?", "Are you a student?", "Student are you?"],
+      "answer": 1,
+      "explain_tr": "Soruda are başa gelir: Are you a student?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Is your mother a nurse?",
+      "prompt_tr": "Olumlu kısa cevabı seç.",
+      "options": ["Yes, she's.", "Yes, he is.", "Yes, she is."],
+      "answer": 2,
+      "explain_tr": "mother → she. Olumlu kısa cevapta kısaltma yok: Yes, she is."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ are you from? I'm from Turkey.",
+      "prompt_tr": "Hangi soru kelimesi gelir?",
+      "options": ["Where", "Who", "How"],
+      "answer": 0,
+      "explain_tr": "Ülke soruyoruz → Where (nereden)."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ old is your brother?",
+      "tr": "Kardeşin kaç yaşında?",
+      "options": ["What", "How", "Who"],
+      "answer": 1,
+      "explain_tr": "Yaş sorarken How old kullanılır."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Soruyu cevapla eşleştir.",
+      "pairs": [["What's your name?", "I'm Elif."], ["How old are you?", "I'm 20."], ["Where are you from?", "I'm from Turkey."], ["How are you?", "I'm fine, thanks."]]
+    },
+    {
+      "type": "listen",
+      "audio": "Is she from Spain?",
+      "prompt_tr": "Duyduğun soruyu seç.",
+      "options": ["Is he from Spain?", "She is from Spain.", "Is she from Spain?"],
+      "answer": 2,
+      "explain_tr": "Soru Is ile başladı ve she dedi."
+    },
+    {
+      "type": "order",
+      "answer": "Where is your teacher from?",
+      "tr": "Öğretmenin nereli?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Are you tired?",
+      "prompt_tr": "Olumsuz kısa cevabı seç.",
+      "options": ["No, I'm not.", "No, I amn't.", "No, you aren't."],
+      "answer": 0,
+      "explain_tr": "Olumsuz: No, I'm not. “amn't” yoktur."
+    },
+    {
+      "type": "order",
+      "answer": "Who is that man?",
+      "tr": "Şu adam kim?"
+    }
+  ],
+  "vocab": [
+    { "lemma": "what", "pos": "pron", "tr": "ne", "ipa": "/wɒt/", "ex_en": "What's this?", "ex_tr": "Bu ne?" },
+    { "lemma": "where", "pos": "adv", "tr": "nerede, nereden", "ipa": "/weə/", "ex_en": "Where is my bag?", "ex_tr": "Çantam nerede?" },
+    { "lemma": "who", "pos": "pron", "tr": "kim", "ipa": "/huː/", "ex_en": "Who is she?", "ex_tr": "O kim?" },
+    { "lemma": "how", "pos": "adv", "tr": "nasıl", "ipa": "/haʊ/", "ex_en": "How are you today?", "ex_tr": "Bugün nasılsın?" },
+    { "lemma": "how old", "pos": "phrase", "tr": "kaç yaşında", "ipa": "/haʊ ˈəʊld/", "ex_en": "How old is your sister?", "ex_tr": "Kız kardeşin kaç yaşında?" },
+    { "lemma": "yes", "pos": "adv", "tr": "evet", "ipa": "/jes/", "ex_en": "Yes, I am.", "ex_tr": "Evet, öyleyim." },
+    { "lemma": "no", "pos": "adv", "tr": "hayır", "ipa": "/nəʊ/", "ex_en": "No, he isn't.", "ex_tr": "Hayır, değil." },
+    { "lemma": "brother", "pos": "noun", "tr": "erkek kardeş", "ipa": "/ˈbrʌðə/", "ex_en": "How old is your brother?", "ex_tr": "Erkek kardeşin kaç yaşında?" },
+    { "lemma": "sister", "pos": "noun", "tr": "kız kardeş", "ipa": "/ˈsɪstə/", "ex_en": "She's my sister.", "ex_tr": "O benim kız kardeşim." },
+    { "lemma": "mother", "pos": "noun", "tr": "anne", "ipa": "/ˈmʌðə/", "ex_en": "Is your mother a nurse?", "ex_tr": "Annen hemşire mi?" },
+    { "lemma": "your", "pos": "det", "tr": "senin", "ipa": "/jɔː/", "ex_en": "Is it your bag?", "ex_tr": "Bu senin çantan mı?" },
+    { "lemma": "my", "pos": "det", "tr": "benim", "ipa": "/maɪ/", "ex_en": "He's my teacher.", "ex_tr": "O benim öğretmenim." },
+    { "lemma": "today", "pos": "adv", "tr": "bugün", "ipa": "/təˈdeɪ/", "ex_en": "How are you today?", "ex_tr": "Bugün nasılsın?" },
+    { "lemma": "question", "pos": "noun", "tr": "soru", "ipa": "/ˈkwestʃən/", "ex_en": "Is this a question?", "ex_tr": "Bu bir soru mu?" },
+    { "lemma": "answer", "pos": "noun", "tr": "cevap", "ipa": "/ˈɑːnsə/", "ex_en": "What's the answer?", "ex_tr": "Cevap ne?" }
+  ]
+}

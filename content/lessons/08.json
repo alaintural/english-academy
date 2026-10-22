@@ -1,0 +1,234 @@
+{
+  "id": 8,
+  "unit": 2,
+  "title_tr": "Olumsuz cümleler",
+  "title_en": "Negative sentences with 'to be'",
+  "summary_tr": "am / is / are sonrasına not ekleyerek “değilim, değil” demeyi öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Türkçede olumsuz için “değil” deriz: Öğretmen **değilim**. İngilizcede **am / is / are** kelimesinden hemen sonra **not** gelir: **I am not a teacher.**"
+    },
+    {
+      "type": "table",
+      "title_tr": "Olumsuz biçim",
+      "head": ["Uzun biçim", "Kısa biçim", "Türkçe"],
+      "rows": [
+        ["I am not", "I'm not", "ben … değilim"],
+        ["you are not", "you aren't / you're not", "sen … değilsin"],
+        ["he is not", "he isn't / he's not", "o … değil"],
+        ["she is not", "she isn't / she's not", "o … değil"],
+        ["it is not", "it isn't / it's not", "o … değil"],
+        ["we are not", "we aren't / we're not", "biz … değiliz"],
+        ["they are not", "they aren't / they're not", "onlar … değil"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**is not → isn't**, **are not → aren't**. Ama **am not** için kısa biçim sadece **I'm not** olur. “I amn't” diye bir şey yoktur!"
+    },
+    {
+      "type": "examples",
+      "title_tr": "Örnekler",
+      "items": [
+        { "en": "I'm not tired.", "tr": "Yorgun değilim." },
+        { "en": "You aren't a doctor.", "tr": "Sen doktor değilsin." },
+        { "en": "He isn't from Spain.", "tr": "O İspanya'dan değil." },
+        { "en": "It isn't a cat. It's a dog.", "tr": "O bir kedi değil. O bir köpek." },
+        { "en": "We're not hungry.", "tr": "Aç değiliz." }
+      ]
+    },
+    {
+      "type": "text",
+      "tr": "Olumsuz cümleyi yanlış bir bilgiyi **düzeltmek** için çok kullanırız. Önce “değil” deriz, sonra doğrusunu söyleriz."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Yanlışı düzelt",
+      "items": [
+        { "en": "London isn't in Turkey. It's in England.", "tr": "Londra Türkiye'de değil. İngiltere'de." },
+        { "en": "I'm not 20. I'm 25.", "tr": "20 yaşında değilim. 25 yaşındayım." },
+        { "en": "She isn't a nurse. She's a doctor.", "tr": "O hemşire değil. O doktor." },
+        { "en": "They aren't from Italy. They're from Spain.", "tr": "Onlar İtalya'dan değil. İspanya'dan." },
+        { "en": "The bus isn't red. It's blue.", "tr": "Otobüs kırmızı değil. Mavi." },
+        { "en": "That isn't right. It's wrong.", "tr": "O doğru değil. Yanlış." }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Konuşurken **isn't** ve **aren't** çok yaygındır. Yazarken ikisi de doğrudur: “he isn't” = “he's not”."
+    }
+  ],
+  "listen": [
+    { "en": "I'm not a teacher.", "tr": "Ben öğretmen değilim." },
+    { "en": "You aren't late.", "tr": "Geç kalmadın." },
+    { "en": "He isn't at home.", "tr": "O evde değil." },
+    { "en": "She's not from England.", "tr": "O İngiltere'den değil." },
+    { "en": "It isn't my phone.", "tr": "O benim telefonum değil." },
+    { "en": "We aren't at school.", "tr": "Okulda değiliz." },
+    { "en": "They're not students.", "tr": "Onlar öğrenci değil." },
+    { "en": "I'm not 30. I'm 35.", "tr": "30 yaşında değilim. 35 yaşındayım." },
+    { "en": "The bag isn't black. It's brown.", "tr": "Çanta siyah değil. Kahverengi." },
+    { "en": "Ankara isn't small. It's very big.", "tr": "Ankara küçük değil. Çok büyük." }
+  ],
+  "practice": [
+    {
+      "type": "match",
+      "prompt_tr": "Uzun ve kısa biçimleri eşleştir.",
+      "pairs": [["is not", "isn't"], ["are not", "aren't"], ["I am not", "I'm not"]]
+    },
+    {
+      "type": "fill",
+      "prompt": "___ tired.",
+      "tr": "Yorgun değilim.",
+      "options": ["I isn't", "I aren't", "I'm not"],
+      "answer": 2,
+      "explain_tr": "I → I'm not. “I isn't” ya da “I aren't” olmaz."
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ a teacher.",
+      "tr": "O öğretmen değil.",
+      "options": ["isn't", "aren't", "not"],
+      "answer": 0,
+      "explain_tr": "she → is not → isn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ from Germany.",
+      "tr": "Onlar Almanya'dan değil.",
+      "options": ["isn't", "aren't", "am not"],
+      "answer": 1,
+      "explain_tr": "they → are not → aren't."
+    },
+    {
+      "type": "listen",
+      "audio": "He isn't at home.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["He's at home.", "He isn't at home.", "She isn't at home."],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "answer": "We are not hungry.",
+      "tr": "Aç değiliz."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Paris isn't in Italy. ___",
+      "prompt_tr": "Yanlışı düzelt.",
+      "options": ["It's in France.", "It's in Italy.", "It isn't in France."],
+      "answer": 0,
+      "explain_tr": "Paris Fransa'dadır: It's in France."
+    },
+    {
+      "type": "listen",
+      "audio": "They're not students.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["They're students.", "We're not students.", "They're not students."],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "answer": "It isn't a cat.",
+      "tr": "O bir kedi değil."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“Sen geç kalmadın.” Hangisi?",
+      "prompt_tr": "Doğru çeviriyi seç.",
+      "options": ["You isn't late.", "You aren't late.", "You not late."],
+      "answer": 1,
+      "explain_tr": "you → are not → aren't."
+    }
+  ],
+  "test": [
+    {
+      "type": "fill",
+      "prompt": "He ___ a doctor. He's a nurse.",
+      "tr": "O doktor değil. O hemşire.",
+      "options": ["aren't", "isn't", "am not"],
+      "answer": 1,
+      "explain_tr": "he → isn't."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ from Spain.",
+      "tr": "Biz İspanya'dan değiliz.",
+      "options": ["aren't", "isn't", "not"],
+      "answer": 0,
+      "explain_tr": "we → aren't."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["I amn't happy.", "I isn't happy.", "I'm not happy."],
+      "answer": 2,
+      "explain_tr": "I am not → I'm not. “amn't” diye bir kısaltma yoktur."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["It not is red.", "It isn't red.", "It aren't red."],
+      "answer": 1,
+      "explain_tr": "not, is kelimesinden sonra gelir: it is not → it isn't."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“he's not” = ?",
+      "prompt_tr": "Aynı anlamdaki biçimi seç.",
+      "options": ["he aren't", "he not", "he isn't"],
+      "answer": 2,
+      "explain_tr": "he's not ve he isn't ikisi de “he is not” demektir."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Eşleştir.",
+      "pairs": [["I'm not tired.", "Yorgun değilim."], ["She isn't here.", "O burada değil."], ["They aren't late.", "Onlar geç kalmadı."], ["It isn't my bag.", "O benim çantam değil."]]
+    },
+    {
+      "type": "listen",
+      "audio": "She's not from England.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["She's from England.", "She's not from England.", "He's not from England."],
+      "answer": 1,
+      "explain_tr": "Cümlede not vardı: She's not = O … değil."
+    },
+    {
+      "type": "order",
+      "answer": "I'm not a teacher.",
+      "tr": "Ben öğretmen değilim."
+    },
+    {
+      "type": "mcq",
+      "prompt": "The sky isn't green. ___",
+      "prompt_tr": "Yanlışı düzelt.",
+      "options": ["It's green.", "It's blue.", "It isn't blue."],
+      "answer": 1,
+      "explain_tr": "Gökyüzü mavidir: It's blue."
+    },
+    {
+      "type": "order",
+      "answer": "They aren't from Italy.",
+      "tr": "Onlar İtalya'dan değil."
+    }
+  ],
+  "vocab": [
+    { "lemma": "not", "pos": "adv", "tr": "değil", "ipa": "/nɒt/", "ex_en": "I'm not tired.", "ex_tr": "Yorgun değilim." },
+    { "lemma": "isn't", "pos": "verb", "tr": "değil (is not)", "ipa": "/ˈɪznt/", "ex_en": "He isn't a doctor.", "ex_tr": "O doktor değil." },
+    { "lemma": "aren't", "pos": "verb", "tr": "değil (are not)", "ipa": "/ɑːnt/", "ex_en": "We aren't hungry.", "ex_tr": "Aç değiliz." },
+    { "lemma": "late", "pos": "adj", "tr": "geç, geç kalmış", "ipa": "/leɪt/", "ex_en": "You aren't late.", "ex_tr": "Geç kalmadın." },
+    { "lemma": "home", "pos": "noun", "tr": "ev", "ipa": "/həʊm/", "ex_en": "He isn't at home.", "ex_tr": "O evde değil." },
+    { "lemma": "here", "pos": "adv", "tr": "burada", "ipa": "/hɪə/", "ex_en": "She isn't here.", "ex_tr": "O burada değil." },
+    { "lemma": "phone", "pos": "noun", "tr": "telefon", "ipa": "/fəʊn/", "ex_en": "It isn't my phone.", "ex_tr": "O benim telefonum değil." },
+    { "lemma": "bag", "pos": "noun", "tr": "çanta", "ipa": "/bæɡ/", "ex_en": "The bag isn't black.", "ex_tr": "Çanta siyah değil." },
+    { "lemma": "bus", "pos": "noun", "tr": "otobüs", "ipa": "/bʌs/", "ex_en": "The bus isn't red.", "ex_tr": "Otobüs kırmızı değil." },
+    { "lemma": "sky", "pos": "noun", "tr": "gökyüzü", "ipa": "/skaɪ/", "ex_en": "The sky is blue.", "ex_tr": "Gökyüzü mavi." },
+    { "lemma": "very", "pos": "adv", "tr": "çok", "ipa": "/ˈveri/", "ex_en": "It's very big.", "ex_tr": "O çok büyük." },
+    { "lemma": "right", "pos": "adj", "tr": "doğru", "ipa": "/raɪt/", "ex_en": "You're right.", "ex_tr": "Haklısın." },
+    { "lemma": "wrong", "pos": "adj", "tr": "yanlış", "ipa": "/rɒŋ/", "ex_en": "That isn't right. It's wrong.", "ex_tr": "O doğru değil. Yanlış." },
+    { "lemma": "school", "pos": "noun", "tr": "okul", "ipa": "/skuːl/", "ex_en": "We aren't at school.", "ex_tr": "Okulda değiliz." }
+  ]
+}

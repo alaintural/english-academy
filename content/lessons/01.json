@@ -1,0 +1,128 @@
+{
+  "id": 1,
+  "unit": 1,
+  "title_tr": "Alfabe ve sesler",
+  "title_en": "The Alphabet and Sounds",
+  "summary_tr": "İngiliz alfabesindeki 26 harfi, sesli harfleri ve adını harf harf söylemeyi öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "İngiliz alfabesinde **26 harf** var. Harflerin çoğu Türkçedekiyle aynı görünür ama **okunuşları farklıdır**. Aşağıdaki okunuşlar Türkçe harflerle yazıldı. Her harfi dinle ve yüksek sesle tekrar et."
+    },
+    {
+      "type": "table",
+      "title_tr": "İngiliz alfabesi (A–Z)",
+      "head": ["Harf", "Okunuş", "Harf", "Okunuş"],
+      "rows": [
+        ["A", "ey", "N", "en"],
+        ["B", "bi", "O", "ou"],
+        ["C", "si", "P", "pi"],
+        ["D", "di", "Q", "kyu"],
+        ["E", "i", "R", "ar"],
+        ["F", "ef", "S", "es"],
+        ["G", "ci", "T", "ti"],
+        ["H", "eyç", "U", "yu"],
+        ["I", "ay", "V", "vi"],
+        ["J", "cey", "W", "dabılyu"],
+        ["K", "key", "X", "eks"],
+        ["L", "el", "Y", "vay"],
+        ["M", "em", "Z", "zed"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "En çok karışan harfler: **E** “i” okunur, **I** ise “ay”. **G** “ci” okunur, **J** ise “cey”. **A** da “a” değil, “ey” okunur. Bu beşine özellikle dikkat et!"
+    },
+    {
+      "type": "text",
+      "tr": "**Sesli harfler (vowels):** A, E, I, O, U. Okunuşları sırayla: ey, i, ay, ou, yu. Geri kalan harflere **sessiz harf (consonant)** denir: B, C, D, F…"
+    },
+    {
+      "type": "table",
+      "title_tr": "Türkçeden farklı olanlar",
+      "head": ["Durum", "Harfler"],
+      "rows": [
+        ["Türkçede yok, İngilizcede var", "Q (kyu), W (dabılyu), X (eks)"],
+        ["İngilizcede yok", "Ç, Ş, Ğ, I (noktasız ı), Ö, Ü"],
+        ["“ç” sesi şöyle yazılır", "ch"],
+        ["“ş” sesi şöyle yazılır", "sh"]
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Adını harf harf söylemek",
+      "items": [
+        { "en": "How do you spell it?", "tr": "Nasıl yazılıyor?", "note_tr": "Bir kelimeyi harf harf söylemeyi istemek için." },
+        { "en": "How do you spell your name?", "tr": "Adını nasıl yazıyorsun?" },
+        { "en": "My name is Ali. A, L, I.", "tr": "Benim adım Ali. A, L, I." },
+        { "en": "Emma. E, double M, A.", "tr": "Emma. E, iki tane M, A.", "note_tr": "Yan yana iki aynı harf için **double** (dabıl) denir." }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Adında Türkçe harf varsa, pasaporttaki gibi İngilizce harfle söyle: ç → c, ş → s, ğ → g, ı → i, ö → o, ü → u. Örneğin **Gül** → G, U, L."
+    },
+    {
+      "type": "examples",
+      "title_tr": "İki önemli ses: th ve w",
+      "items": [
+        { "en": "Thank you.", "tr": "Teşekkür ederim.", "note_tr": "**th**: Dilinin ucunu üst dişlerinin arasına koy ve hafifçe üfle. “t” ya da “s” deme." },
+        { "en": "three", "tr": "üç", "note_tr": "Yine **th** sesi: dil dişlerin arasında." },
+        { "en": "W", "tr": "dabılyu", "note_tr": "**w**: Dudaklarını “u” der gibi yuvarla, sonra aç. Türkçedeki “v” gibi dişini dudağına değdirme." }
+      ]
+    }
+  ],
+  "listen": [
+    { "en": "A, B, C, D, E, F, G", "tr": "A'dan G'ye harfler" },
+    { "en": "H, I, J, K, L, M, N", "tr": "H'den N'ye harfler" },
+    { "en": "O, P, Q, R, S, T, U", "tr": "O'dan U'ya harfler" },
+    { "en": "V, W, X, Y, Z", "tr": "V'den Z'ye harfler" },
+    { "en": "A, E, I, O, U", "tr": "Sesli harfler (vowels)" },
+    { "en": "E, I. G, J.", "tr": "En çok karışan harfler: i, ay. ci, cey." },
+    { "en": "How do you spell it?", "tr": "Nasıl yazılıyor?" },
+    { "en": "How do you spell your name?", "tr": "Adını nasıl yazıyorsun?" },
+    { "en": "My name is Ali. A, L, I.", "tr": "Benim adım Ali. A, L, I." },
+    { "en": "Emma. E, double M, A.", "tr": "Emma. E, iki tane M, A." },
+    { "en": "Thank you.", "tr": "Teşekkür ederim. (th sesine dikkat)" }
+  ],
+  "practice": [
+    { "type": "listen", "audio": "G", "prompt_tr": "Duyduğun harfi seç.", "options": ["J", "G", "C"], "answer": 1, "explain_tr": "G “ci” okunur. J ise “cey”." },
+    { "type": "match", "prompt_tr": "Harfi okunuşuyla eşleştir.", "pairs": [["A", "ey"], ["E", "i"], ["I", "ay"], ["O", "ou"]] },
+    { "type": "mcq", "prompt": "A, E, I, O, U", "prompt_tr": "Bu harflerin hepsi ne?", "options": ["Sessiz harfler", "Sesli harfler (vowels)", "Türkçe harfler"], "answer": 1, "explain_tr": "A, E, I, O, U İngilizcedeki sesli harflerdir." },
+    { "type": "listen", "audio": "E", "prompt_tr": "Duyduğun harfi seç.", "options": ["I", "A", "E"], "answer": 2, "explain_tr": "E “i” okunur. I ise “ay” okunur." },
+    { "type": "fill", "prompt": "How do you ___ it?", "tr": "Nasıl yazılıyor?", "options": ["name", "spell", "my"], "answer": 1, "explain_tr": "**spell** = harf harf söylemek, hecelemek." },
+    { "type": "order", "answer": "How do you spell it?", "tr": "Nasıl yazılıyor?" },
+    { "type": "mcq", "prompt": "Hangi harf İngilizcede yok?", "options": ["Q", "X", "Ş", "W"], "answer": 2, "explain_tr": "Ş, Ç, Ğ, Ö, Ü ve noktasız ı İngilizcede yoktur. Q, W, X ise vardır." },
+    { "type": "listen", "audio": "W", "prompt_tr": "Duyduğun harfi seç.", "options": ["V", "Y", "W"], "answer": 2, "explain_tr": "W “dabılyu” okunur." },
+    { "type": "fill", "prompt": "My ___ is Ali.", "tr": "Benim adım Ali.", "options": ["name", "spell", "letter"], "answer": 0, "explain_tr": "**name** = ad, isim." },
+    { "type": "match", "prompt_tr": "Harf grubunu sesiyle eşleştir.", "pairs": [["sh", "ş sesi"], ["ch", "ç sesi"], ["th", "dil dişlerin arasında"]] }
+  ],
+  "test": [
+    { "type": "listen", "audio": "J", "prompt_tr": "Duyduğun harfi seç.", "options": ["G", "J", "Y"], "answer": 1, "explain_tr": "J “cey” okunur, G ise “ci”." },
+    { "type": "listen", "audio": "I", "prompt_tr": "Duyduğun harfi seç.", "options": ["I", "E", "A"], "answer": 0, "explain_tr": "I “ay” okunur. E ise “i” okunur." },
+    { "type": "mcq", "prompt": "Which one is a vowel?", "prompt_tr": "Hangisi sesli harf?", "options": ["K", "R", "S", "U"], "answer": 3, "explain_tr": "Sesli harfler: A, E, I, O, U." },
+    { "type": "mcq", "prompt": "Thank you.", "prompt_tr": "“th” sesini nasıl çıkarırsın?", "options": ["“t” gibi sert", "“s” gibi", "Dil ucu dişlerin arasında"], "answer": 2, "explain_tr": "th sesinde dilinin ucu üst dişlerinin arasına gelir." },
+    { "type": "fill", "prompt": "How do you spell your ___?", "tr": "Adını nasıl yazıyorsun?", "options": ["name", "it", "my"], "answer": 0, "explain_tr": "your name = senin adın." },
+    { "type": "order", "answer": "How do you spell your name?", "tr": "Adını nasıl yazıyorsun?", "explain_tr": "Kalıp: How do you spell …?" },
+    { "type": "match", "prompt_tr": "Harfi okunuşuyla eşleştir.", "pairs": [["G", "ci"], ["J", "cey"], ["H", "eyç"], ["Y", "vay"]] },
+    { "type": "fill", "prompt": "Emma: E, ___ M, A.", "tr": "Emma: E, iki tane M, A.", "options": ["double", "name", "vowel"], "answer": 0, "explain_tr": "Yan yana iki aynı harf için **double** denir." },
+    { "type": "mcq", "prompt": "Adı “Şule” olan biri adını nasıl heceler?", "options": ["Ş, U, L, E", "S, U, L, E", "C, U, L, E"], "answer": 1, "explain_tr": "İngilizcede Ş yok. Onun yerine S söylenir." },
+    { "type": "listen", "audio": "Q", "prompt_tr": "Duyduğun harfi seç.", "options": ["U", "K", "Q"], "answer": 2, "explain_tr": "Q “kyu” okunur. U “yu”, K “key” okunur." }
+  ],
+  "vocab": [
+    { "lemma": "alphabet", "pos": "noun", "tr": "alfabe", "ipa": "/ˈælfəbet/", "ex_en": "A to Z: the alphabet.", "ex_tr": "A'dan Z'ye: alfabe." },
+    { "lemma": "letter", "pos": "noun", "tr": "harf", "ipa": "/ˈletə/", "ex_en": "Q is a letter.", "ex_tr": "Q bir harftir." },
+    { "lemma": "vowel", "pos": "noun", "tr": "sesli harf", "ipa": "/ˈvaʊəl/", "ex_en": "A, E, I, O, U: vowels.", "ex_tr": "A, E, I, O, U: sesli harfler." },
+    { "lemma": "consonant", "pos": "noun", "tr": "sessiz harf", "ipa": "/ˈkɒnsənənt/", "ex_en": "B, C, D: consonants.", "ex_tr": "B, C, D: sessiz harfler." },
+    { "lemma": "name", "pos": "noun", "tr": "ad, isim", "ipa": "/neɪm/", "ex_en": "My name is Ali.", "ex_tr": "Benim adım Ali." },
+    { "lemma": "spell", "pos": "verb", "tr": "harf harf söylemek, hecelemek", "ipa": "/spel/", "ex_en": "How do you spell it?", "ex_tr": "Nasıl yazılıyor?" },
+    { "lemma": "how", "pos": "adv", "tr": "nasıl", "ipa": "/haʊ/", "ex_en": "How do you spell your name?", "ex_tr": "Adını nasıl yazıyorsun?" },
+    { "lemma": "my", "pos": "det", "tr": "benim", "ipa": "/maɪ/", "ex_en": "My name is Ali.", "ex_tr": "Benim adım Ali." },
+    { "lemma": "your", "pos": "det", "tr": "senin, sizin", "ipa": "/jɔː/", "ex_en": "How do you spell your name?", "ex_tr": "Adını nasıl yazıyorsun?" },
+    { "lemma": "you", "pos": "pron", "tr": "sen, siz", "ipa": "/juː/", "ex_en": "How do you spell it?", "ex_tr": "Onu nasıl yazıyorsun?" },
+    { "lemma": "it", "pos": "pron", "tr": "o (şey)", "ipa": "/ɪt/", "ex_en": "How do you spell it?", "ex_tr": "Nasıl yazılıyor?" },
+    { "lemma": "double", "pos": "adj", "tr": "çift, iki tane", "ipa": "/ˈdʌbl/", "ex_en": "Emma. E, double M, A.", "ex_tr": "Emma. E, iki tane M, A." },
+    { "lemma": "yes", "pos": "adv", "tr": "evet", "ipa": "/jes/", "ex_en": "Ali? Yes. A, L, I.", "ex_tr": "Ali mi? Evet. A, L, I." },
+    { "lemma": "no", "pos": "adv", "tr": "hayır", "ipa": "/nəʊ/", "ex_en": "Ally? No. Ali. A, L, I.", "ex_tr": "Ally mi? Hayır. Ali. A, L, I." }
+  ]
+}

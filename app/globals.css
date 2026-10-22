@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Renkler CSS değişkeni: karanlık mod tek sınıfla (html.dark) değişir */
+:root {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --surface-2: #efebe3;
+  --ink: #1b1d22;
+  --muted: #6b6f78;
+  --line: #e4dfd5;
+  --primary: #2f5bea;
+  --primary-soft: #e6ecff;
+  --on-primary: #ffffff;
+  --accent: #e8962e;
+  --accent-soft: #fff1dc;
+  --success: #1f9d55;
+  --success-soft: #e3f6ea;
+  --danger: #e5484d;
+  --danger-soft: #fdeaea;
+  --mark: #ffe9a6;
+  --reader-bg: #fbf8f1;
+}
+.dark {
+  --bg: #0f1115;
+  --surface: #181b21;
+  --surface-2: #22262e;
+  --ink: #eceef1;
+  --muted: #9aa0aa;
+  --line: #2b3039;
+  --primary: #7b96ff;
+  --primary-soft: #1f2846;
+  --on-primary: #0f1115;
+  --accent: #f5b54c;
+  --accent-soft: #3a2e19;
+  --success: #3dd68c;
+  --success-soft: #16301f;
+  --danger: #ff6b6b;
+  --danger-soft: #3a1c1c;
+  --mark: #4a3f1a;
+  --reader-bg: #121418;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-mark: var(--mark);
+  --color-reader: var(--reader-bg);
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'New York', ui-serif, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    background: var(--bg);
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+  /* iOS 16px altındaki input'larda otomatik yakınlaştırır */
+  input, select, textarea { font-size: 16px; }
+  button { cursor: pointer; touch-action: manipulation; }
+  :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+}
+
+@utility pt-safe { padding-top: env(safe-area-inset-top); }
+@utility pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+@utility pb-tabbar { padding-bottom: calc(env(safe-area-inset-bottom) + 76px); }
+@utility bottom-tabbar { bottom: calc(env(safe-area-inset-bottom) + 64px); }
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+@keyframes sheet-in { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { transform: scale(0.96); } 60% { transform: scale(1.02); } 100% { transform: scale(1); } }
+@utility animate-sheet { animation: sheet-in 0.26s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@utility animate-fade { animation: fade-in 0.2s ease-out; }
+@utility animate-pop { animation: pop 0.25s ease-out; }

@@ -1,0 +1,17 @@
+{
+  "id": "tom-sawyer",
+  "title": "The Adventures of Tom Sawyer",
+  "title_tr": "Tom Sawyer'ın Maceraları",
+  "author": "Mark Twain",
+  "year": 1876,
+  "category": "Macera",
+  "description_tr": "Mississippi kıyısında yaşayan yaramaz Tom'un arkadaşı Huck ile maceraları.",
+  "cover": {
+    "bg": "#8A5A12",
+    "fg": "#FFF8E8",
+    "accent": "#5FB0E5",
+    "motif": "river"
+  },
+  "chapters_planned": 12,
+  "order": 6
+}

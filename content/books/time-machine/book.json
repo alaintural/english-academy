@@ -1,0 +1,17 @@
+{
+  "id": "time-machine",
+  "title": "The Time Machine",
+  "title_tr": "Zaman Makinesi",
+  "author": "H. G. Wells",
+  "year": 1895,
+  "category": "Bilim Kurgu",
+  "description_tr": "Bir bilim insanı icat ettiği makineyle çok uzak bir geleceğe yolculuk eder.",
+  "cover": {
+    "bg": "#22252E",
+    "fg": "#EDEFF5",
+    "accent": "#5CE1E6",
+    "motif": "clock"
+  },
+  "chapters_planned": 12,
+  "order": 8
+}

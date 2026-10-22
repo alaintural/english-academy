@@ -1,0 +1,235 @@
+{
+  "id": 10,
+  "unit": 2,
+  "title_tr": "Tanışma diyalogları",
+  "title_en": "Introductions",
+  "summary_tr": "Öğrendiklerini birleştir: sınıfta, otelde ve arkadaşını tanıtırken kısa diyaloglar kur.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Bu ünitede **am / is / are**, zamirler, olumsuz cümleler ve sorular öğrendin. Şimdi hepsini gerçek bir konuşmada kullanma zamanı! Tanışırken en çok duyacağın cümle: **Nice to meet you.** (Tanıştığıma memnun oldum.)"
+    },
+    {
+      "type": "tip",
+      "tr": "Biri sana “Nice to meet you.” derse sen de **Nice to meet you, too.** dersin. **too** = “de / da”: “Ben de memnun oldum.”"
+    },
+    {
+      "type": "examples",
+      "title_tr": "Diyalog 1: Sınıfta yeni bir arkadaş",
+      "items": [
+        { "en": "Hi! I'm Elif. What's your name?", "tr": "Selam! Ben Elif. Senin adın ne?" },
+        { "en": "Hi, Elif. I'm Tom.", "tr": "Selam Elif. Ben Tom." },
+        { "en": "Nice to meet you, Tom.", "tr": "Tanıştığıma memnun oldum, Tom." },
+        { "en": "Nice to meet you, too. Are you a new student?", "tr": "Ben de memnun oldum. Yeni öğrenci misin?" },
+        { "en": "Yes, I am. I'm from Izmir.", "tr": "Evet. Ben İzmirliyim." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Diyalog 2: Otelde",
+      "items": [
+        { "en": "Good evening. Welcome to the hotel.", "tr": "İyi akşamlar. Otele hoş geldiniz." },
+        { "en": "Good evening. My name is Can Demir.", "tr": "İyi akşamlar. Adım Can Demir." },
+        { "en": "Are you Mr Demir from Turkey?", "tr": "Türkiye'den Bay Demir siz misiniz?" },
+        { "en": "Yes, I am.", "tr": "Evet, benim." },
+        { "en": "Your room is 24. Here's your key.", "tr": "Odanız 24. Buyurun anahtarınız." }
+      ]
+    },
+    {
+      "type": "text",
+      "tr": "Birini başkasına tanıtırken **This is …** kullanırız. Türkçede “Bu benim arkadaşım Ali.” dediğimiz gibi: **This is my friend, Ali.** Kişiyi gösterirken “he / she” değil, **this** denir."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Diyalog 3: Arkadaşını tanıtmak",
+      "items": [
+        { "en": "Anna, this is my friend, Ali.", "tr": "Anna, bu benim arkadaşım Ali." },
+        { "en": "Hello, Ali. Nice to meet you.", "tr": "Merhaba Ali. Tanıştığıma memnun oldum." },
+        { "en": "Nice to meet you, too.", "tr": "Ben de memnun oldum." },
+        { "en": "Are you a student, Ali?", "tr": "Öğrenci misin, Ali?" },
+        { "en": "No, I'm not. I'm a cook.", "tr": "Hayır, değilim. Ben aşçıyım." }
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "Tanışma cümleleri",
+      "head": ["İngilizce", "Türkçe"],
+      "rows": [
+        ["Nice to meet you.", "Tanıştığıma memnun oldum."],
+        ["Nice to meet you, too.", "Ben de memnun oldum."],
+        ["This is my friend, …", "Bu benim arkadaşım …"],
+        ["Welcome!", "Hoş geldin!"],
+        ["See you later.", "Sonra görüşürüz."]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Resmî ortamlarda soyadıyla hitap edilir: erkek için **Mr**, evli kadın için **Mrs**, her kadın için **Ms**. Örnek: **Mr Demir**, **Ms Kaya**. Adın önüne değil, **soyadın** önüne gelir."
+    }
+  ],
+  "listen": [
+    { "en": "Nice to meet you.", "tr": "Tanıştığıma memnun oldum." },
+    { "en": "Nice to meet you, too.", "tr": "Ben de memnun oldum." },
+    { "en": "This is my friend, Ali.", "tr": "Bu benim arkadaşım Ali." },
+    { "en": "Are you a new student?", "tr": "Yeni öğrenci misin?" },
+    { "en": "Welcome to the hotel.", "tr": "Otele hoş geldiniz." },
+    { "en": "My name is Can Demir.", "tr": "Adım Can Demir." },
+    { "en": "Here's your key.", "tr": "Buyurun anahtarınız." },
+    { "en": "This is Ms Kaya. She's our teacher.", "tr": "Bu Bayan Kaya. O bizim öğretmenimiz." },
+    { "en": "We're in the same class.", "tr": "Aynı sınıftayız." },
+    { "en": "See you later!", "tr": "Sonra görüşürüz!" }
+  ],
+  "practice": [
+    {
+      "type": "match",
+      "prompt_tr": "Cümleleri eşleştir.",
+      "pairs": [["Nice to meet you.", "Tanıştığıma memnun oldum."], ["Welcome!", "Hoş geldin!"], ["See you later.", "Sonra görüşürüz."], ["This is my friend.", "Bu benim arkadaşım."]]
+    },
+    {
+      "type": "mcq",
+      "prompt": "Nice to meet you.",
+      "prompt_tr": "En uygun cevabı seç.",
+      "options": ["Thank you, too.", "Nice to meet you, too.", "Yes, I am."],
+      "answer": 1,
+      "explain_tr": "Aynı cümleyi too ekleyerek söyleriz: Nice to meet you, too."
+    },
+    {
+      "type": "fill",
+      "prompt": "Anna, ___ is my friend, Ali.",
+      "tr": "Anna, bu benim arkadaşım Ali.",
+      "options": ["he", "this", "it"],
+      "answer": 1,
+      "explain_tr": "Birini tanıtırken This is … kullanılır."
+    },
+    {
+      "type": "order",
+      "answer": "Nice to meet you, too.",
+      "tr": "Ben de memnun oldum."
+    },
+    {
+      "type": "listen",
+      "audio": "Welcome to the hotel.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["Welcome to the class.", "Welcome to the hotel.", "Welcome to Turkey."],
+      "answer": 1
+    },
+    {
+      "type": "mcq",
+      "prompt": "Are you a new student?",
+      "prompt_tr": "Olumsuz cevabı seç.",
+      "options": ["Yes, I am.", "No, you aren't.", "No, I'm not."],
+      "answer": 2,
+      "explain_tr": "Olumsuz kısa cevap: No, I'm not."
+    },
+    {
+      "type": "fill",
+      "prompt": "Good evening, ___ Demir.",
+      "tr": "İyi akşamlar, Bay Demir.",
+      "options": ["Mr", "Mrs", "Ms"],
+      "answer": 0,
+      "explain_tr": "Erkekler için Mr kullanılır."
+    },
+    {
+      "type": "listen",
+      "audio": "This is Ms Kaya. She's our teacher.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["This is Mr Kaya. He's our teacher.", "This is Ms Kaya. She's a doctor.", "This is Ms Kaya. She's our teacher."],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "answer": "This is my friend, Ali.",
+      "tr": "Bu benim arkadaşım Ali."
+    }
+  ],
+  "test": [
+    {
+      "type": "mcq",
+      "prompt": "Tom: “Nice to meet you.” Elif: “___”",
+      "prompt_tr": "Elif ne der?",
+      "options": ["Nice to meet you, too.", "I'm fine, thanks.", "See you later."],
+      "answer": 0,
+      "explain_tr": "“Nice to meet you” cevabı: Nice to meet you, too."
+    },
+    {
+      "type": "fill",
+      "prompt": "Ali, this ___ my teacher, Ms Aksoy.",
+      "tr": "Ali, bu benim öğretmenim Bayan Aksoy.",
+      "options": ["are", "am", "is"],
+      "answer": 2,
+      "explain_tr": "this ile is kullanılır: This is …"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Are you Mr Demir?",
+      "prompt_tr": "Olumlu cevabı seç.",
+      "options": ["Yes, he is.", "Yes, I am.", "Yes, I'm."],
+      "answer": 1,
+      "explain_tr": "Olumlu kısa cevap kısaltılmaz: Yes, I am."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ayşe Kaya is our teacher. We say: “Good morning, ___!”",
+      "prompt_tr": "Öğretmene nasıl hitap edilir?",
+      "options": ["Mr Kaya", "Ms Kaya", "Ms Ayşe"],
+      "answer": 1,
+      "explain_tr": "Kadın için Ms kullanılır ve soyadından önce gelir: Ms Kaya."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Soruyu cevapla eşleştir.",
+      "pairs": [["What's your name?", "My name is Tom."], ["Where are you from?", "I'm from London."], ["Are you a student?", "Yes, I am."], ["Who is she?", "She's my sister."]]
+    },
+    {
+      "type": "listen",
+      "audio": "We're in the same class.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["We're in the same class.", "They're in the same class.", "We're in the hotel."],
+      "answer": 0,
+      "explain_tr": "We're = biz. Cümle “same class” (aynı sınıf) idi."
+    },
+    {
+      "type": "order",
+      "answer": "This is my friend from school.",
+      "tr": "Bu okuldan arkadaşım."
+    },
+    {
+      "type": "mcq",
+      "prompt": "A: Is Tom a teacher? B: No, he isn't. ___",
+      "prompt_tr": "Diyaloğu tamamla.",
+      "options": ["He's a teacher.", "She's a student.", "He's a student."],
+      "answer": 2,
+      "explain_tr": "Tom öğretmen değil; doğrusunu he ile söyleriz: He's a student."
+    },
+    {
+      "type": "fill",
+      "prompt": "Hello, I ___ Elif. I'm a new student.",
+      "tr": "Merhaba, ben Elif. Yeni bir öğrenciyim.",
+      "options": ["is", "am", "are"],
+      "answer": 1,
+      "explain_tr": "I ile am kullanılır."
+    },
+    {
+      "type": "order",
+      "answer": "Welcome to our class.",
+      "tr": "Sınıfımıza hoş geldin."
+    }
+  ],
+  "vocab": [
+    { "lemma": "nice to meet you", "pos": "phrase", "tr": "tanıştığıma memnun oldum", "ipa": "/naɪs tə ˈmiːt juː/", "ex_en": "Nice to meet you, Tom.", "ex_tr": "Tanıştığıma memnun oldum, Tom." },
+    { "lemma": "too", "pos": "adv", "tr": "de, da (ayrıca)", "ipa": "/tuː/", "ex_en": "Nice to meet you, too.", "ex_tr": "Ben de memnun oldum." },
+    { "lemma": "meet", "pos": "verb", "tr": "tanışmak, buluşmak", "ipa": "/miːt/", "ex_en": "Nice to meet you.", "ex_tr": "Tanıştığıma memnun oldum." },
+    { "lemma": "welcome", "pos": "phrase", "tr": "hoş geldin / hoş geldiniz", "ipa": "/ˈwelkəm/", "ex_en": "Welcome to the hotel.", "ex_tr": "Otele hoş geldiniz." },
+    { "lemma": "see you later", "pos": "phrase", "tr": "sonra görüşürüz", "ipa": "/ˈsiː juː ˈleɪtə/", "ex_en": "See you later, Elif!", "ex_tr": "Sonra görüşürüz, Elif!" },
+    { "lemma": "hotel", "pos": "noun", "tr": "otel", "ipa": "/həʊˈtel/", "ex_en": "We're at the hotel.", "ex_tr": "Oteldeyiz." },
+    { "lemma": "room", "pos": "noun", "tr": "oda", "ipa": "/ruːm/", "ex_en": "Your room is 24.", "ex_tr": "Odanız 24." },
+    { "lemma": "key", "pos": "noun", "tr": "anahtar", "ipa": "/kiː/", "ex_en": "Here's your key.", "ex_tr": "Buyurun anahtarınız." },
+    { "lemma": "class", "pos": "noun", "tr": "sınıf, ders", "ipa": "/klɑːs/", "ex_en": "We're in the same class.", "ex_tr": "Aynı sınıftayız." },
+    { "lemma": "new", "pos": "adj", "tr": "yeni", "ipa": "/njuː/", "ex_en": "Are you a new student?", "ex_tr": "Yeni öğrenci misin?" },
+    { "lemma": "same", "pos": "adj", "tr": "aynı", "ipa": "/seɪm/", "ex_en": "We're in the same class.", "ex_tr": "Aynı sınıftayız." },
+    { "lemma": "our", "pos": "det", "tr": "bizim", "ipa": "/ˈaʊə/", "ex_en": "She's our teacher.", "ex_tr": "O bizim öğretmenimiz." },
+    { "lemma": "Mr", "pos": "noun", "tr": "Bay (erkek, soyadından önce)", "ipa": "/ˈmɪstə/", "ex_en": "Good evening, Mr Demir.", "ex_tr": "İyi akşamlar, Bay Demir." },
+    { "lemma": "Mrs", "pos": "noun", "tr": "Bayan (evli kadın)", "ipa": "/ˈmɪsɪz/", "ex_en": "This is Mrs Brown.", "ex_tr": "Bu Bayan Brown." },
+    { "lemma": "Ms", "pos": "noun", "tr": "Bayan (her kadın için)", "ipa": "/mɪz/", "ex_en": "Ms Kaya is our teacher.", "ex_tr": "Bayan Kaya bizim öğretmenimiz." }
+  ]
+}

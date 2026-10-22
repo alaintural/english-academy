@@ -1,0 +1,249 @@
+{
+  "book": "oz",
+  "number": 12,
+  "title_en": "Home Again",
+  "title_tr": "Yeniden Evde",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Dorothy puts on the Golden Cap again.",
+      "tr": "Dorothy yine Altın Şapka'yı takıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["put","koyuyor (put on: takmak)"], ["on","(put on: takmak)"], ["the","(belirli tanımlık)"], ["golden","altın"], ["cap","şapka"], ["again","yine"]]
+    },
+    {
+      "en": "The Winged Monkeys carry the friends to the land of Glinda.",
+      "tr": "Kanatlı Maymunlar arkadaşları Glinda'nın ülkesine taşıyor.",
+      "w": [["the","(belirli tanımlık)"], ["winged","kanatlı"], ["monkey","maymunlar"], ["carry","taşıyorlar"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["to","-e"], ["the","(belirli tanımlık)"], ["land","ülke"], ["of","-in"], ["Glinda","Glinda (iyi cadının adı)"]]
+    },
+    {
+      "en": "Glinda lives in a red castle in the South.",
+      "tr": "Glinda, Güney'de kırmızı bir şatoda yaşıyor.",
+      "w": [["Glinda","Glinda (iyi cadının adı)"], ["live","yaşıyor"], ["in","-de"], ["a","bir"], ["red","kırmızı"], ["castle","şato"], ["in","-de"], ["the","(belirli tanımlık)"], ["south","güney"]]
+    },
+    {
+      "p": true,
+      "en": "Glinda is young and very beautiful.",
+      "tr": "Glinda genç ve çok güzel.",
+      "w": [["Glinda","Glinda (iyi cadının adı)"], ["be","-dir (olmak)"], ["young","genç"], ["and","ve"], ["very","çok"], ["beautiful","güzel"]]
+    },
+    {
+      "en": "She has red hair and blue eyes.",
+      "tr": "Kızıl saçları ve mavi gözleri var.",
+      "w": [["she","o (kadın)"], ["have","sahip, -leri var"], ["red","kırmızı, kızıl"], ["hair","saç"], ["and","ve"], ["blue","mavi"], ["eye","gözler"]]
+    },
+    {
+      "en": "“What can I do for you, my child?” she asks.",
+      "tr": "“Senin için ne yapabilirim, çocuğum?” diye soruyor.",
+      "w": [["what","ne"], ["can","-ebilirim"], ["I","ben"], ["do","yapmak"], ["for","için"], ["you","sen, senin"], ["my","benim"], ["child","çocuk"], ["she","o (kadın)"], ["ask","soruyor"]]
+    },
+    {
+      "en": "Dorothy tells her story.",
+      "tr": "Dorothy hikâyesini anlatıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["tell","anlatıyor"], ["her","onun (kadın)"], ["story","hikâye"]]
+    },
+    {
+      "en": "“I want to go home to Kansas,” she says.",
+      "tr": "“Kansas'a, evime gitmek istiyorum,” diyor.",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["home","eve"], ["to","-e"], ["Kansas","Kansas (ABD'de bir eyalet)"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“That is my only wish.”",
+      "tr": "“Tek dileğim bu.”",
+      "w": [["that","o, bu"], ["be","-dir (olmak)"], ["my","benim"], ["only","tek"], ["wish","dilek"]]
+    },
+    {
+      "p": true,
+      "en": "Glinda kisses her. “I can help you,” she says.",
+      "tr": "Glinda onu öpüyor. “Sana yardım edebilirim,” diyor.",
+      "w": [["Glinda","Glinda (iyi cadının adı)"], ["kiss","öpüyor"], ["her","onu"], ["I","ben"], ["can","-ebilirim"], ["help","yardım etmek"], ["you","sana"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“But first, please give me the Golden Cap.”",
+      "tr": "“Ama önce lütfen bana Altın Şapka'yı ver.”",
+      "w": [["but","ama"], ["first","önce"], ["please","lütfen"], ["give","ver"], ["me","bana"], ["the","(belirli tanımlık)"], ["golden","altın"], ["cap","şapka"]]
+    },
+    {
+      "en": "Dorothy gives her the cap.",
+      "tr": "Dorothy şapkayı ona veriyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["give","veriyor"], ["her","ona"], ["the","(belirli tanımlık)"], ["cap","şapka"]]
+    },
+    {
+      "en": "Then Glinda asks the friends, “What do you want to do now?”",
+      "tr": "Sonra Glinda arkadaşlara soruyor: “Şimdi ne yapmak istiyorsunuz?”",
+      "w": [["then","sonra"], ["Glinda","Glinda (iyi cadının adı)"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["what","ne"], ["do","(soru yardımcısı)"], ["you","siz"], ["want","istemek"], ["to","(mastar eki) -mek"], ["do","yapmak"], ["now","şimdi"]]
+    },
+    {
+      "en": "“I want to go back to the Emerald City and rule it,” says the Scarecrow.",
+      "tr": "“Zümrüt Şehir'e geri dönüp onu yönetmek istiyorum,” diyor Korkuluk.",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["back","geri"], ["to","-e"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"], ["and","ve"], ["rule","yönetmek"], ["it","onu"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“I want to rule the Winkies,” says the Tin Woodman.",
+      "tr": "“Winkileri yönetmek istiyorum,” diyor Teneke Adam.",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["rule","yönetmek"], ["the","(belirli tanımlık)"], ["Winkie","Winkiler (Batı'daki halk)"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“And I want to be King of the forest,” says the Lion.",
+      "tr": "“Ben de ormanın kralı olmak istiyorum,” diyor Aslan.",
+      "w": [["and","ve"], ["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["be","olmak"], ["king","kral"], ["of","-in"], ["the","(belirli tanımlık)"], ["forest","orman"], ["say","diyor"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "“The Winged Monkeys can take you there,” says Glinda.",
+      "tr": "“Kanatlı Maymunlar sizi oraya götürebilir,” diyor Glinda.",
+      "w": [["the","(belirli tanımlık)"], ["winged","kanatlı"], ["monkey","maymunlar"], ["can","-ebilir"], ["take","götürmek"], ["you","sizi"], ["there","oraya"], ["say","diyor"], ["Glinda","Glinda (iyi cadının adı)"]]
+    },
+    {
+      "en": "Then she gives the Golden Cap to the King of the Monkeys.",
+      "tr": "Sonra Altın Şapka'yı Maymunların Kralı'na veriyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["give","veriyor"], ["the","(belirli tanımlık)"], ["golden","altın"], ["cap","şapka"], ["to","-e"], ["the","(belirli tanımlık)"], ["king","kral"], ["of","-in"], ["the","(belirli tanımlık)"], ["monkey","maymunlar"]]
+    },
+    {
+      "en": "Now the monkeys are free.",
+      "tr": "Artık maymunlar özgür.",
+      "w": [["now","artık"], ["the","(belirli tanımlık)"], ["monkey","maymunlar"], ["be","-dir (olmak)"], ["free","özgür"]]
+    },
+    {
+      "p": true,
+      "en": "“But how can I go home?” asks Dorothy.",
+      "tr": "“Peki ben eve nasıl gidebilirim?” diye soruyor Dorothy.",
+      "w": [["but","ama, peki"], ["how","nasıl"], ["can","-ebilirim"], ["I","ben"], ["go","gitmek"], ["home","eve"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Your silver shoes can take you home,” says Glinda.",
+      "tr": "“Gümüş ayakkabıların seni eve götürebilir,” diyor Glinda.",
+      "w": [["your","senin"], ["silver","gümüş"], ["shoe","ayakkabılar"], ["can","-ebilir"], ["take","götürmek"], ["you","seni"], ["home","eve"], ["say","diyor"], ["Glinda","Glinda (iyi cadının adı)"]]
+    },
+    {
+      "en": "“They have great power.”",
+      "tr": "“Onların büyük bir gücü var.”",
+      "w": [["they","onlar"], ["have","sahip, -leri var"], ["great","büyük"], ["power","güç"]]
+    },
+    {
+      "en": "“They can carry you over the desert to any place in the world.”",
+      "tr": "“Seni çölün üstünden dünyadaki her yere taşıyabilirler.”",
+      "w": [["they","onlar"], ["can","-ebilirler"], ["carry","taşımak"], ["you","seni"], ["over","üstünden"], ["the","(belirli tanımlık)"], ["desert","çöl"], ["to","-e"], ["any","herhangi bir, her"], ["place","yer"], ["in","-de"], ["the","(belirli tanımlık)"], ["world","dünya"]]
+    },
+    {
+      "en": "“Knock your heels together three times.”",
+      "tr": "“Topuklarını üç kez birbirine vur.”",
+      "w": [["knock","vur"], ["your","senin"], ["heel","topuklar"], ["together","birbirine, birlikte"], ["three","üç"], ["time","kez"]]
+    },
+    {
+      "en": "“Then say where you want to go.”",
+      "tr": "“Sonra nereye gitmek istediğini söyle.”",
+      "w": [["then","sonra"], ["say","söyle"], ["where","nereye"], ["you","sen"], ["want","istemek"], ["to","(mastar eki) -mek"], ["go","gitmek"]]
+    },
+    {
+      "p": true,
+      "en": "Now Dorothy must say goodbye.",
+      "tr": "Şimdi Dorothy veda etmeli.",
+      "w": [["now","şimdi"], ["Dorothy","Dorothy (kız adı)"], ["must","-meli"], ["say","söylemek"], ["goodbye","hoşça kal (say goodbye: veda etmek)"]]
+    },
+    {
+      "en": "She kisses the Lion and the Tin Woodman.",
+      "tr": "Aslan'ı ve Teneke Adam'ı öpüyor.",
+      "w": [["she","o (kadın)"], ["kiss","öpüyor"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["and","ve"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "The Tin Woodman cries.",
+      "tr": "Teneke Adam ağlıyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["cry","ağlıyor"]]
+    },
+    {
+      "en": "She hugs the Scarecrow.",
+      "tr": "Korkuluk'a sarılıyor.",
+      "w": [["she","o (kadın)"], ["hug","sarılıyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "Then she takes Toto in her arms.",
+      "tr": "Sonra Toto'yu kucağına alıyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["take","alıyor"], ["Toto","Toto (köpeğin adı)"], ["in","içine"], ["her","onun (kadın)"], ["arm","kollar, kucak"]]
+    },
+    {
+      "en": "She knocks her heels together three times.",
+      "tr": "Topuklarını üç kez birbirine vuruyor.",
+      "w": [["she","o (kadın)"], ["knock","vuruyor"], ["her","onun (kadın)"], ["heel","topuklar"], ["together","birbirine"], ["three","üç"], ["time","kez"]]
+    },
+    {
+      "en": "“Take me home to Aunt Em!” she says.",
+      "tr": "“Beni evime, Em Teyze'ye götür!” diyor.",
+      "w": [["take","götür"], ["me","beni"], ["home","eve"], ["to","-e"], ["aunt","teyze"], ["Em","Em (kadın adı)"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "p": true,
+      "en": "The wind takes her up into the sky.",
+      "tr": "Rüzgâr onu gökyüzüne kaldırıyor.",
+      "w": [["the","(belirli tanımlık)"], ["wind","rüzgâr"], ["take","götürüyor, kaldırıyor"], ["her","onu"], ["up","yukarı"], ["into","içine"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "Then she falls onto soft green grass.",
+      "tr": "Sonra yumuşak, yeşil çimenlerin üstüne düşüyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["fall","düşüyor"], ["onto","üstüne"], ["soft","yumuşak"], ["green","yeşil"], ["grass","çimen"]]
+    },
+    {
+      "en": "She looks around. She is in Kansas!",
+      "tr": "Etrafına bakıyor. Kansas'ta!",
+      "w": [["she","o (kadın)"], ["look","bakıyor"], ["around","etrafına"], ["she","o (kadın)"], ["be","-dir (olmak)"], ["in","-de"], ["Kansas","Kansas (ABD'de bir eyalet)"]]
+    },
+    {
+      "en": "There is a new house on the farm, and Uncle Henry is near it.",
+      "tr": "Çiftlikte yeni bir ev var, Henry Amca da onun yanında.",
+      "w": [["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["new","yeni"], ["house","ev"], ["on","-de"], ["the","(belirli tanımlık)"], ["farm","çiftlik"], ["and","ve"], ["uncle","amca"], ["Henry","Henry (erkek adı)"], ["be","-dir (olmak)"], ["near","yanında, yakınında"], ["it","onun"]]
+    },
+    {
+      "en": "The silver shoes are not on her feet now.",
+      "tr": "Gümüş ayakkabılar artık ayaklarında değil.",
+      "w": [["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabılar"], ["be","-dir (olmak)"], ["not","değil"], ["on","üstünde"], ["her","onun (kadın)"], ["foot","ayaklar"], ["now","artık"]]
+    },
+    {
+      "p": true,
+      "en": "Aunt Em comes out of the house.",
+      "tr": "Em Teyze evden çıkıyor.",
+      "w": [["aunt","teyze"], ["Em","Em (kadın adı)"], ["come","geliyor (come out: çıkmak)"], ["out","dışarı"], ["of","-den"], ["the","(belirli tanımlık)"], ["house","ev"]]
+    },
+    {
+      "en": "She sees Dorothy and runs to her.",
+      "tr": "Dorothy'yi görüyor ve ona koşuyor.",
+      "w": [["she","o (kadın)"], ["see","görüyor"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["run","koşuyor"], ["to","-e"], ["her","ona"]]
+    },
+    {
+      "en": "“My dear child!” she cries, and she hugs Dorothy.",
+      "tr": "“Canım çocuğum!” diye bağırıyor ve Dorothy'ye sarılıyor.",
+      "w": [["my","benim"], ["dear","canım, sevgili"], ["child","çocuk"], ["she","o (kadın)"], ["cry","bağırıyor"], ["and","ve"], ["she","o (kadın)"], ["hug","sarılıyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Where are you coming from?”",
+      "tr": "“Nereden geliyorsun?”",
+      "w": [["where","nereden"], ["be","(yardımcı fiil)"], ["you","sen"], ["come","geliyorsun"], ["from","-den"]]
+    },
+    {
+      "en": "“From the Land of Oz,” says Dorothy. “And here is Toto too.”",
+      "tr": "“Oz Ülkesi'nden,” diyor Dorothy. “Toto da burada.”",
+      "w": [["from","-den"], ["the","(belirli tanımlık)"], ["land","ülke"], ["of","-in"], ["Oz","Oz (büyücünün adı)"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["here","burada"], ["be","-dir (olmak)"], ["Toto","Toto (köpeğin adı)"], ["too","de, da"]]
+    },
+    {
+      "en": "“Oh, Aunt Em! I'm so glad to be at home again!”",
+      "tr": "“Ah, Em Teyze! Yeniden evde olduğuma çok sevindim!”",
+      "w": [["oh","ah, oh"], ["aunt","teyze"], ["Em","Em (kadın adı)"], ["be","ben ...-im (I'm = I am)"], ["so","çok, o kadar"], ["glad","memnun, sevinçli"], ["to","(mastar eki) -mek"], ["be","olmak"], ["at","-de"], ["home","ev"], ["again","yeniden"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"wish","pos":"noun","tr":"dilek","ipa":"/wɪʃ/","ex_en":"That is my only wish.","ex_tr":"Tek dileğim bu."},
+    {"lemma":"child","pos":"noun","tr":"çocuk","ipa":"/tʃaɪld/","ex_en":"What can I do for you, my child?","ex_tr":"Senin için ne yapabilirim, çocuğum?"},
+    {"lemma":"rule","pos":"verb","tr":"yönetmek","ipa":"/ruːl/","ex_en":"I want to rule the Winkies.","ex_tr":"Winkileri yönetmek istiyorum."},
+    {"lemma":"power","pos":"noun","tr":"güç","ipa":"/ˈpaʊə/","ex_en":"They have great power.","ex_tr":"Onların büyük bir gücü var."},
+    {"lemma":"desert","pos":"noun","tr":"çöl","ipa":"/ˈdezət/","ex_en":"They can carry you over the desert.","ex_tr":"Seni çölün üstünden taşıyabilirler."},
+    {"lemma":"world","pos":"noun","tr":"dünya","ipa":"/wɜːld/","ex_en":"They can carry you to any place in the world.","ex_tr":"Seni dünyadaki her yere taşıyabilirler."},
+    {"lemma":"knock","pos":"verb","tr":"vurmak, çarpmak","ipa":"/nɒk/","ex_en":"Knock your heels together three times.","ex_tr":"Topuklarını üç kez birbirine vur."},
+    {"lemma":"heel","pos":"noun","tr":"topuk","ipa":"/hiːl/","ex_en":"She knocks her heels together three times.","ex_tr":"Topuklarını üç kez birbirine vuruyor."},
+    {"lemma":"hug","pos":"verb","tr":"sarılmak","ipa":"/hʌɡ/","ex_en":"She hugs the Scarecrow.","ex_tr":"Korkuluk'a sarılıyor."},
+    {"lemma":"glad","pos":"adjective","tr":"memnun, sevinçli","ipa":"/ɡlæd/","ex_en":"I'm so glad to be at home again!","ex_tr":"Yeniden evde olduğuma çok sevindim!"}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"Who is Glinda?","prompt_tr":"Glinda kim?","options":["The Wicked Witch of the West","The Good Witch of the South","Aunt Em's friend"],"answer":1},
+    {"type":"mcq","prompt":"What does the Scarecrow want to do?","prompt_tr":"Korkuluk ne yapmak istiyor?","options":["Rule the Emerald City","Live in Kansas","Go into the balloon"],"answer":0},
+    {"type":"mcq","prompt":"What can take Dorothy home?","prompt_tr":"Dorothy'yi eve ne götürebilir?","options":["The balloon","The Winged Monkeys","The silver shoes"],"answer":2},
+    {"type":"mcq","prompt":"How many times does Dorothy knock her heels together?","prompt_tr":"Dorothy topuklarını kaç kez birbirine vuruyor?","options":["Two","Three","Four"],"answer":1},
+    {"type":"mcq","prompt":"Who comes out of the house in Kansas?","prompt_tr":"Kansas'ta evden kim çıkıyor?","options":["Aunt Em","Glinda","The Lion"],"answer":0}
+  ]
+}

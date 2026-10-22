@@ -1,0 +1,137 @@
+{
+  "id": 5,
+  "unit": 1,
+  "title_tr": "İlk cümleler",
+  "title_en": "First Sentences",
+  "summary_tr": "I am, This is ve It is kalıplarıyla renkler ve eşyalar hakkında ilk cümlelerini kur.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Artık harfleri, selamları, sayıları ve ülkeleri biliyorsun. Şimdi bunları birleştirip **cümle** kuralım. Üç kalıp yeter: **I am …**, **This is …**, **It is …**."
+    },
+    {
+      "type": "table",
+      "title_tr": "Üç temel kalıp",
+      "head": ["Kalıp", "Örnek", "Türkçe"],
+      "rows": [
+        ["I am (I'm)", "I am Elif. I'm 20.", "Ben Elif'im. 20 yaşındayım."],
+        ["This is", "This is Tom.", "Bu Tom."],
+        ["It is (It's)", "It's a book.", "O bir kitap."],
+        ["That is (That's)", "That's my car.", "Şu benim arabam."]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Türkçede “Bu bir kitap.” derken fiil yok. İngilizcede ise **is** şart: **This is a book.** doğru, “This a book.” yanlış."
+    },
+    {
+      "type": "text",
+      "tr": "**this** = bu: yakındaki, elinde tuttuğun şey. **that** = şu: uzaktaki, parmakla gösterdiğin şey. **a** = bir."
+    },
+    {
+      "type": "examples",
+      "title_tr": "this / that ile eşyalar",
+      "items": [
+        { "en": "This is a book.", "tr": "Bu bir kitap." },
+        { "en": "This is my phone.", "tr": "Bu benim telefonum." },
+        { "en": "That is a car.", "tr": "Şu bir araba." },
+        { "en": "That's your bag.", "tr": "Şu senin çantan.", "note_tr": "**That's** = That is" },
+        { "en": "What is this? It's a pen.", "tr": "Bu ne? Bir kalem." },
+        { "en": "It's a cup.", "tr": "Bu bir fincan.", "note_tr": "**It** şeyler için kullanılır: o (şey)." }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**this** ve **that** kelimelerinde de **th** var. Dil yine dişlerin arasında, ama bu sefer ses titreşimli: “dis”, “dät” gibi."
+    },
+    {
+      "type": "table",
+      "title_tr": "Renkler (colours)",
+      "head": ["İngilizce", "Türkçe", "Okunuş"],
+      "rows": [
+        ["red", "kırmızı", "red"],
+        ["blue", "mavi", "bluu"],
+        ["green", "yeşil", "griin"],
+        ["yellow", "sarı", "yelou"],
+        ["black", "siyah", "blek"],
+        ["white", "beyaz", "uayt"],
+        ["orange", "turuncu", "orinc"],
+        ["brown", "kahverengi", "braun"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Renk, Türkçedeki gibi isimden **önce** gelir: **a red car** = kırmızı bir araba. Renk sormak için: **What colour is it?** (Ne renk?)"
+    },
+    {
+      "type": "examples",
+      "title_tr": "Kısa bir diyalog",
+      "items": [
+        { "en": "Hello! I'm Elif. This is Tom.", "tr": "Merhaba! Ben Elif. Bu Tom." },
+        { "en": "Hi, Tom! Nice to meet you.", "tr": "Merhaba Tom! Tanıştığımıza memnun oldum." },
+        { "en": "Nice to meet you, too.", "tr": "Ben de memnun oldum." },
+        { "en": "What is this, Tom?", "tr": "Bu ne, Tom?" },
+        { "en": "It's my phone. It's black.", "tr": "Benim telefonum. Siyah." }
+      ]
+    }
+  ],
+  "listen": [
+    { "en": "I am Elif.", "tr": "Ben Elif'im." },
+    { "en": "I'm from Turkey. I'm 25.", "tr": "Türkiye'denim. 25 yaşındayım." },
+    { "en": "This is Tom.", "tr": "Bu Tom." },
+    { "en": "This is my book.", "tr": "Bu benim kitabım." },
+    { "en": "That is a car.", "tr": "Şu bir araba." },
+    { "en": "What is this?", "tr": "Bu ne?" },
+    { "en": "It's a pen.", "tr": "Bir kalem." },
+    { "en": "What colour is it?", "tr": "Ne renk?" },
+    { "en": "It's red.", "tr": "Kırmızı." },
+    { "en": "It's a blue bag.", "tr": "Mavi bir çanta." },
+    { "en": "That's a white car.", "tr": "Şu beyaz bir araba." },
+    { "en": "This is my phone. It's black.", "tr": "Bu benim telefonum. Siyah." }
+  ],
+  "practice": [
+    { "type": "match", "prompt_tr": "Rengi Türkçesiyle eşleştir.", "pairs": [["red", "kırmızı"], ["blue", "mavi"], ["green", "yeşil"], ["yellow", "sarı"]] },
+    { "type": "match", "prompt_tr": "Eşyayı Türkçesiyle eşleştir.", "pairs": [["book", "kitap"], ["pen", "kalem"], ["bag", "çanta"], ["car", "araba"]] },
+    { "type": "fill", "prompt": "This ___ a book.", "tr": "Bu bir kitap.", "options": ["am", "is", "are"], "answer": 1, "explain_tr": "This is … = Bu …" },
+    { "type": "fill", "prompt": "___ am Tom.", "tr": "Ben Tom'um.", "options": ["It", "This", "I"], "answer": 2, "explain_tr": "am sadece I ile kullanılır: I am." },
+    { "type": "order", "answer": "This is my phone.", "tr": "Bu benim telefonum." },
+    { "type": "listen", "audio": "It's a black bag.", "prompt_tr": "Ne duydun?", "options": ["Siyah bir çanta.", "Beyaz bir çanta.", "Siyah bir araba."], "answer": 0, "explain_tr": "black = siyah, bag = çanta." },
+    { "type": "mcq", "prompt": "Elinde bir kalem tutuyorsun. Ne dersin?", "options": ["That is a pen.", "This is a pen.", "I am a pen."], "answer": 1, "explain_tr": "Yakındaki şey için this kullanılır." },
+    { "type": "listen", "audio": "That's a white car.", "prompt_tr": "Ne duydun?", "options": ["Şu kırmızı bir araba.", "Bu beyaz bir çanta.", "Şu beyaz bir araba."], "answer": 2, "explain_tr": "That's = Şu …, white = beyaz." },
+    { "type": "mcq", "prompt": "What is this?", "prompt_tr": "En uygun cevap hangisi?", "options": ["It's a cup.", "I'm fine.", "I'm from Spain."], "answer": 0, "explain_tr": "What is this? sorusuna It's a … ile cevap verilir." },
+    { "type": "order", "answer": "It's a red car.", "tr": "Kırmızı bir araba." }
+  ],
+  "test": [
+    { "type": "fill", "prompt": "It ___ a pen.", "tr": "O bir kalem.", "options": ["am", "are", "is"], "answer": 2, "explain_tr": "It ile is kullanılır: It is." },
+    { "type": "fill", "prompt": "I ___ from Turkey.", "tr": "Türkiye'denim.", "options": ["am", "is", "are"], "answer": 0, "explain_tr": "I ile am kullanılır: I am." },
+    { "type": "mcq", "prompt": "Hangisi doğru?", "options": ["This a book.", "This is a book.", "This am a book."], "answer": 1, "explain_tr": "İngilizcede is şart: This is a book." },
+    { "type": "order", "answer": "This is my bag.", "tr": "Bu benim çantam.", "explain_tr": "This is + my + eşya." },
+    { "type": "listen", "audio": "It's a green cup.", "prompt_tr": "Ne duydun?", "options": ["Mavi bir fincan.", "Yeşil bir fincan.", "Yeşil bir çanta.", "Sarı bir fincan."], "answer": 1, "explain_tr": "green = yeşil, cup = fincan." },
+    { "type": "match", "prompt_tr": "Rengi Türkçesiyle eşleştir.", "pairs": [["black", "siyah"], ["white", "beyaz"], ["orange", "turuncu"], ["brown", "kahverengi"]] },
+    { "type": "mcq", "prompt": "Uzaktaki bir arabayı gösteriyorsun. Ne dersin?", "options": ["This is a car.", "I'm a car.", "That is a car."], "answer": 2, "explain_tr": "Uzaktaki şey için that kullanılır." },
+    { "type": "listen", "audio": "What colour is it?", "prompt_tr": "Duyduğun soru ne demek?", "options": ["Ne renk?", "Bu ne?", "Nerelisin?"], "answer": 0, "explain_tr": "colour = renk. What colour is it? = Ne renk?" },
+    { "type": "fill", "prompt": "It's a ___ car.", "tr": "Kırmızı bir araba.", "options": ["blue", "black", "yellow", "red"], "answer": 3, "explain_tr": "red = kırmızı. Renk isimden önce gelir." },
+    { "type": "mcq", "prompt": "This is Tom.", "prompt_tr": "Biri sana Tom'u tanıştırıyor. Ne dersin?", "options": ["Goodbye, Tom.", "Nice to meet you, Tom.", "I'm 20, Tom."], "answer": 1, "explain_tr": "Tanışınca Nice to meet you denir." }
+  ],
+  "vocab": [
+    { "lemma": "be", "pos": "verb", "tr": "olmak (am, is, are)", "ipa": "/biː/", "ex_en": "I am Elif. It is red.", "ex_tr": "Ben Elif'im. O kırmızı." },
+    { "lemma": "this", "pos": "pron", "tr": "bu", "ipa": "/ðɪs/", "ex_en": "This is Tom.", "ex_tr": "Bu Tom." },
+    { "lemma": "that", "pos": "pron", "tr": "şu, o", "ipa": "/ðæt/", "ex_en": "That is a car.", "ex_tr": "Şu bir araba." },
+    { "lemma": "a", "pos": "det", "tr": "bir", "ipa": "/ə/", "ex_en": "It's a book.", "ex_tr": "Bir kitap." },
+    { "lemma": "book", "pos": "noun", "tr": "kitap", "ipa": "/bʊk/", "ex_en": "This is my book.", "ex_tr": "Bu benim kitabım." },
+    { "lemma": "pen", "pos": "noun", "tr": "kalem", "ipa": "/pen/", "ex_en": "It's a blue pen.", "ex_tr": "Mavi bir kalem." },
+    { "lemma": "bag", "pos": "noun", "tr": "çanta", "ipa": "/bæɡ/", "ex_en": "That's your bag.", "ex_tr": "Şu senin çantan." },
+    { "lemma": "phone", "pos": "noun", "tr": "telefon", "ipa": "/fəʊn/", "ex_en": "This is my phone.", "ex_tr": "Bu benim telefonum." },
+    { "lemma": "car", "pos": "noun", "tr": "araba", "ipa": "/kɑː/", "ex_en": "That's a white car.", "ex_tr": "Şu beyaz bir araba." },
+    { "lemma": "cup", "pos": "noun", "tr": "fincan, bardak", "ipa": "/kʌp/", "ex_en": "It's a green cup.", "ex_tr": "Yeşil bir fincan." },
+    { "lemma": "colour", "pos": "noun", "tr": "renk", "ipa": "/ˈkʌlə/", "ex_en": "What colour is it?", "ex_tr": "Ne renk?" },
+    { "lemma": "red", "pos": "adj", "tr": "kırmızı", "ipa": "/red/", "ex_en": "It's a red car.", "ex_tr": "Kırmızı bir araba." },
+    { "lemma": "blue", "pos": "adj", "tr": "mavi", "ipa": "/bluː/", "ex_en": "My bag is blue.", "ex_tr": "Benim çantam mavi." },
+    { "lemma": "green", "pos": "adj", "tr": "yeşil", "ipa": "/ɡriːn/", "ex_en": "It's green.", "ex_tr": "Yeşil." },
+    { "lemma": "yellow", "pos": "adj", "tr": "sarı", "ipa": "/ˈjeləʊ/", "ex_en": "It's a yellow car.", "ex_tr": "Sarı bir araba." },
+    { "lemma": "black", "pos": "adj", "tr": "siyah", "ipa": "/blæk/", "ex_en": "My phone is black.", "ex_tr": "Benim telefonum siyah." },
+    { "lemma": "white", "pos": "adj", "tr": "beyaz", "ipa": "/waɪt/", "ex_en": "It's a white cup.", "ex_tr": "Beyaz bir fincan." },
+    { "lemma": "orange", "pos": "adj", "tr": "turuncu", "ipa": "/ˈɒrɪndʒ/", "ex_en": "That bag is orange.", "ex_tr": "Şu çanta turuncu." },
+    { "lemma": "brown", "pos": "adj", "tr": "kahverengi", "ipa": "/braʊn/", "ex_en": "This book is brown.", "ex_tr": "Bu kitap kahverengi." }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "book": "oz",
+  "number": 9,
+  "title_en": "The Wicked Witch of the West",
+  "title_tr": "Batı'nın Kötü Cadısı",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The Wicked Witch of the West has only one eye.",
+      "tr": "Batı'nın Kötü Cadısı'nın sadece bir gözü var.",
+      "w": [["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"], ["have","sahip, -si var"], ["only","sadece"], ["one","bir"], ["eye","göz"]]
+    },
+    {
+      "en": "But her eye is very strong, and it can see very far.",
+      "tr": "Ama gözü çok güçlü ve çok uzağı görebiliyor.",
+      "w": [["but","ama"], ["her","onun (kadın)"], ["eye","göz"], ["be","-dir (olmak)"], ["very","çok"], ["strong","güçlü"], ["and","ve"], ["it","o"], ["can","-ebilir"], ["see","görmek"], ["very","çok"], ["far","uzak, uzağı"]]
+    },
+    {
+      "en": "She sees Dorothy and her friends in her land.",
+      "tr": "Dorothy'yi ve arkadaşlarını kendi topraklarında görüyor.",
+      "w": [["she","o (kadın)"], ["see","görüyor"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["her","onun (kadın)"], ["friend","arkadaşlar"], ["in","-de"], ["her","onun (kadın)"], ["land","toprak, ülke"]]
+    },
+    {
+      "en": "The Witch is angry.",
+      "tr": "Cadı kızgın.",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadı"], ["be","-dir (olmak)"], ["angry","kızgın"]]
+    },
+    {
+      "en": "She blows her silver whistle, and forty wolves come.",
+      "tr": "Gümüş düdüğünü çalıyor ve kırk kurt geliyor.",
+      "w": [["she","o (kadın)"], ["blow","üflüyor, çalıyor"], ["her","onun (kadın)"], ["silver","gümüş"], ["whistle","düdük"], ["and","ve"], ["forty","kırk"], ["wolf","kurtlar"], ["come","geliyorlar"]]
+    },
+    {
+      "en": "“Go and kill them!” she says.",
+      "tr": "“Gidin ve onları öldürün!” diyor.",
+      "w": [["go","gidin"], ["and","ve"], ["kill","öldürün"], ["them","onları"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "But the Tin Woodman kills all the wolves with his axe.",
+      "tr": "Ama Teneke Adam baltasıyla bütün kurtları öldürüyor.",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["kill","öldürüyor"], ["all","bütün"], ["the","(belirli tanımlık)"], ["wolf","kurtlar"], ["with","ile, -le"], ["his","onun (erkek)"], ["axe","balta"]]
+    },
+    {
+      "p": true,
+      "en": "Then the Witch sends forty black crows.",
+      "tr": "Sonra Cadı kırk kara karga gönderiyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["send","gönderiyor"], ["forty","kırk"], ["black","siyah, kara"], ["crow","kargalar"]]
+    },
+    {
+      "en": "The Scarecrow is not afraid of crows. He kills them all.",
+      "tr": "Korkuluk kargalardan korkmuyor. Hepsini öldürüyor.",
+      "w": [["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["be","-dir (olmak)"], ["not","değil"], ["afraid","korkmuş (afraid of: -den korkmak)"], ["of","-den"], ["crow","kargalar"], ["he","o (erkek)"], ["kill","öldürüyor"], ["them","onları"], ["all","hepsi"]]
+    },
+    {
+      "en": "Then she sends a lot of black bees.",
+      "tr": "Sonra bir sürü kara arı gönderiyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["send","gönderiyor"], ["a","(a lot of: bir sürü)"], ["lot","(a lot of: bir sürü)"], ["of","(a lot of: bir sürü)"], ["black","siyah, kara"], ["bee","arılar"]]
+    },
+    {
+      "en": "The Scarecrow puts his straw on Dorothy, Toto and the Lion.",
+      "tr": "Korkuluk samanını Dorothy'nin, Toto'nun ve Aslan'ın üstüne koyuyor.",
+      "w": [["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["put","koyuyor"], ["his","onun (erkek)"], ["straw","saman"], ["on","üstüne"], ["Dorothy","Dorothy (kız adı)"], ["Toto","Toto (köpeğin adı)"], ["and","ve"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "The bees cannot hurt the Tin Woodman, because he is tin.",
+      "tr": "Arılar Teneke Adam'a zarar veremiyor, çünkü o teneke.",
+      "w": [["the","(belirli tanımlık)"], ["bee","arılar"], ["can","-emez (cannot: yapamamak)"], ["hurt","zarar vermek"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["because","çünkü"], ["he","o (erkek)"], ["be","-dir (olmak)"], ["tin","teneke"]]
+    },
+    {
+      "en": "Soon all the bees are dead.",
+      "tr": "Kısa süre sonra bütün arılar ölüyor.",
+      "w": [["soon","kısa süre sonra"], ["all","bütün"], ["the","(belirli tanımlık)"], ["bee","arılar"], ["be","-dir (olmak)"], ["dead","ölü"]]
+    },
+    {
+      "p": true,
+      "en": "Now the Witch is very angry.",
+      "tr": "Artık Cadı çok kızgın.",
+      "w": [["now","artık"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["be","-dir (olmak)"], ["very","çok"], ["angry","kızgın"]]
+    },
+    {
+      "en": "She has a Golden Cap.",
+      "tr": "Onun bir Altın Şapkası var.",
+      "w": [["she","o (kadın)"], ["have","sahip, -si var"], ["a","bir"], ["golden","altın"], ["cap","şapka, başlık"]]
+    },
+    {
+      "en": "With this cap, she can call the Winged Monkeys.",
+      "tr": "Bu şapkayla Kanatlı Maymunları çağırabilir.",
+      "w": [["with","ile"], ["this","bu"], ["cap","şapka"], ["she","o (kadın)"], ["can","-ebilir"], ["call","çağırmak"], ["the","(belirli tanımlık)"], ["winged","kanatlı"], ["monkey","maymunlar"]]
+    },
+    {
+      "en": "The monkeys come and fly at the friends.",
+      "tr": "Maymunlar geliyor ve arkadaşların üstüne uçuyor.",
+      "w": [["the","(belirli tanımlık)"], ["monkey","maymunlar"], ["come","geliyorlar"], ["and","ve"], ["fly","uçuyorlar"], ["at","üstüne"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"]]
+    },
+    {
+      "en": "They throw the Tin Woodman onto some rocks.",
+      "tr": "Teneke Adam'ı kayaların üstüne atıyorlar.",
+      "w": [["they","onlar"], ["throw","atıyorlar"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["onto","üstüne"], ["some","birkaç"], ["rock","kayalar"]]
+    },
+    {
+      "en": "They take the straw out of the Scarecrow.",
+      "tr": "Korkuluk'un samanını dışarı çıkarıyorlar.",
+      "w": [["they","onlar"], ["take","alıyorlar, çıkarıyorlar"], ["the","(belirli tanımlık)"], ["straw","saman"], ["out","dışarı"], ["of","-den"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "They take the Lion to the Witch's castle.",
+      "tr": "Aslan'ı Cadı'nın şatosuna götürüyorlar.",
+      "w": [["they","onlar"], ["take","götürüyorlar"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["to","-e"], ["the","(belirli tanımlık)"], ["witch","cadının"], ["castle","şato"]]
+    },
+    {
+      "en": "But they do not hurt Dorothy, because of the good witch's kiss.",
+      "tr": "Ama iyi cadının öpücüğü yüzünden Dorothy'ye zarar vermiyorlar.",
+      "w": [["but","ama"], ["they","onlar"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["hurt","zarar vermek"], ["Dorothy","Dorothy (kız adı)"], ["because","(because of: yüzünden)"], ["of","(because of: yüzünden)"], ["the","(belirli tanımlık)"], ["good","iyi"], ["witch","cadının"], ["kiss","öpücük"]]
+    },
+    {
+      "en": "They carry her and Toto to the castle too.",
+      "tr": "Onu ve Toto'yu da şatoya taşıyorlar.",
+      "w": [["they","onlar"], ["carry","taşıyorlar"], ["her","onu"], ["and","ve"], ["Toto","Toto (köpeğin adı)"], ["to","-e"], ["the","(belirli tanımlık)"], ["castle","şato"], ["too","de, da"]]
+    },
+    {
+      "p": true,
+      "en": "The Witch sees the kiss and the silver shoes.",
+      "tr": "Cadı öpücüğü ve gümüş ayakkabıları görüyor.",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadı"], ["see","görüyor"], ["the","(belirli tanımlık)"], ["kiss","öpücük"], ["and","ve"], ["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabılar"]]
+    },
+    {
+      "en": "She is afraid, but Dorothy does not know this.",
+      "tr": "Korkuyor, ama Dorothy bunu bilmiyor.",
+      "w": [["she","o (kadın)"], ["be","-dir (olmak)"], ["afraid","korkmuş"], ["but","ama"], ["Dorothy","Dorothy (kız adı)"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["know","bilmek"], ["this","bunu"]]
+    },
+    {
+      "en": "“You are my servant now,” says the Witch.",
+      "tr": "“Artık sen benim hizmetçimsin,” diyor Cadı.",
+      "w": [["you","sen"], ["be","-sin (olmak)"], ["my","benim"], ["servant","hizmetçi"], ["now","artık"], ["say","diyor"], ["the","(belirli tanımlık)"], ["witch","cadı"]]
+    },
+    {
+      "en": "“Work in my kitchen every day!”",
+      "tr": "“Her gün mutfağımda çalış!”",
+      "w": [["work","çalış"], ["in","-de"], ["my","benim"], ["kitchen","mutfak"], ["every","her"], ["day","gün"]]
+    },
+    {
+      "en": "Dorothy works very hard, and she is very sad.",
+      "tr": "Dorothy çok sıkı çalışıyor ve çok üzgün.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["work","çalışıyor"], ["very","çok"], ["hard","sıkı, çok"], ["and","ve"], ["she","o (kadın)"], ["be","-dir (olmak)"], ["very","çok"], ["sad","üzgün"]]
+    },
+    {
+      "en": "Every night, she takes food to the Lion.",
+      "tr": "Her gece Aslan'a yemek götürüyor.",
+      "w": [["every","her"], ["night","gece"], ["she","o (kadın)"], ["take","götürüyor"], ["food","yemek"], ["to","-e"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "p": true,
+      "en": "The Witch wants the silver shoes, because they are magic.",
+      "tr": "Cadı gümüş ayakkabıları istiyor, çünkü onlar sihirli.",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadı"], ["want","istiyor"], ["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabılar"], ["because","çünkü"], ["they","onlar"], ["be","-dir (olmak)"], ["magic","sihirli"]]
+    },
+    {
+      "en": "One day, Dorothy falls, and one shoe comes off.",
+      "tr": "Bir gün Dorothy düşüyor ve bir ayakkabısı çıkıyor.",
+      "w": [["one","bir"], ["day","gün"], ["Dorothy","Dorothy (kız adı)"], ["fall","düşüyor"], ["and","ve"], ["one","bir"], ["shoe","ayakkabı"], ["come","geliyor (come off: çıkmak)"], ["off","(come off: çıkmak)"]]
+    },
+    {
+      "en": "The Witch steals it quickly.",
+      "tr": "Cadı onu hemen çalıyor.",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadı"], ["steal","çalıyor"], ["it","onu"], ["quickly","hızla, hemen"]]
+    },
+    {
+      "en": "“Give me my shoe!” says Dorothy angrily.",
+      "tr": "“Ayakkabımı ver!” diyor Dorothy öfkeyle.",
+      "w": [["give","ver"], ["me","bana"], ["my","benim"], ["shoe","ayakkabı"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"], ["angrily","öfkeyle"]]
+    },
+    {
+      "en": "“No! It is my shoe now,” says the Witch, and she laughs.",
+      "tr": "“Hayır! Artık o benim ayakkabım,” diyor Cadı ve gülüyor.",
+      "w": [["no","hayır"], ["it","o"], ["be","-dir (olmak)"], ["my","benim"], ["shoe","ayakkabı"], ["now","artık"], ["say","diyor"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["and","ve"], ["she","o (kadın)"], ["laugh","gülüyor"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy is very angry.",
+      "tr": "Dorothy çok kızgın.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["very","çok"], ["angry","kızgın"]]
+    },
+    {
+      "en": "She takes a bucket of water and throws it on the Witch.",
+      "tr": "Bir kova su alıyor ve Cadı'nın üstüne atıyor.",
+      "w": [["she","o (kadın)"], ["take","alıyor"], ["a","bir"], ["bucket","kova"], ["of","(a bucket of: bir kova)"], ["water","su"], ["and","ve"], ["throw","atıyor"], ["it","onu"], ["on","üstüne"], ["the","(belirli tanımlık)"], ["witch","cadı"]]
+    },
+    {
+      "en": "“Oh, no! I am melting!” cries the Witch.",
+      "tr": "“Eyvah! Eriyorum!” diye bağırıyor Cadı.",
+      "w": [["oh","ah, eyvah"], ["no","hayır"], ["I","ben"], ["be","(yardımcı fiil)"], ["melt","eriyorum"], ["cry","bağırıyor"], ["the","(belirli tanımlık)"], ["witch","cadı"]]
+    },
+    {
+      "en": "She gets smaller and smaller.",
+      "tr": "Gittikçe küçülüyor.",
+      "w": [["she","o (kadın)"], ["get","oluyor"], ["small","daha küçük"], ["and","ve"], ["small","daha küçük"]]
+    },
+    {
+      "en": "Soon she is only brown water on the floor.",
+      "tr": "Kısa süre sonra yerde sadece kahverengi bir su kalıyor.",
+      "w": [["soon","kısa süre sonra"], ["she","o (kadın)"], ["be","-dir (olmak)"], ["only","sadece"], ["brown","kahverengi"], ["water","su"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["floor","yer, zemin"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy takes the silver shoe and puts it on again.",
+      "tr": "Dorothy gümüş ayakkabıyı alıp yeniden giyiyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["take","alıyor"], ["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabı"], ["and","ve"], ["put","koyuyor (put on: giymek)"], ["it","onu"], ["on","(put on: giymek)"], ["again","yeniden"]]
+    },
+    {
+      "en": "Then she runs to the Lion.",
+      "tr": "Sonra Aslan'a koşuyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["run","koşuyor"], ["to","-e"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "“The Wicked Witch is dead!” she says. “We are free!”",
+      "tr": "“Kötü Cadı öldü!” diyor. “Özgürüz!”",
+      "w": [["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["be","-dir (olmak)"], ["dead","ölü"], ["she","o (kadın)"], ["say","diyor"], ["we","biz"], ["be","-dir (olmak)"], ["free","özgür"]]
+    },
+    {
+      "en": "The Winkies are free too, and they are very happy.",
+      "tr": "Winkiler de özgür ve çok mutlular.",
+      "w": [["the","(belirli tanımlık)"], ["Winkie","Winkiler (Batı'daki halk)"], ["be","-dir (olmak)"], ["free","özgür"], ["too","de, da"], ["and","ve"], ["they","onlar"], ["be","-dir (olmak)"], ["very","çok"], ["happy","mutlu"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"eye","pos":"noun","tr":"göz","ipa":"/aɪ/","ex_en":"The Wicked Witch of the West has only one eye.","ex_tr":"Batı'nın Kötü Cadısı'nın sadece bir gözü var."},
+    {"lemma":"angry","pos":"adjective","tr":"kızgın, öfkeli","ipa":"/ˈæŋɡri/","ex_en":"Now the Witch is very angry.","ex_tr":"Artık Cadı çok kızgın."},
+    {"lemma":"whistle","pos":"noun","tr":"düdük","ipa":"/ˈwɪsl/","ex_en":"She blows her silver whistle.","ex_tr":"Gümüş düdüğünü çalıyor."},
+    {"lemma":"wolf","pos":"noun","tr":"kurt (çoğulu: wolves)","ipa":"/wʊlf/","ex_en":"Forty wolves come.","ex_tr":"Kırk kurt geliyor."},
+    {"lemma":"bee","pos":"noun","tr":"arı","ipa":"/biː/","ex_en":"Then she sends a lot of black bees.","ex_tr":"Sonra bir sürü kara arı gönderiyor."},
+    {"lemma":"golden","pos":"adjective","tr":"altın, altından","ipa":"/ˈɡəʊldən/","ex_en":"She has a Golden Cap.","ex_tr":"Onun bir Altın Şapkası var."},
+    {"lemma":"cap","pos":"noun","tr":"şapka, başlık","ipa":"/kæp/","ex_en":"With this cap, she can call the Winged Monkeys.","ex_tr":"Bu şapkayla Kanatlı Maymunları çağırabilir."},
+    {"lemma":"monkey","pos":"noun","tr":"maymun","ipa":"/ˈmʌŋki/","ex_en":"The monkeys come and fly at the friends.","ex_tr":"Maymunlar geliyor ve arkadaşların üstüne uçuyor."},
+    {"lemma":"castle","pos":"noun","tr":"şato, kale","ipa":"/ˈkɑːsl/","ex_en":"They take the Lion to the Witch's castle.","ex_tr":"Aslan'ı Cadı'nın şatosuna götürüyorlar."},
+    {"lemma":"servant","pos":"noun","tr":"hizmetçi","ipa":"/ˈsɜːvənt/","ex_en":"You are my servant now.","ex_tr":"Artık sen benim hizmetçimsin."},
+    {"lemma":"steal","pos":"verb","tr":"çalmak","ipa":"/stiːl/","ex_en":"The Witch steals it quickly.","ex_tr":"Cadı onu hemen çalıyor."},
+    {"lemma":"bucket","pos":"noun","tr":"kova","ipa":"/ˈbʌkɪt/","ex_en":"She takes a bucket of water.","ex_tr":"Bir kova su alıyor."},
+    {"lemma":"melt","pos":"verb","tr":"erimek","ipa":"/melt/","ex_en":"Oh, no! I am melting!","ex_tr":"Eyvah! Eriyorum!"}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"How many eyes does the Witch have?","prompt_tr":"Cadının kaç gözü var?","options":["Two","One","Five"],"answer":1},
+    {"type":"mcq","prompt":"Who kills the wolves?","prompt_tr":"Kurtları kim öldürüyor?","options":["The Tin Woodman","The Lion","Toto"],"answer":0},
+    {"type":"mcq","prompt":"Why do the Winged Monkeys not hurt Dorothy?","prompt_tr":"Kanatlı Maymunlar neden Dorothy'ye zarar vermiyor?","options":["She has a dog.","She is very brave.","She has the good witch's kiss."],"answer":2},
+    {"type":"mcq","prompt":"What does the Witch steal?","prompt_tr":"Cadı ne çalıyor?","options":["A golden cap","One silver shoe","The Lion's food"],"answer":1},
+    {"type":"mcq","prompt":"What happens to the Witch after the water?","prompt_tr":"Sudan sonra Cadı'ya ne oluyor?","options":["She laughs.","She flies away.","She melts."],"answer":2}
+  ]
+}

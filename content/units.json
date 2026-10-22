@@ -1,0 +1,18 @@
+[
+  { "id": 1, "title_tr": "Temel Başlangıç", "title_en": "First Steps",
+    "lessons": ["Alfabe ve sesler", "Selamlaşma", "Sayılar ve yaş", "İsim ve ülke söyleme", "İlk cümleler"] },
+  { "id": 2, "title_tr": "Kendini Tanıtma", "title_en": "Introducing Yourself",
+    "lessons": ["I am / You are", "Kişi zamirleri", "Olumsuz cümleler", "Basit sorular", "Tanışma diyalogları"] },
+  { "id": 3, "title_tr": "Aile ve İnsanlar", "title_en": "Family and People",
+    "lessons": ["Aile üyeleri", "Have / Has got", "İyelik ifadeleri", "Sıfatlar", "İnsanları tanımlama"] },
+  { "id": 4, "title_tr": "Ev ve Çevre", "title_en": "Home and Surroundings",
+    "lessons": ["Ev ve eşyalar", "A / An / The", "Tekil ve çoğul", "There is / There are", "Yer bildiren ifadeler"] },
+  { "id": 5, "title_tr": "Günlük Yaşam", "title_en": "Daily Life",
+    "lessons": ["Present Simple", "Olumsuz ve soru biçimleri", "Saatler", "Günlük rutinler", "Sıklık zarfları"] },
+  { "id": 6, "title_tr": "Yemek ve Alışveriş", "title_en": "Food and Shopping",
+    "lessons": ["Yiyecekler", "Some / Any", "Miktarlar", "Fiyatlar", "Restoran konuşmaları"] },
+  { "id": 7, "title_tr": "Şehir ve İletişim", "title_en": "City and Communication",
+    "lessons": ["Yer ve yön tarifleri", "Can / Can't", "Emir cümleleri", "Like / Want", "Günlük iletişim"] },
+  { "id": 8, "title_tr": "A1 Tamamlama", "title_en": "Completing A1",
+    "lessons": ["Present Continuous", "Was / Were", "Temel geçmiş zaman ifadeleri", "Kısa konuşma ve yazma", "Genel tekrar"] }
+]

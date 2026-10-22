@@ -1,0 +1,205 @@
+{
+  "book": "oz",
+  "number": 4,
+  "title_en": "The Tin Woodman",
+  "title_tr": "Teneke Adam",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The next day, Dorothy and the Scarecrow walk into a forest.",
+      "tr": "Ertesi gün Dorothy ile Korkuluk bir ormana giriyor.",
+      "w": [["the","(belirli tanımlık)"], ["next","sonraki"], ["day","gün"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["walk","yürüyor"], ["into","içine"], ["a","bir"], ["forest","orman"]]
+    },
+    {
+      "en": "There are many tall trees, and it is dark.",
+      "tr": "Birçok uzun ağaç var ve ortalık karanlık.",
+      "w": [["there","(there are: var)"], ["be","var (olmak)"], ["many","birçok"], ["tall","uzun, yüksek"], ["tree","ağaçlar"], ["and","ve"], ["it","(ortalık)"], ["be","-dir (olmak)"], ["dark","karanlık"]]
+    },
+    {
+      "en": "Suddenly they hear a sad sound.",
+      "tr": "Birden üzgün bir ses duyuyorlar.",
+      "w": [["suddenly","birden"], ["they","onlar"], ["hear","duyuyorlar"], ["a","bir"], ["sad","üzgün"], ["sound","ses"]]
+    },
+    {
+      "en": "They look and see a strange man between the trees.",
+      "tr": "Bakıyorlar ve ağaçların arasında tuhaf bir adam görüyorlar.",
+      "w": [["they","onlar"], ["look","bakıyorlar"], ["and","ve"], ["see","görüyorlar"], ["a","bir"], ["strange","tuhaf, garip"], ["man","adam"], ["between","arasında"], ["the","(belirli tanımlık)"], ["tree","ağaçlar"]]
+    },
+    {
+      "en": "He is a man of tin.",
+      "tr": "O, tenekeden bir adam.",
+      "w": [["he","o (erkek)"], ["be","-dir (olmak)"], ["a","bir"], ["man","adam"], ["of","-den (yapılmış)"], ["tin","teneke"]]
+    },
+    {
+      "en": "He has an axe in his hands, but he does not move.",
+      "tr": "Ellerinde bir balta var, ama hiç kımıldamıyor.",
+      "w": [["he","o (erkek)"], ["have","sahip, -si var"], ["an","bir"], ["axe","balta"], ["in","-de"], ["his","onun (erkek)"], ["hand","eller"], ["but","ama"], ["he","o (erkek)"], ["do","(yardımcı fiil)"], ["not","-ma, -me (olumsuz)"], ["move","kımıldamak, hareket etmek"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy goes to him. “Can we help you?” she asks.",
+      "tr": "Dorothy ona gidiyor. “Sana yardım edebilir miyiz?” diye soruyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["go","gidiyor"], ["to","-e"], ["him","ona"], ["can","-ebilir mi"], ["we","biz"], ["help","yardım etmek"], ["you","sana"], ["she","o (kadın)"], ["ask","soruyor"]]
+    },
+    {
+      "en": "“Yes, please,” says the Tin Woodman.",
+      "tr": "“Evet, lütfen,” diyor Teneke Adam.",
+      "w": [["yes","evet"], ["please","lütfen"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“My arms and legs rust in the rain. Now I cannot move.”",
+      "tr": "“Kollarım ve bacaklarım yağmurda paslanıyor. Şimdi hareket edemiyorum.”",
+      "w": [["my","benim"], ["arm","kollar"], ["and","ve"], ["leg","bacaklar"], ["rust","paslanıyor"], ["in","-de"], ["the","(belirli tanımlık)"], ["rain","yağmur"], ["now","şimdi"], ["I","ben"], ["can","-emem, -amam (cannot: yapamamak)"], ["move","hareket etmek"]]
+    },
+    {
+      "en": "“There is an oil can in my little house.”",
+      "tr": "“Küçük evimde bir yağdanlık var.”",
+      "w": [["there","(there is: var)"], ["be","var (olmak)"], ["an","bir"], ["oil","yağ"], ["can","kutu (oil can: yağdanlık)"], ["in","-de"], ["my","benim"], ["little","küçük"], ["house","ev"]]
+    },
+    {
+      "en": "“Please bring it and put oil on me.”",
+      "tr": "“Lütfen onu getir ve beni yağla.”",
+      "w": [["please","lütfen"], ["bring","getir"], ["it","onu"], ["and","ve"], ["put","koy"], ["oil","yağ"], ["on","üstüne"], ["me","bana, beni"]]
+    },
+    {
+      "p": true,
+      "en": "Dorothy runs to his house and finds the oil can.",
+      "tr": "Dorothy onun evine koşuyor ve yağdanlığı buluyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["run","koşuyor"], ["to","-e"], ["his","onun (erkek)"], ["house","ev"], ["and","ve"], ["find","buluyor"], ["the","(belirli tanımlık)"], ["oil","yağ"], ["can","kutu (oil can: yağdanlık)"]]
+    },
+    {
+      "en": "She puts oil on his neck, his arms and his legs.",
+      "tr": "Onun boynunu, kollarını ve bacaklarını yağlıyor.",
+      "w": [["she","o (kadın)"], ["put","koyuyor"], ["oil","yağ"], ["on","üstüne"], ["his","onun (erkek)"], ["neck","boyun"], ["his","onun (erkek)"], ["arm","kollar"], ["and","ve"], ["his","onun (erkek)"], ["leg","bacaklar"]]
+    },
+    {
+      "en": "Slowly, the Tin Woodman can move again.",
+      "tr": "Teneke Adam yavaş yavaş yeniden hareket edebiliyor.",
+      "w": [["slowly","yavaşça"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["can","-ebilir"], ["move","hareket etmek"], ["again","yeniden, tekrar"]]
+    },
+    {
+      "en": "He puts down his axe.",
+      "tr": "Baltasını yere bırakıyor.",
+      "w": [["he","o (erkek)"], ["put","koyuyor (put down: yere bırakmak)"], ["down","aşağı"], ["his","onun (erkek)"], ["axe","balta"]]
+    },
+    {
+      "en": "“Thank you! Now I can walk again!” he says.",
+      "tr": "“Teşekkür ederim! Artık yeniden yürüyebiliyorum!” diyor.",
+      "w": [["thank","teşekkür etmek"], ["you","size"], ["now","artık"], ["I","ben"], ["can","-ebilirim"], ["walk","yürümek"], ["again","yeniden"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "“Why are you in this forest?”",
+      "tr": "“Bu ormanda ne işiniz var?”",
+      "w": [["why","neden"], ["be","-siniz (olmak)"], ["you","siz"], ["in","-de"], ["this","bu"], ["forest","orman"]]
+    },
+    {
+      "en": "“We are going to the Emerald City,” says Dorothy.",
+      "tr": "“Zümrüt Şehir'e gidiyoruz,” diyor Dorothy.",
+      "w": [["we","biz"], ["be","(yardımcı fiil)"], ["go","gidiyoruz"], ["to","-e"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“I want to go home, and the Scarecrow wants some brains.”",
+      "tr": "“Ben eve gitmek istiyorum, Korkuluk da biraz beyin istiyor.”",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["home","eve"], ["and","ve"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["want","istiyor"], ["some","biraz"], ["brain","beyin"]]
+    },
+    {
+      "p": true,
+      "en": "The Tin Woodman thinks.",
+      "tr": "Teneke Adam düşünüyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["think","düşünüyor"]]
+    },
+    {
+      "en": "Then he says, “Can Oz give me a heart?”",
+      "tr": "Sonra, “Oz bana bir kalp verebilir mi?” diyor.",
+      "w": [["then","sonra"], ["he","o (erkek)"], ["say","diyor"], ["can","-ebilir mi"], ["Oz","Oz (büyücünün adı)"], ["give","vermek"], ["me","bana"], ["a","bir"], ["heart","kalp"]]
+    },
+    {
+      "en": "“I am all tin, and there is no heart in me.”",
+      "tr": "“Baştan aşağı tenekeyim ve içimde kalp yok.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["all","tamamen"], ["tin","teneke"], ["and","ve"], ["there","(there is: var)"], ["be","var (olmak)"], ["no","hiç (yok)"], ["heart","kalp"], ["in","içinde"], ["me","ben"]]
+    },
+    {
+      "en": "“Without a heart, I cannot love.”",
+      "tr": "“Kalbim olmadan sevemem.”",
+      "w": [["without","-siz, olmadan"], ["a","bir"], ["heart","kalp"], ["I","ben"], ["can","-emem, -amam (cannot: yapamamak)"], ["love","sevmek"]]
+    },
+    {
+      "en": "“Then come with us,” says Dorothy.",
+      "tr": "“O zaman bizimle gel,” diyor Dorothy.",
+      "w": [["then","o zaman"], ["come","gel"], ["with","ile, -le"], ["us","biz, bizimle"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Maybe Oz can help all of us.”",
+      "tr": "“Belki Oz hepimize yardım edebilir.”",
+      "w": [["maybe","belki"], ["Oz","Oz (büyücünün adı)"], ["can","-ebilir"], ["help","yardım etmek"], ["all","hepsi"], ["of","-imiz"], ["us","biz"]]
+    },
+    {
+      "p": true,
+      "en": "“I want brains, not a heart,” says the Scarecrow.",
+      "tr": "“Ben kalp değil, beyin istiyorum,” diyor Korkuluk.",
+      "w": [["I","ben"], ["want","istiyorum"], ["brain","beyin"], ["not","değil"], ["a","bir"], ["heart","kalp"], ["say","diyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“Without brains, I cannot use a heart.”",
+      "tr": "“Beyin olmadan bir kalbi kullanamam.”",
+      "w": [["without","-siz, olmadan"], ["brain","beyin"], ["I","ben"], ["can","-emem, -amam (cannot: yapamamak)"], ["use","kullanmak"], ["a","bir"], ["heart","kalp"]]
+    },
+    {
+      "en": "“I want a heart,” says the Tin Woodman.",
+      "tr": "“Ben bir kalp istiyorum,” diyor Teneke Adam.",
+      "w": [["I","ben"], ["want","istiyorum"], ["a","bir"], ["heart","kalp"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“Brains do not make you happy. A heart does.”",
+      "tr": "“Beyin insanı mutlu etmez. Kalp eder.”",
+      "w": [["brain","beyin"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["make","yapmak, etmek"], ["you","seni, insanı"], ["happy","mutlu"], ["a","bir"], ["heart","kalp"], ["do","eder, yapar"]]
+    },
+    {
+      "en": "Dorothy says nothing. Who is right? She does not know.",
+      "tr": "Dorothy bir şey demiyor. Kim haklı? Bilmiyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["say","diyor"], ["nothing","hiçbir şey"], ["who","kim"], ["be","-dir (olmak)"], ["right","haklı, doğru"], ["she","o (kadın)"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["know","bilmek"]]
+    },
+    {
+      "p": true,
+      "en": "The Tin Woodman takes his axe and the oil can.",
+      "tr": "Teneke Adam baltasını ve yağdanlığı alıyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["take","alıyor"], ["his","onun (erkek)"], ["axe","balta"], ["and","ve"], ["the","(belirli tanımlık)"], ["oil","yağ"], ["can","kutu (oil can: yağdanlık)"]]
+    },
+    {
+      "en": "“Rain is very bad for me,” he says.",
+      "tr": "“Yağmur benim için çok kötü,” diyor.",
+      "w": [["rain","yağmur"], ["be","-dir (olmak)"], ["very","çok"], ["bad","kötü"], ["for","için"], ["me","ben, benim"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "Now three friends walk on the yellow brick road.",
+      "tr": "Şimdi üç arkadaş sarı tuğlalı yolda yürüyor.",
+      "w": [["now","şimdi"], ["three","üç"], ["friend","arkadaşlar"], ["walk","yürüyor"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"]]
+    },
+    {
+      "en": "In the dark forest, the Tin Woodman cuts a way with his axe.",
+      "tr": "Karanlık ormanda Teneke Adam baltasıyla bir yol açıyor.",
+      "w": [["in","-de"], ["the","(belirli tanımlık)"], ["dark","karanlık"], ["forest","orman"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["cut","kesiyor, açıyor"], ["a","bir"], ["way","yol"], ["with","ile, -le"], ["his","onun (erkek)"], ["axe","balta"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"tin","pos":"noun","tr":"teneke","ipa":"/tɪn/","ex_en":"He is a man of tin.","ex_tr":"O, tenekeden bir adam."},
+    {"lemma":"woodman","pos":"noun","tr":"oduncu","ipa":"/ˈwʊdmən/","ex_en":"“Yes, please,” says the Tin Woodman.","ex_tr":"“Evet, lütfen,” diyor Teneke Adam."},
+    {"lemma":"forest","pos":"noun","tr":"orman","ipa":"/ˈfɒrɪst/","ex_en":"Dorothy and the Scarecrow walk into a forest.","ex_tr":"Dorothy ile Korkuluk bir ormana giriyor."},
+    {"lemma":"tree","pos":"noun","tr":"ağaç","ipa":"/triː/","ex_en":"There are many tall trees.","ex_tr":"Birçok uzun ağaç var."},
+    {"lemma":"axe","pos":"noun","tr":"balta","ipa":"/æks/","ex_en":"He puts down his axe.","ex_tr":"Baltasını yere bırakıyor."},
+    {"lemma":"rain","pos":"noun","tr":"yağmur","ipa":"/reɪn/","ex_en":"Rain is very bad for me.","ex_tr":"Yağmur benim için çok kötü."},
+    {"lemma":"rust","pos":"verb","tr":"paslanmak","ipa":"/rʌst/","ex_en":"My arms and legs rust in the rain.","ex_tr":"Kollarım ve bacaklarım yağmurda paslanıyor."},
+    {"lemma":"oil","pos":"noun","tr":"yağ","ipa":"/ɔɪl/","ex_en":"There is an oil can in my little house.","ex_tr":"Küçük evimde bir yağdanlık var."},
+    {"lemma":"move","pos":"verb","tr":"hareket etmek, kımıldamak","ipa":"/muːv/","ex_en":"Now I cannot move.","ex_tr":"Şimdi hareket edemiyorum."},
+    {"lemma":"leg","pos":"noun","tr":"bacak","ipa":"/leɡ/","ex_en":"She puts oil on his legs.","ex_tr":"Onun bacaklarını yağlıyor."},
+    {"lemma":"heart","pos":"noun","tr":"kalp","ipa":"/hɑːt/","ex_en":"Can Oz give me a heart?","ex_tr":"Oz bana bir kalp verebilir mi?"},
+    {"lemma":"without","pos":"preposition","tr":"-siz, olmadan","ipa":"/wɪˈðaʊt/","ex_en":"Without a heart, I cannot love.","ex_tr":"Kalbim olmadan sevemem."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"Where do they find the Tin Woodman?","prompt_tr":"Teneke Adam'ı nerede buluyorlar?","options":["In a field of corn","In a forest","In a little house"],"answer":1},
+    {"type":"mcq","prompt":"Why can't the Tin Woodman move?","prompt_tr":"Teneke Adam neden hareket edemiyor?","options":["He is all rust.","He is very tired.","He is afraid of Dorothy."],"answer":0},
+    {"type":"mcq","prompt":"What does Dorothy use?","prompt_tr":"Dorothy ne kullanıyor?","options":["Water","Fire","An oil can"],"answer":2},
+    {"type":"mcq","prompt":"What does the Tin Woodman want?","prompt_tr":"Teneke Adam ne istiyor?","options":["Some brains","A heart","A new axe"],"answer":1},
+    {"type":"mcq","prompt":"What is bad for the Tin Woodman?","prompt_tr":"Teneke Adam için ne kötü?","options":["Rain","The sun","Corn"],"answer":0}
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "book": "oz",
+  "number": 2,
+  "title_en": "The Munchkins",
+  "title_tr": "Munchkinler",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Dorothy wakes up.",
+      "tr": "Dorothy uyanıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["wake","uyanıyor"], ["up","(wake up: uyanmak)"]]
+    },
+    {
+      "en": "The house is on the ground now.",
+      "tr": "Ev artık yerde.",
+      "w": [["the","(belirli tanımlık)"], ["house","ev"], ["be","-dir (olmak)"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["ground","yer, toprak"], ["now","artık, şimdi"]]
+    },
+    {
+      "en": "She opens the door with Toto in her arms.",
+      "tr": "Kucağında Toto ile kapıyı açıyor.",
+      "w": [["she","o (kadın)"], ["open","açıyor"], ["the","(belirli tanımlık)"], ["door","kapı"], ["with","ile, -le"], ["Toto","Toto (köpeğin adı)"], ["in","-de"], ["her","onun (kadın)"], ["arm","kollar, kucak"]]
+    },
+    {
+      "en": "She sees a beautiful country.",
+      "tr": "Güzel bir ülke görüyor.",
+      "w": [["she","o (kadın)"], ["see","görüyor"], ["a","bir"], ["beautiful","güzel"], ["country","ülke"]]
+    },
+    {
+      "en": "There is green grass, and there are tall trees.",
+      "tr": "Yeşil çimenler ve uzun ağaçlar var.",
+      "w": [["there","(there is: var)"], ["be","var (olmak)"], ["green","yeşil"], ["grass","çimen, ot"], ["and","ve"], ["there","(there are: var)"], ["be","var (olmak)"], ["tall","uzun, yüksek"], ["tree","ağaçlar"]]
+    },
+    {
+      "en": "There are birds and flowers everywhere.",
+      "tr": "Her yerde kuşlar ve çiçekler var.",
+      "w": [["there","(there are: var)"], ["be","var (olmak)"], ["bird","kuşlar"], ["and","ve"], ["flower","çiçekler"], ["everywhere","her yerde"]]
+    },
+    {
+      "p": true,
+      "en": "Some little people come to the house.",
+      "tr": "Birkaç küçük insan eve geliyor.",
+      "w": [["some","birkaç, bazı"], ["little","küçük"], ["people","insanlar"], ["come","geliyor"], ["to","-e"], ["the","(belirli tanımlık)"], ["house","ev"]]
+    },
+    {
+      "en": "They are the Munchkins.",
+      "tr": "Onlar Munchkinler.",
+      "w": [["they","onlar"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["Munchkin","Munchkinler (küçük insanlar)"]]
+    },
+    {
+      "en": "They wear blue clothes and round hats.",
+      "tr": "Mavi giysiler ve yuvarlak şapkalar giyiyorlar.",
+      "w": [["they","onlar"], ["wear","giyiyorlar"], ["blue","mavi"], ["clothes","giysiler"], ["and","ve"], ["round","yuvarlak"], ["hat","şapkalar"]]
+    },
+    {
+      "en": "An old woman in white comes with them.",
+      "tr": "Beyazlar giymiş yaşlı bir kadın da onlarla geliyor.",
+      "w": [["an","bir"], ["old","yaşlı"], ["woman","kadın"], ["in","içinde (giymiş)"], ["white","beyaz"], ["come","geliyor"], ["with","ile, -le"], ["them","onlar, onlarla"]]
+    },
+    {
+      "p": true,
+      "en": "“Welcome to the land of the Munchkins!” says the old woman.",
+      "tr": "“Munchkinlerin ülkesine hoş geldin!” diyor yaşlı kadın.",
+      "w": [["welcome","hoş geldin"], ["to","-e"], ["the","(belirli tanımlık)"], ["land","ülke, toprak"], ["of","-in"], ["the","(belirli tanımlık)"], ["Munchkin","Munchkinler (küçük insanlar)"], ["say","diyor"], ["the","(belirli tanımlık)"], ["old","yaşlı"], ["woman","kadın"]]
+    },
+    {
+      "en": "“Look! Your house is on the Wicked Witch of the East.”",
+      "tr": "“Bak! Senin evin Doğu'nun Kötü Cadısı'nın üstünde.”",
+      "w": [["look","bak"], ["your","senin"], ["house","ev"], ["be","-dir (olmak)"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["east","doğu"]]
+    },
+    {
+      "en": "“She is dead now. Thank you!”",
+      "tr": "“O artık ölü. Teşekkür ederiz!”",
+      "w": [["she","o (kadın)"], ["be","-dir (olmak)"], ["dead","ölü"], ["now","artık"], ["thank","teşekkür etmek"], ["you","sana, size"]]
+    },
+    {
+      "en": "Dorothy looks under the house.",
+      "tr": "Dorothy evin altına bakıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["look","bakıyor"], ["under","altına"], ["the","(belirli tanımlık)"], ["house","ev"]]
+    },
+    {
+      "en": "She sees two feet in silver shoes.",
+      "tr": "Gümüş ayakkabılı iki ayak görüyor.",
+      "w": [["she","o (kadın)"], ["see","görüyor"], ["two","iki"], ["foot","ayaklar"], ["in","içinde"], ["silver","gümüş"], ["shoe","ayakkabılar"]]
+    },
+    {
+      "en": "“Oh, no!” says Dorothy.",
+      "tr": "“Eyvah!” diyor Dorothy.",
+      "w": [["oh","ah, eyvah"], ["no","hayır"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Don't be sad,” says the old woman.",
+      "tr": "“Üzülme,” diyor yaşlı kadın.",
+      "w": [["do","-ma (olumsuz emir)"], ["be","olmak"], ["sad","üzgün"], ["say","diyor"], ["the","(belirli tanımlık)"], ["old","yaşlı"], ["woman","kadın"]]
+    },
+    {
+      "en": "“She is a very bad witch. The Munchkins are free now.”",
+      "tr": "“O çok kötü bir cadı. Munchkinler artık özgür.”",
+      "w": [["she","o (kadın)"], ["be","-dir (olmak)"], ["a","bir"], ["very","çok"], ["bad","kötü"], ["witch","cadı"], ["the","(belirli tanımlık)"], ["Munchkin","Munchkinler (küçük insanlar)"], ["be","-dir (olmak)"], ["free","özgür"], ["now","artık"]]
+    },
+    {
+      "p": true,
+      "en": "“Who are you?” asks Dorothy.",
+      "tr": "“Sen kimsin?” diye soruyor Dorothy.",
+      "w": [["who","kim"], ["be","-sin (olmak)"], ["you","sen"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“I am the Witch of the North,” she says.",
+      "tr": "“Ben Kuzey'in Cadısıyım,” diyor.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["north","kuzey"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“I am a good witch.”",
+      "tr": "“Ben iyi bir cadıyım.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["a","bir"], ["good","iyi"], ["witch","cadı"]]
+    },
+    {
+      "en": "“There are four witches in the Land of Oz.”",
+      "tr": "“Oz Ülkesi'nde dört cadı var.”",
+      "w": [["there","(there are: var)"], ["be","var (olmak)"], ["four","dört"], ["witch","cadılar"], ["in","-de"], ["the","(belirli tanımlık)"], ["land","ülke"], ["of","-in"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "“The witches of the North and the South are good.”",
+      "tr": "“Kuzey'in ve Güney'in cadıları iyi.”",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadılar"], ["of","-in"], ["the","(belirli tanımlık)"], ["north","kuzey"], ["and","ve"], ["the","(belirli tanımlık)"], ["south","güney"], ["be","-dir (olmak)"], ["good","iyi"]]
+    },
+    {
+      "en": "“The witches of the East and the West are wicked.”",
+      "tr": "“Doğu'nun ve Batı'nın cadıları kötü.”",
+      "w": [["the","(belirli tanımlık)"], ["witch","cadılar"], ["of","-in"], ["the","(belirli tanımlık)"], ["east","doğu"], ["and","ve"], ["the","(belirli tanımlık)"], ["west","batı"], ["be","-dir (olmak)"], ["wicked","kötü"]]
+    },
+    {
+      "en": "Then the dead witch's feet go away in the hot sun.",
+      "tr": "Sonra ölü cadının ayakları sıcak güneşte yok oluyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["dead","ölü"], ["witch","cadının"], ["foot","ayaklar"], ["go","gitmek"], ["away","uzağa (go away: yok olmak)"], ["in","-de"], ["the","(belirli tanımlık)"], ["hot","sıcak"], ["sun","güneş"]]
+    },
+    {
+      "en": "Only the silver shoes are there.",
+      "tr": "Orada sadece gümüş ayakkabılar kalıyor.",
+      "w": [["only","sadece"], ["the","(belirli tanımlık)"], ["silver","gümüş"], ["shoe","ayakkabılar"], ["be","-dir (olmak)"], ["there","orada"]]
+    },
+    {
+      "en": "“The shoes are for you,” says the Witch of the North.",
+      "tr": "“Ayakkabılar senin için,” diyor Kuzey'in Cadısı.",
+      "w": [["the","(belirli tanımlık)"], ["shoe","ayakkabılar"], ["be","-dir (olmak)"], ["for","için"], ["you","sen"], ["say","diyor"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["north","kuzey"]]
+    },
+    {
+      "p": true,
+      "en": "“I want to go home to Kansas,” says Dorothy.",
+      "tr": "“Kansas'a, eve gitmek istiyorum,” diyor Dorothy.",
+      "w": [["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["home","ev, eve"], ["to","-e"], ["Kansas","Kansas (ABD'de bir eyalet)"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“Aunt Em and Uncle Henry are sad without me.”",
+      "tr": "“Em Teyze ve Henry Amca bensiz üzgün.”",
+      "w": [["aunt","teyze"], ["Em","Em (kadın adı)"], ["and","ve"], ["uncle","amca"], ["Henry","Henry (erkek adı)"], ["be","-dir (olmak)"], ["sad","üzgün"], ["without","-siz, olmadan"], ["me","ben"]]
+    },
+    {
+      "en": "The good witch thinks.",
+      "tr": "İyi cadı düşünüyor.",
+      "w": [["the","(belirli tanımlık)"], ["good","iyi"], ["witch","cadı"], ["think","düşünüyor"]]
+    },
+    {
+      "en": "Then she says, “Go to the Emerald City.”",
+      "tr": "Sonra, “Zümrüt Şehir'e git,” diyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["say","diyor"], ["go","git"], ["to","-e"], ["the","(belirli tanımlık)"], ["emerald","zümrüt"], ["city","şehir"]]
+    },
+    {
+      "en": "“The great Wizard Oz lives there. He can help you.”",
+      "tr": "“Büyük Büyücü Oz orada yaşıyor. Sana yardım edebilir.”",
+      "w": [["the","(belirli tanımlık)"], ["great","büyük, ulu"], ["wizard","büyücü"], ["Oz","Oz (büyücünün adı)"], ["live","yaşıyor"], ["there","orada"], ["he","o (erkek)"], ["can","-ebilir"], ["help","yardım etmek"], ["you","sana"]]
+    },
+    {
+      "en": "“Walk on the yellow brick road.”",
+      "tr": "“Sarı tuğlalı yolda yürü.”",
+      "w": [["walk","yürü"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"]]
+    },
+    {
+      "en": "“Can you come with me?” asks Dorothy.",
+      "tr": "“Benimle gelebilir misin?” diye soruyor Dorothy.",
+      "w": [["can","-ebilir mi"], ["you","sen"], ["come","gelmek"], ["with","ile, -le"], ["me","ben, benimle"], ["ask","soruyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“No, I can't. But I can give you my kiss.”",
+      "tr": "“Hayır, gelemem. Ama sana öpücüğümü verebilirim.”",
+      "w": [["no","hayır"], ["I","ben"], ["can","-emem (olumsuz)"], ["but","ama"], ["I","ben"], ["can","-ebilirim"], ["give","vermek"], ["you","sana"], ["my","benim"], ["kiss","öpücük"]]
+    },
+    {
+      "p": true,
+      "en": "The good witch kisses Dorothy on the forehead.",
+      "tr": "İyi cadı, Dorothy'yi alnından öpüyor.",
+      "w": [["the","(belirli tanımlık)"], ["good","iyi"], ["witch","cadı"], ["kiss","öpüyor"], ["Dorothy","Dorothy (kız adı)"], ["on","üstüne, -den"], ["the","(belirli tanımlık)"], ["forehead","alın"]]
+    },
+    {
+      "en": "The kiss leaves a bright mark there.",
+      "tr": "Öpücük orada parlak bir iz bırakıyor.",
+      "w": [["the","(belirli tanımlık)"], ["kiss","öpücük"], ["leave","bırakıyor"], ["a","bir"], ["bright","parlak"], ["mark","iz, işaret"], ["there","orada"]]
+    },
+    {
+      "en": "“Nobody can hurt you now,” she says.",
+      "tr": "“Artık kimse sana zarar veremez,” diyor.",
+      "w": [["nobody","hiç kimse"], ["can","-ebilir"], ["hurt","zarar vermek"], ["you","sana"], ["now","artık"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "Then she turns around three times and goes away.",
+      "tr": "Sonra üç kez kendi etrafında dönüyor ve gözden kayboluyor.",
+      "w": [["then","sonra"], ["she","o (kadın)"], ["turn","dönüyor"], ["around","etrafında"], ["three","üç"], ["time","kez, defa"], ["and","ve"], ["go","gidiyor"], ["away","uzağa (go away: gitmek, kaybolmak)"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"witch","pos":"noun","tr":"cadı","ipa":"/wɪtʃ/","ex_en":"I am a good witch.","ex_tr":"Ben iyi bir cadıyım."},
+    {"lemma":"wicked","pos":"adjective","tr":"kötü, kötü kalpli","ipa":"/ˈwɪkɪd/","ex_en":"Your house is on the Wicked Witch of the East.","ex_tr":"Senin evin Doğu'nun Kötü Cadısı'nın üstünde."},
+    {"lemma":"east","pos":"noun","tr":"doğu","ipa":"/iːst/","ex_en":"She is the Witch of the East.","ex_tr":"O, Doğu'nun Cadısı."},
+    {"lemma":"north","pos":"noun","tr":"kuzey","ipa":"/nɔːθ/","ex_en":"I am the Witch of the North.","ex_tr":"Ben Kuzey'in Cadısıyım."},
+    {"lemma":"dead","pos":"adjective","tr":"ölü","ipa":"/ded/","ex_en":"She is dead now.","ex_tr":"O artık ölü."},
+    {"lemma":"shoe","pos":"noun","tr":"ayakkabı","ipa":"/ʃuː/","ex_en":"The shoes are for you.","ex_tr":"Ayakkabılar senin için."},
+    {"lemma":"silver","pos":"adjective","tr":"gümüş","ipa":"/ˈsɪlvə/","ex_en":"She sees two feet in silver shoes.","ex_tr":"Gümüş ayakkabılı iki ayak görüyor."},
+    {"lemma":"wizard","pos":"noun","tr":"büyücü","ipa":"/ˈwɪzəd/","ex_en":"The great Wizard Oz lives there.","ex_tr":"Büyük Büyücü Oz orada yaşıyor."},
+    {"lemma":"city","pos":"noun","tr":"şehir","ipa":"/ˈsɪti/","ex_en":"Go to the Emerald City.","ex_tr":"Zümrüt Şehir'e git."},
+    {"lemma":"road","pos":"noun","tr":"yol","ipa":"/rəʊd/","ex_en":"Walk on the yellow brick road.","ex_tr":"Sarı tuğlalı yolda yürü."},
+    {"lemma":"yellow","pos":"adjective","tr":"sarı","ipa":"/ˈjeləʊ/","ex_en":"The road is yellow.","ex_tr":"Yol sarı."},
+    {"lemma":"brick","pos":"noun","tr":"tuğla","ipa":"/brɪk/","ex_en":"Walk on the yellow brick road.","ex_tr":"Sarı tuğlalı yolda yürü."},
+    {"lemma":"kiss","pos":"noun, verb","tr":"öpücük; öpmek","ipa":"/kɪs/","ex_en":"The good witch kisses Dorothy.","ex_tr":"İyi cadı Dorothy'yi öpüyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"What happens to the Wicked Witch of the East?","prompt_tr":"Doğu'nun Kötü Cadısı'na ne oluyor?","options":["She goes to Kansas.","The house is on her, and she is dead.","She becomes a Munchkin."],"answer":1},
+    {"type":"mcq","prompt":"Who is the old woman in white?","prompt_tr":"Beyazlı yaşlı kadın kim?","options":["Aunt Em","The Wicked Witch","The good Witch of the North"],"answer":2},
+    {"type":"mcq","prompt":"What does Dorothy get?","prompt_tr":"Dorothy ne alıyor?","options":["A blue hat","A new dog","The silver shoes"],"answer":2},
+    {"type":"mcq","prompt":"Where must Dorothy go?","prompt_tr":"Dorothy nereye gitmeli?","options":["To the Emerald City","To the land of the Munchkins","To the north"],"answer":0},
+    {"type":"mcq","prompt":"What does the good witch give Dorothy?","prompt_tr":"İyi cadı Dorothy'ye ne veriyor?","options":["Her hat","A yellow brick","A kiss"],"answer":2}
+  ]
+}

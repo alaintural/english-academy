@@ -1,0 +1,234 @@
+{
+  "book": "oz",
+  "number": 8,
+  "title_en": "The Great Oz",
+  "title_tr": "Büyük Oz",
+  "sentences": [
+    {
+      "p": true,
+      "en": "Oz sees only one friend every day.",
+      "tr": "Oz her gün sadece bir arkadaşı görüyor.",
+      "w": [["Oz","Oz (büyücünün adı)"], ["see","görüyor"], ["only","sadece"], ["one","bir"], ["friend","arkadaş"], ["every","her"], ["day","gün"]]
+    },
+    {
+      "en": "Dorothy goes first.",
+      "tr": "İlk Dorothy gidiyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["go","gidiyor"], ["first","ilk, önce"]]
+    },
+    {
+      "en": "She walks into a big, round room.",
+      "tr": "Büyük, yuvarlak bir odaya giriyor.",
+      "w": [["she","o (kadın)"], ["walk","yürüyor"], ["into","içine"], ["a","bir"], ["big","büyük"], ["round","yuvarlak"], ["room","oda"]]
+    },
+    {
+      "en": "The walls are full of emeralds.",
+      "tr": "Duvarlar zümrütlerle dolu.",
+      "w": [["the","(belirli tanımlık)"], ["wall","duvarlar"], ["be","-dir (olmak)"], ["full","dolu"], ["of","-ile (full of: dolu)"], ["emerald","zümrütler"]]
+    },
+    {
+      "en": "In the middle of the room, there is a green throne.",
+      "tr": "Odanın ortasında yeşil bir taht var.",
+      "w": [["in","-de"], ["the","(belirli tanımlık)"], ["middle","orta"], ["of","-in"], ["the","(belirli tanımlık)"], ["room","oda"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["green","yeşil"], ["throne","taht"]]
+    },
+    {
+      "en": "On the throne, there is a very big head.",
+      "tr": "Tahtın üstünde çok büyük bir kafa var.",
+      "w": [["on","üstünde"], ["the","(belirli tanımlık)"], ["throne","taht"], ["there","(there is: var)"], ["be","var (olmak)"], ["a","bir"], ["very","çok"], ["big","büyük"], ["head","kafa"]]
+    },
+    {
+      "en": "It has no body, no arms and no legs.",
+      "tr": "Onun gövdesi, kolları ve bacakları yok.",
+      "w": [["it","o"], ["have","sahip, -si var"], ["no","hiç (yok)"], ["body","gövde, beden"], ["no","hiç (yok)"], ["arm","kollar"], ["and","ve"], ["no","hiç (yok)"], ["leg","bacaklar"]]
+    },
+    {
+      "p": true,
+      "en": "The eyes look at Dorothy, and the mouth opens.",
+      "tr": "Gözler Dorothy'ye bakıyor ve ağız açılıyor.",
+      "w": [["the","(belirli tanımlık)"], ["eye","gözler"], ["look","bakıyor"], ["at","-e"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["the","(belirli tanımlık)"], ["mouth","ağız"], ["open","açılıyor"]]
+    },
+    {
+      "en": "“I am Oz, the Great and Terrible,” says a big voice.",
+      "tr": "“Ben Büyük ve Korkunç Oz'um,” diyor gür bir ses.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["Oz","Oz (büyücünün adı)"], ["the","(belirli tanımlık)"], ["great","büyük"], ["and","ve"], ["terrible","korkunç"], ["say","diyor"], ["a","bir"], ["big","büyük, gür"], ["voice","ses"]]
+    },
+    {
+      "en": "“Who are you, and what do you want?”",
+      "tr": "“Sen kimsin ve ne istiyorsun?”",
+      "w": [["who","kim"], ["be","-sin (olmak)"], ["you","sen"], ["and","ve"], ["what","ne"], ["do","(soru yardımcısı)"], ["you","sen"], ["want","istemek"]]
+    },
+    {
+      "en": "“I am Dorothy, the Small and Weak,” she says.",
+      "tr": "“Ben Küçük ve Zayıf Dorothy'yim,” diyor.",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["Dorothy","Dorothy (kız adı)"], ["the","(belirli tanımlık)"], ["small","küçük"], ["and","ve"], ["weak","zayıf, güçsüz"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“Please send me home to Kansas.”",
+      "tr": "“Lütfen beni Kansas'a, evime gönder.”",
+      "w": [["please","lütfen"], ["send","gönder"], ["me","beni"], ["home","eve"], ["to","-e"], ["Kansas","Kansas (ABD'de bir eyalet)"]]
+    },
+    {
+      "en": "Oz looks at her silver shoes and the kiss on her forehead.",
+      "tr": "Oz onun gümüş ayakkabılarına ve alnındaki öpücüğe bakıyor.",
+      "w": [["Oz","Oz (büyücünün adı)"], ["look","bakıyor"], ["at","-e"], ["her","onun (kadın)"], ["silver","gümüş"], ["shoe","ayakkabılar"], ["and","ve"], ["the","(belirli tanımlık)"], ["kiss","öpücük"], ["on","üstündeki"], ["her","onun (kadın)"], ["forehead","alın"]]
+    },
+    {
+      "en": "“First, you must help me,” says Oz.",
+      "tr": "“Önce sen bana yardım etmelisin,” diyor Oz.",
+      "w": [["first","önce"], ["you","sen"], ["must","-meli"], ["help","yardım etmek"], ["me","bana"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "“Kill the Wicked Witch of the West.”",
+      "tr": "“Batı'nın Kötü Cadısı'nı öldür.”",
+      "w": [["kill","öldür"], ["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"]]
+    },
+    {
+      "en": "“But I can't kill anybody!” says Dorothy.",
+      "tr": "“Ama ben kimseyi öldüremem!” diyor Dorothy.",
+      "w": [["but","ama"], ["I","ben"], ["can","-emem (can't: yapamamak)"], ["kill","öldürmek"], ["anybody","hiç kimse"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“I am only a little girl.”",
+      "tr": "“Ben sadece küçük bir kızım.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["only","sadece"], ["a","bir"], ["little","küçük"], ["girl","kız"]]
+    },
+    {
+      "en": "“Then you can't go home,” says Oz.",
+      "tr": "“O zaman eve gidemezsin,” diyor Oz.",
+      "w": [["then","o zaman"], ["you","sen"], ["can","-emezsin (can't: yapamamak)"], ["go","gitmek"], ["home","eve"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "Dorothy goes out and cries.",
+      "tr": "Dorothy dışarı çıkıyor ve ağlıyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["go","gidiyor"], ["out","dışarı"], ["and","ve"], ["cry","ağlıyor"]]
+    },
+    {
+      "p": true,
+      "en": "The next day, the Scarecrow goes to Oz.",
+      "tr": "Ertesi gün Korkuluk, Oz'un yanına gidiyor.",
+      "w": [["the","(belirli tanımlık)"], ["next","sonraki"], ["day","gün"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["go","gidiyor"], ["to","-e"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "en": "He does not see a head.",
+      "tr": "O bir kafa görmüyor.",
+      "w": [["he","o (erkek)"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["see","görmek"], ["a","bir"], ["head","kafa"]]
+    },
+    {
+      "en": "He sees a beautiful lady with wings.",
+      "tr": "Kanatlı, güzel bir hanımefendi görüyor.",
+      "w": [["he","o (erkek)"], ["see","görüyor"], ["a","bir"], ["beautiful","güzel"], ["lady","hanımefendi, bayan"], ["with","-li, ile"], ["wing","kanatlar"]]
+    },
+    {
+      "en": "“Kill the Wicked Witch of the West,” she says.",
+      "tr": "“Batı'nın Kötü Cadısı'nı öldür,” diyor.",
+      "w": [["kill","öldür"], ["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“Then I can give you brains.”",
+      "tr": "“O zaman sana beyin verebilirim.”",
+      "w": [["then","o zaman"], ["I","ben"], ["can","-ebilirim"], ["give","vermek"], ["you","sana"], ["brain","beyin"]]
+    },
+    {
+      "p": true,
+      "en": "On the third day, the Tin Woodman goes in.",
+      "tr": "Üçüncü gün Teneke Adam içeri giriyor.",
+      "w": [["on","-de"], ["the","(belirli tanımlık)"], ["third","üçüncü"], ["day","gün"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["go","gidiyor"], ["in","içeri"]]
+    },
+    {
+      "en": "He sees a terrible beast with five eyes and five arms.",
+      "tr": "Beş gözlü ve beş kollu korkunç bir canavar görüyor.",
+      "w": [["he","o (erkek)"], ["see","görüyor"], ["a","bir"], ["terrible","korkunç"], ["beast","canavar"], ["with","-li, ile"], ["five","beş"], ["eye","gözler"], ["and","ve"], ["five","beş"], ["arm","kollar"]]
+    },
+    {
+      "en": "“Kill the Wicked Witch of the West,” says the beast.",
+      "tr": "“Batı'nın Kötü Cadısı'nı öldür,” diyor canavar.",
+      "w": [["kill","öldür"], ["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"], ["say","diyor"], ["the","(belirli tanımlık)"], ["beast","canavar"]]
+    },
+    {
+      "en": "“Then I can give you a heart.”",
+      "tr": "“O zaman sana bir kalp verebilirim.”",
+      "w": [["then","o zaman"], ["I","ben"], ["can","-ebilirim"], ["give","vermek"], ["you","sana"], ["a","bir"], ["heart","kalp"]]
+    },
+    {
+      "p": true,
+      "en": "On the fourth day, the Lion goes in.",
+      "tr": "Dördüncü gün Aslan içeri giriyor.",
+      "w": [["on","-de"], ["the","(belirli tanımlık)"], ["fourth","dördüncü"], ["day","gün"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["go","gidiyor"], ["in","içeri"]]
+    },
+    {
+      "en": "He sees a big ball of fire on the throne.",
+      "tr": "Tahtın üstünde büyük bir ateş topu görüyor.",
+      "w": [["he","o (erkek)"], ["see","görüyor"], ["a","bir"], ["big","büyük"], ["ball","top"], ["of","-in (ball of fire: ateş topu)"], ["fire","ateş"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["throne","taht"]]
+    },
+    {
+      "en": "The fire is very hot, and the Lion is afraid.",
+      "tr": "Ateş çok sıcak ve Aslan korkuyor.",
+      "w": [["the","(belirli tanımlık)"], ["fire","ateş"], ["be","-dir (olmak)"], ["very","çok"], ["hot","sıcak"], ["and","ve"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["afraid","korkmuş"]]
+    },
+    {
+      "en": "“Kill the Wicked Witch of the West,” says the ball of fire.",
+      "tr": "“Batı'nın Kötü Cadısı'nı öldür,” diyor ateş topu.",
+      "w": [["kill","öldür"], ["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["west","batı"], ["say","diyor"], ["the","(belirli tanımlık)"], ["ball","top"], ["of","-in (ball of fire: ateş topu)"], ["fire","ateş"]]
+    },
+    {
+      "en": "“Then I can give you courage.”",
+      "tr": "“O zaman sana cesaret verebilirim.”",
+      "w": [["then","o zaman"], ["I","ben"], ["can","-ebilirim"], ["give","vermek"], ["you","sana"], ["courage","cesaret"]]
+    },
+    {
+      "p": true,
+      "en": "The friends are very sad.",
+      "tr": "Arkadaşlar çok üzgün.",
+      "w": [["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["be","-dir (olmak)"], ["very","çok"], ["sad","üzgün"]]
+    },
+    {
+      "en": "“What can we do?” asks the Tin Woodman.",
+      "tr": "“Ne yapabiliriz?” diye soruyor Teneke Adam.",
+      "w": [["what","ne"], ["can","-ebilir"], ["we","biz"], ["do","yapmak"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“We must go to the West,” says the Lion.",
+      "tr": "“Batı'ya gitmeliyiz,” diyor Aslan.",
+      "w": [["we","biz"], ["must","-meli"], ["go","gitmek"], ["to","-e"], ["the","(belirli tanımlık)"], ["west","batı"], ["say","diyor"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "“The Wicked Witch lives there, in the land of the Winkies.”",
+      "tr": "“Kötü Cadı orada, Winkilerin ülkesinde yaşıyor.”",
+      "w": [["the","(belirli tanımlık)"], ["wicked","kötü"], ["witch","cadı"], ["live","yaşıyor"], ["there","orada"], ["in","-de"], ["the","(belirli tanımlık)"], ["land","ülke"], ["of","-in"], ["the","(belirli tanımlık)"], ["Winkie","Winkiler (Batı'daki halk)"]]
+    },
+    {
+      "en": "“I am afraid of the Witch, but I can go with you.”",
+      "tr": "“Cadıdan korkuyorum, ama sizinle gelebilirim.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["afraid","korkmuş (afraid of: -den korkmak)"], ["of","-den"], ["the","(belirli tanımlık)"], ["witch","cadı"], ["but","ama"], ["I","ben"], ["can","-ebilirim"], ["go","gitmek, gelmek"], ["with","ile, -le"], ["you","siz, sizinle"]]
+    },
+    {
+      "en": "There is no road to the West.",
+      "tr": "Batı'ya giden bir yol yok.",
+      "w": [["there","(there is: var)"], ["be","olmak"], ["no","hiç (yok)"], ["road","yol"], ["to","-e"], ["the","(belirli tanımlık)"], ["west","batı"]]
+    },
+    {
+      "en": "But the next morning, the friends walk into the West.",
+      "tr": "Ama ertesi sabah arkadaşlar batıya doğru yürüyor.",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["next","sonraki"], ["morning","sabah"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["walk","yürüyorlar"], ["into","içine, doğru"], ["the","(belirli tanımlık)"], ["west","batı"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"throne","pos":"noun","tr":"taht","ipa":"/θrəʊn/","ex_en":"In the middle of the room, there is a green throne.","ex_tr":"Odanın ortasında yeşil bir taht var."},
+    {"lemma":"body","pos":"noun","tr":"gövde, beden","ipa":"/ˈbɒdi/","ex_en":"It has no body, no arms and no legs.","ex_tr":"Onun gövdesi, kolları ve bacakları yok."},
+    {"lemma":"voice","pos":"noun","tr":"ses","ipa":"/vɔɪs/","ex_en":"“I am Oz,” says a big voice.","ex_tr":"“Ben Oz'um,” diyor gür bir ses."},
+    {"lemma":"terrible","pos":"adjective","tr":"korkunç","ipa":"/ˈterəbl/","ex_en":"He sees a terrible beast.","ex_tr":"Korkunç bir canavar görüyor."},
+    {"lemma":"send","pos":"verb","tr":"göndermek","ipa":"/send/","ex_en":"Please send me home to Kansas.","ex_tr":"Lütfen beni Kansas'a, evime gönder."},
+    {"lemma":"kill","pos":"verb","tr":"öldürmek","ipa":"/kɪl/","ex_en":"Kill the Wicked Witch of the West.","ex_tr":"Batı'nın Kötü Cadısı'nı öldür."},
+    {"lemma":"west","pos":"noun","tr":"batı","ipa":"/west/","ex_en":"We must go to the West.","ex_tr":"Batı'ya gitmeliyiz."},
+    {"lemma":"cry","pos":"verb","tr":"ağlamak","ipa":"/kraɪ/","ex_en":"Dorothy goes out and cries.","ex_tr":"Dorothy dışarı çıkıyor ve ağlıyor."},
+    {"lemma":"lady","pos":"noun","tr":"hanımefendi, bayan","ipa":"/ˈleɪdi/","ex_en":"He sees a beautiful lady with wings.","ex_tr":"Kanatlı, güzel bir hanımefendi görüyor."},
+    {"lemma":"wing","pos":"noun","tr":"kanat","ipa":"/wɪŋ/","ex_en":"He sees a beautiful lady with wings.","ex_tr":"Kanatlı, güzel bir hanımefendi görüyor."},
+    {"lemma":"ball","pos":"noun","tr":"top","ipa":"/bɔːl/","ex_en":"He sees a big ball of fire.","ex_tr":"Büyük bir ateş topu görüyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"What does Dorothy see on the throne?","prompt_tr":"Dorothy tahtın üstünde ne görüyor?","options":["A beautiful lady","A very big head","A ball of fire"],"answer":1},
+    {"type":"mcq","prompt":"What must Dorothy do?","prompt_tr":"Dorothy ne yapmalı?","options":["Kill the Wicked Witch of the West","Go back to the Munchkins","Find a new dog"],"answer":0},
+    {"type":"mcq","prompt":"What does the Tin Woodman see?","prompt_tr":"Teneke Adam ne görüyor?","options":["A big head","A lion","A terrible beast with five eyes"],"answer":2},
+    {"type":"mcq","prompt":"What does the Lion see?","prompt_tr":"Aslan ne görüyor?","options":["A ball of fire","A little girl","A green bird"],"answer":0},
+    {"type":"mcq","prompt":"Where do the friends go at the end?","prompt_tr":"Sonunda arkadaşlar nereye gidiyor?","options":["To Kansas","To the West","To the river"],"answer":1}
+  ]
+}

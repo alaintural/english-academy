@@ -1,0 +1,233 @@
+{
+  "id": 7,
+  "unit": 2,
+  "title_tr": "Kişi zamirleri",
+  "title_en": "Subject pronouns with 'to be'",
+  "summary_tr": "I, you, he, she, it, we, they zamirlerini am / is / are ile kullanmayı öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Kişi zamirleri, bir ismin yerine kullandığımız kısa kelimelerdir: ben, sen, o, biz, siz, onlar. İngilizcede cümle **mutlaka** bir zamir ya da isimle başlar. Türkçedeki gibi “Öğrenciyim.” deyip zamiri atamazsın: **I'm a student.**"
+    },
+    {
+      "type": "table",
+      "title_tr": "Zamirler ve to be",
+      "head": ["Zamir", "be", "Kısa", "Türkçe"],
+      "rows": [
+        ["I", "am", "I'm", "ben"],
+        ["you", "are", "you're", "sen / siz"],
+        ["he", "is", "he's", "o (erkek)"],
+        ["she", "is", "she's", "o (kadın)"],
+        ["it", "is", "it's", "o (eşya, hayvan)"],
+        ["we", "are", "we're", "biz"],
+        ["they", "are", "they're", "onlar"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Kolay kural: **I → am**, **he / she / it → is**, **you / we / they → are**."
+    },
+    {
+      "type": "text",
+      "tr": "Türkçede “o” kelimesi herkes için aynıdır. İngilizcede ise üç ayrı “o” vardır: **he** bir erkek için, **she** bir kadın için, **it** bir eşya ya da hayvan için. Ali için **he**, Ayşe için **she**, bir kitap ya da kedi için **it** dersin."
+    },
+    {
+      "type": "examples",
+      "title_tr": "He, she, it",
+      "items": [
+        { "en": "This is Ali. He's a doctor.", "tr": "Bu Ali. O bir doktor.", "note_tr": "Ali erkek → he" },
+        { "en": "This is Ayşe. She's a teacher.", "tr": "Bu Ayşe. O bir öğretmen.", "note_tr": "Ayşe kadın → she" },
+        { "en": "This is my cat. It's black.", "tr": "Bu benim kedim. O siyah.", "note_tr": "hayvan → it" },
+        { "en": "It's a book.", "tr": "Bu bir kitap.", "note_tr": "eşya → it" }
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "We, you, they",
+      "items": [
+        { "en": "We're students.", "tr": "Biz öğrenciyiz.", "note_tr": "Çoğulda a / an kullanılmaz, kelimeye -s eklenir." },
+        { "en": "You're friends.", "tr": "Siz arkadaşsınız." },
+        { "en": "They're from Turkey.", "tr": "Onlar Türkiye'den." },
+        { "en": "Ali and Ayşe are doctors.", "tr": "Ali ve Ayşe doktor.", "note_tr": "Ali and Ayşe = they → are" }
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "**It's** (it is = o …-dır) ile **its** (onun) farklıdır. Kesme işareti varsa “it is” demektir."
+    }
+  ],
+  "listen": [
+    { "en": "He is a doctor.", "tr": "O bir doktor." },
+    { "en": "She's a teacher.", "tr": "O bir öğretmen." },
+    { "en": "It's a cat.", "tr": "O bir kedi." },
+    { "en": "We're students.", "tr": "Biz öğrenciyiz." },
+    { "en": "They're from England.", "tr": "Onlar İngiltere'den." },
+    { "en": "You're my friend.", "tr": "Sen benim arkadaşımsın." },
+    { "en": "He's tired.", "tr": "O yorgun." },
+    { "en": "She's happy.", "tr": "O mutlu." },
+    { "en": "We are in London.", "tr": "Biz Londra'dayız." },
+    { "en": "They are engineers.", "tr": "Onlar mühendis." },
+    { "en": "It's a big dog.", "tr": "O büyük bir köpek." }
+  ],
+  "practice": [
+    {
+      "type": "match",
+      "prompt_tr": "Zamirleri eşleştir.",
+      "pairs": [["he", "o (erkek)"], ["she", "o (kadın)"], ["we", "biz"], ["they", "onlar"], ["it", "o (eşya, hayvan)"]]
+    },
+    {
+      "type": "fill",
+      "prompt": "She ___ a nurse.",
+      "tr": "O bir hemşire.",
+      "options": ["am", "is", "are"],
+      "answer": 1,
+      "explain_tr": "she ile is kullanılır."
+    },
+    {
+      "type": "fill",
+      "prompt": "We ___ students.",
+      "tr": "Biz öğrenciyiz.",
+      "options": ["is", "am", "are"],
+      "answer": 2,
+      "explain_tr": "we ile are kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Mehmet is a doctor. ___ is from Ankara.",
+      "prompt_tr": "Mehmet için hangi zamir?",
+      "options": ["She", "He", "It"],
+      "answer": 1,
+      "explain_tr": "Mehmet erkek adı → he."
+    },
+    {
+      "type": "listen",
+      "audio": "She's a teacher.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["He's a teacher.", "She's a teacher.", "They're teachers."],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "answer": "They are from Turkey.",
+      "tr": "Onlar Türkiye'den."
+    },
+    {
+      "type": "mcq",
+      "prompt": "This is my dog. ___ is brown.",
+      "prompt_tr": "Köpek için hangi zamir?",
+      "options": ["It", "He", "We"],
+      "answer": 0,
+      "explain_tr": "Hayvanlar ve eşyalar için it kullanılır."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Uzun ve kısa biçimleri eşleştir.",
+      "pairs": [["he is", "he's"], ["we are", "we're"], ["they are", "they're"], ["it is", "it's"]]
+    },
+    {
+      "type": "listen",
+      "audio": "We're happy.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["They're happy.", "He's happy.", "We're happy."],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "answer": "She's a good engineer.",
+      "tr": "O iyi bir mühendis."
+    }
+  ],
+  "test": [
+    {
+      "type": "fill",
+      "prompt": "He ___ from Italy.",
+      "tr": "O İtalya'dan.",
+      "options": ["is", "are", "am"],
+      "answer": 0,
+      "explain_tr": "he / she / it ile is kullanılır."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ my friends.",
+      "tr": "Onlar benim arkadaşlarım.",
+      "options": ["is", "are", "am"],
+      "answer": 1,
+      "explain_tr": "they ile are kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Zeynep is a student. ___ is 15.",
+      "prompt_tr": "Zeynep için hangi zamir?",
+      "options": ["He", "It", "She"],
+      "answer": 2,
+      "explain_tr": "Zeynep kadın adı → she."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Ali and I are students. ___ are in class 5.",
+      "prompt_tr": "“Ali ve ben” yerine hangi zamir gelir?",
+      "options": ["They", "We", "You"],
+      "answer": 1,
+      "explain_tr": "Ali ve ben = biz → we."
+    },
+    {
+      "type": "mcq",
+      "prompt": "“O bir kitap.” İngilizcesi hangisi?",
+      "prompt_tr": "Doğru çeviriyi seç.",
+      "options": ["It's a book.", "He's a book.", "She's a book."],
+      "answer": 0,
+      "explain_tr": "Eşyalar için it kullanılır."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Zamiri doğru fiille eşleştir.",
+      "pairs": [["I", "am"], ["she", "is"], ["you", "are"]]
+    },
+    {
+      "type": "listen",
+      "audio": "They're doctors.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["He's a doctor.", "We're doctors.", "They're doctors."],
+      "answer": 2,
+      "explain_tr": "They're = they are (onlar)."
+    },
+    {
+      "type": "order",
+      "answer": "We are students from Turkey.",
+      "tr": "Biz Türkiyeli öğrencileriz."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["She are a nurse.", "She is a nurse.", "She am a nurse."],
+      "answer": 1,
+      "explain_tr": "she → is: She is a nurse."
+    },
+    {
+      "type": "fill",
+      "prompt": "My cat is small. ___ black and white.",
+      "tr": "Kedim küçük. O siyah beyaz.",
+      "options": ["He's", "It's", "Its"],
+      "answer": 1,
+      "explain_tr": "Hayvan → it. “It is” kısaca It's olur; “Its” onun demektir."
+    }
+  ],
+  "vocab": [
+    { "lemma": "he", "pos": "pron", "tr": "o (erkek)", "ipa": "/hiː/", "ex_en": "He's a doctor.", "ex_tr": "O bir doktor." },
+    { "lemma": "she", "pos": "pron", "tr": "o (kadın)", "ipa": "/ʃiː/", "ex_en": "She's a teacher.", "ex_tr": "O bir öğretmen." },
+    { "lemma": "it", "pos": "pron", "tr": "o (eşya, hayvan)", "ipa": "/ɪt/", "ex_en": "It's a book.", "ex_tr": "O bir kitap." },
+    { "lemma": "we", "pos": "pron", "tr": "biz", "ipa": "/wiː/", "ex_en": "We're students.", "ex_tr": "Biz öğrenciyiz." },
+    { "lemma": "they", "pos": "pron", "tr": "onlar", "ipa": "/ðeɪ/", "ex_en": "They're from Turkey.", "ex_tr": "Onlar Türkiye'den." },
+    { "lemma": "you", "pos": "pron", "tr": "sen, siz", "ipa": "/juː/", "ex_en": "You're my friend.", "ex_tr": "Sen benim arkadaşımsın." },
+    { "lemma": "friend", "pos": "noun", "tr": "arkadaş", "ipa": "/frend/", "ex_en": "She's my friend.", "ex_tr": "O benim arkadaşım." },
+    { "lemma": "cat", "pos": "noun", "tr": "kedi", "ipa": "/kæt/", "ex_en": "It's a cat.", "ex_tr": "O bir kedi." },
+    { "lemma": "dog", "pos": "noun", "tr": "köpek", "ipa": "/dɒɡ/", "ex_en": "It's a big dog.", "ex_tr": "O büyük bir köpek." },
+    { "lemma": "book", "pos": "noun", "tr": "kitap", "ipa": "/bʊk/", "ex_en": "It's a book.", "ex_tr": "O bir kitap." },
+    { "lemma": "man", "pos": "noun", "tr": "adam, erkek", "ipa": "/mæn/", "ex_en": "He's a man.", "ex_tr": "O bir erkek." },
+    { "lemma": "woman", "pos": "noun", "tr": "kadın", "ipa": "/ˈwʊmən/", "ex_en": "She's a woman.", "ex_tr": "O bir kadın." },
+    { "lemma": "big", "pos": "adj", "tr": "büyük", "ipa": "/bɪɡ/", "ex_en": "It's a big dog.", "ex_tr": "O büyük bir köpek." },
+    { "lemma": "small", "pos": "adj", "tr": "küçük", "ipa": "/smɔːl/", "ex_en": "My cat is small.", "ex_tr": "Kedim küçük." },
+    { "lemma": "and", "pos": "conj", "tr": "ve", "ipa": "/ænd/", "ex_en": "Ali and Ayşe are doctors.", "ex_tr": "Ali ve Ayşe doktor." }
+  ]
+}

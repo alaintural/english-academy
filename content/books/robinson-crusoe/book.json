@@ -1,0 +1,17 @@
+{
+  "id": "robinson-crusoe",
+  "title": "Robinson Crusoe",
+  "title_tr": "Robinson Crusoe",
+  "author": "Daniel Defoe",
+  "year": 1719,
+  "category": "Macera",
+  "description_tr": "Bir gemi kazasından sonra ıssız bir adada tek başına kalan bir adamın hayatta kalma hikâyesi.",
+  "cover": {
+    "bg": "#1E4E79",
+    "fg": "#EEF6FF",
+    "accent": "#F4C27A",
+    "motif": "island"
+  },
+  "chapters_planned": 12,
+  "order": 5
+}

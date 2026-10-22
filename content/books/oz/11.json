@@ -1,0 +1,215 @@
+{
+  "book": "oz",
+  "number": 11,
+  "title_en": "The Balloon and the Journey South",
+  "title_tr": "Balon ve Güneye Yolculuk",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The next day, Oz makes a big balloon of green silk.",
+      "tr": "Ertesi gün Oz, yeşil ipekten büyük bir balon yapıyor.",
+      "w": [["the","(belirli tanımlık)"], ["next","sonraki"], ["day","gün"], ["Oz","Oz (büyücünün adı)"], ["make","yapıyor"], ["a","bir"], ["big","büyük"], ["balloon","balon"], ["of","-den (yapılmış)"], ["green","yeşil"], ["silk","ipek"]]
+    },
+    {
+      "en": "He fills it with hot air.",
+      "tr": "Onu sıcak havayla dolduruyor.",
+      "w": [["he","o (erkek)"], ["fill","dolduruyor"], ["it","onu"], ["with","ile"], ["hot","sıcak"], ["air","hava"]]
+    },
+    {
+      "en": "“I can take you home in my balloon,” he says to Dorothy.",
+      "tr": "“Seni balonumla evine götürebilirim,” diyor Dorothy'ye.",
+      "w": [["I","ben"], ["can","-ebilirim"], ["take","götürmek"], ["you","seni"], ["home","eve"], ["in","içinde, ile"], ["my","benim"], ["balloon","balon"], ["he","o (erkek)"], ["say","diyor"], ["to","-e"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "Dorothy is very happy.",
+      "tr": "Dorothy çok mutlu.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["very","çok"], ["happy","mutlu"]]
+    },
+    {
+      "en": "“The Scarecrow can be the new king of the city,” says Oz.",
+      "tr": "“Korkuluk şehrin yeni kralı olabilir,” diyor Oz.",
+      "w": [["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["can","-ebilir"], ["be","olmak"], ["the","(belirli tanımlık)"], ["new","yeni"], ["king","kral"], ["of","-in"], ["the","(belirli tanımlık)"], ["city","şehir"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"]]
+    },
+    {
+      "p": true,
+      "en": "All the people of the city come to see the balloon.",
+      "tr": "Şehrin bütün halkı balonu görmeye geliyor.",
+      "w": [["all","bütün"], ["the","(belirli tanımlık)"], ["people","insanlar, halk"], ["of","-in"], ["the","(belirli tanımlık)"], ["city","şehir"], ["come","geliyorlar"], ["to","(mastar eki) -meye"], ["see","görmek"], ["the","(belirli tanımlık)"], ["balloon","balon"]]
+    },
+    {
+      "en": "Oz goes into the balloon. “Come, Dorothy! Quick!” he says.",
+      "tr": "Oz balona biniyor. “Gel, Dorothy! Çabuk!” diyor.",
+      "w": [["Oz","Oz (büyücünün adı)"], ["go","gidiyor, biniyor"], ["into","içine"], ["the","(belirli tanımlık)"], ["balloon","balon"], ["come","gel"], ["Dorothy","Dorothy (kız adı)"], ["quick","çabuk"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "But Toto runs after a little cat, and Dorothy runs after Toto.",
+      "tr": "Ama Toto küçük bir kedinin peşinden koşuyor, Dorothy de Toto'nun peşinden.",
+      "w": [["but","ama"], ["Toto","Toto (köpeğin adı)"], ["run","koşuyor"], ["after","peşinden"], ["a","bir"], ["little","küçük"], ["cat","kedi"], ["and","ve"], ["Dorothy","Dorothy (kız adı)"], ["run","koşuyor"], ["after","peşinden"], ["Toto","Toto (köpeğin adı)"]]
+    },
+    {
+      "en": "She finds him and runs back to the balloon.",
+      "tr": "Onu buluyor ve balona geri koşuyor.",
+      "w": [["she","o (kadın)"], ["find","buluyor"], ["him","onu"], ["and","ve"], ["run","koşuyor"], ["back","geri"], ["to","-e"], ["the","(belirli tanımlık)"], ["balloon","balon"]]
+    },
+    {
+      "en": "But the ropes break, and the balloon goes up into the sky!",
+      "tr": "Ama halatlar kopuyor ve balon gökyüzüne yükseliyor!",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["rope","halatlar"], ["break","kopuyor"], ["and","ve"], ["the","(belirli tanımlık)"], ["balloon","balon"], ["go","gidiyor"], ["up","yukarı"], ["into","içine"], ["the","(belirli tanımlık)"], ["sky","gökyüzü"]]
+    },
+    {
+      "en": "“Come back!” cries Dorothy. “I want to go too!”",
+      "tr": "“Geri gel!” diye bağırıyor Dorothy. “Ben de gitmek istiyorum!”",
+      "w": [["come","gel"], ["back","geri"], ["cry","bağırıyor"], ["Dorothy","Dorothy (kız adı)"], ["I","ben"], ["want","istiyorum"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["too","de, da"]]
+    },
+    {
+      "en": "“I can't come back, my dear,” says Oz. “Goodbye!”",
+      "tr": "“Geri gelemem, canım,” diyor Oz. “Hoşça kal!”",
+      "w": [["I","ben"], ["can","-emem (can't: yapamamak)"], ["come","gelmek"], ["back","geri"], ["my","benim"], ["dear","canım"], ["say","diyor"], ["Oz","Oz (büyücünün adı)"], ["goodbye","hoşça kal"]]
+    },
+    {
+      "en": "Dorothy cries, and her friends are sad too.",
+      "tr": "Dorothy ağlıyor, arkadaşları da üzgün.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["cry","ağlıyor"], ["and","ve"], ["her","onun (kadın)"], ["friend","arkadaşlar"], ["be","-dir (olmak)"], ["sad","üzgün"], ["too","de, da"]]
+    },
+    {
+      "p": true,
+      "en": "Then the soldier with the green beard comes to them.",
+      "tr": "Sonra yeşil sakallı asker yanlarına geliyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["soldier","asker"], ["with","-li, ile"], ["the","(belirli tanımlık)"], ["green","yeşil"], ["beard","sakal"], ["come","geliyor"], ["to","-e"], ["them","onlar"]]
+    },
+    {
+      "en": "“Go to Glinda, the Good Witch of the South,” he says.",
+      "tr": "“Güney'in İyi Cadısı Glinda'ya gidin,” diyor.",
+      "w": [["go","gidin"], ["to","-e"], ["Glinda","Glinda (iyi cadının adı)"], ["the","(belirli tanımlık)"], ["good","iyi"], ["witch","cadı"], ["of","-in"], ["the","(belirli tanımlık)"], ["south","güney"], ["he","o (erkek)"], ["say","diyor"]]
+    },
+    {
+      "en": "“She can help you.”",
+      "tr": "“O size yardım edebilir.”",
+      "w": [["she","o (kadın)"], ["can","-ebilir"], ["help","yardım etmek"], ["you","size"]]
+    },
+    {
+      "en": "So Dorothy and her three friends walk to the South.",
+      "tr": "Böylece Dorothy ve üç arkadaşı güneye doğru yürüyor.",
+      "w": [["so","böylece"], ["Dorothy","Dorothy (kız adı)"], ["and","ve"], ["her","onun (kadın)"], ["three","üç"], ["friend","arkadaşlar"], ["walk","yürüyorlar"], ["to","-e"], ["the","(belirli tanımlık)"], ["south","güney"]]
+    },
+    {
+      "p": true,
+      "en": "On the way, they come to some strange trees.",
+      "tr": "Yolda birkaç tuhaf ağaca geliyorlar.",
+      "w": [["on","-de"], ["the","(belirli tanımlık)"], ["way","yol"], ["they","onlar"], ["come","geliyorlar"], ["to","-e"], ["some","birkaç"], ["strange","tuhaf"], ["tree","ağaçlar"]]
+    },
+    {
+      "en": "The trees fight! Their branches take the Scarecrow and throw him.",
+      "tr": "Ağaçlar dövüşüyor! Dalları Korkuluk'u yakalayıp fırlatıyor.",
+      "w": [["the","(belirli tanımlık)"], ["tree","ağaçlar"], ["fight","dövüşüyor"], ["their","onların"], ["branch","dallar"], ["take","alıyor, yakalıyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["and","ve"], ["throw","fırlatıyor"], ["him","onu"]]
+    },
+    {
+      "en": "The Tin Woodman cuts a branch with his axe.",
+      "tr": "Teneke Adam baltasıyla bir dalı kesiyor.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["cut","kesiyor"], ["a","bir"], ["branch","dal"], ["with","ile, -le"], ["his","onun (erkek)"], ["axe","balta"]]
+    },
+    {
+      "en": "Then the trees let the friends go.",
+      "tr": "Sonra ağaçlar arkadaşların geçmesine izin veriyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["tree","ağaçlar"], ["let","izin veriyor"], ["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["go","gitmek, geçmek"]]
+    },
+    {
+      "p": true,
+      "en": "Next, they come to a land of china.",
+      "tr": "Sonra porselenden bir ülkeye geliyorlar.",
+      "w": [["next","sonra"], ["they","onlar"], ["come","geliyorlar"], ["to","-e"], ["a","bir"], ["land","ülke"], ["of","-den (yapılmış)"], ["china","porselen"]]
+    },
+    {
+      "en": "Everything here is china: the houses, the animals and the people.",
+      "tr": "Burada her şey porselen: evler, hayvanlar ve insanlar.",
+      "w": [["everything","her şey"], ["here","burada"], ["be","-dir (olmak)"], ["china","porselen"], ["the","(belirli tanımlık)"], ["house","evler"], ["the","(belirli tanımlık)"], ["animal","hayvanlar"], ["and","ve"], ["the","(belirli tanımlık)"], ["people","insanlar"]]
+    },
+    {
+      "en": "The china people are very small, and they break easily.",
+      "tr": "Porselen insanlar çok küçük ve kolayca kırılıyorlar.",
+      "w": [["the","(belirli tanımlık)"], ["china","porselen"], ["people","insanlar"], ["be","-dir (olmak)"], ["very","çok"], ["small","küçük"], ["and","ve"], ["they","onlar"], ["break","kırılıyorlar"], ["easily","kolayca"]]
+    },
+    {
+      "en": "“Please be careful!” says a little china lady.",
+      "tr": "“Lütfen dikkatli olun!” diyor küçük, porselen bir hanım.",
+      "w": [["please","lütfen"], ["be","olun"], ["careful","dikkatli"], ["say","diyor"], ["a","bir"], ["little","küçük"], ["china","porselen"], ["lady","hanım"]]
+    },
+    {
+      "en": "But the Lion's tail hits a little china house, and it breaks.",
+      "tr": "Ama Aslan'ın kuyruğu küçük, porselen bir eve çarpıyor ve ev kırılıyor.",
+      "w": [["but","ama"], ["the","(belirli tanımlık)"], ["lion","Aslan'ın"], ["tail","kuyruk"], ["hit","çarpıyor"], ["a","bir"], ["little","küçük"], ["china","porselen"], ["house","ev"], ["and","ve"], ["it","o"], ["break","kırılıyor"]]
+    },
+    {
+      "en": "The Lion is very sorry.",
+      "tr": "Aslan çok üzgün.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["very","çok"], ["sorry","üzgün, pişman"]]
+    },
+    {
+      "p": true,
+      "en": "Next, they come to a big forest.",
+      "tr": "Sonra büyük bir ormana geliyorlar.",
+      "w": [["next","sonra"], ["they","onlar"], ["come","geliyorlar"], ["to","-e"], ["a","bir"], ["big","büyük"], ["forest","orman"]]
+    },
+    {
+      "en": "Many animals live there, and they are very afraid.",
+      "tr": "Orada birçok hayvan yaşıyor ve çok korkuyorlar.",
+      "w": [["many","birçok"], ["animal","hayvanlar"], ["live","yaşıyor"], ["there","orada"], ["and","ve"], ["they","onlar"], ["be","-dir (olmak)"], ["very","çok"], ["afraid","korkmuş"]]
+    },
+    {
+      "en": "“A terrible monster lives in this forest,” says a tiger.",
+      "tr": "“Bu ormanda korkunç bir canavar yaşıyor,” diyor bir kaplan.",
+      "w": [["a","bir"], ["terrible","korkunç"], ["monster","canavar"], ["live","yaşıyor"], ["in","-de"], ["this","bu"], ["forest","orman"], ["say","diyor"], ["a","bir"], ["tiger","kaplan"]]
+    },
+    {
+      "en": "“It is like a big spider, and it eats animals.”",
+      "tr": "“Büyük bir örümceğe benziyor ve hayvanları yiyor.”",
+      "w": [["it","o"], ["be","-dir (olmak)"], ["like","gibi"], ["a","bir"], ["big","büyük"], ["spider","örümcek"], ["and","ve"], ["it","o"], ["eat","yiyor"], ["animal","hayvanlar"]]
+    },
+    {
+      "en": "“Please kill it, and you can be our king.”",
+      "tr": "“Lütfen onu öldür, sen de bizim kralımız olabilirsin.”",
+      "w": [["please","lütfen"], ["kill","öldür"], ["it","onu"], ["and","ve"], ["you","sen"], ["can","-ebilirsin"], ["be","olmak"], ["our","bizim"], ["king","kral"]]
+    },
+    {
+      "en": "The Lion is brave now. He finds the monster asleep.",
+      "tr": "Aslan artık cesur. Canavarı uyurken buluyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["brave","cesur"], ["now","artık"], ["he","o (erkek)"], ["find","buluyor"], ["the","(belirli tanımlık)"], ["monster","canavar"], ["asleep","uyurken, uykuda"]]
+    },
+    {
+      "en": "With one hit of his big paw, he kills it.",
+      "tr": "Büyük pençesinin tek bir darbesiyle onu öldürüyor.",
+      "w": [["with","ile"], ["one","bir, tek"], ["hit","darbe, vuruş"], ["of","-in"], ["his","onun (erkek)"], ["big","büyük"], ["paw","pençe"], ["he","o (erkek)"], ["kill","öldürüyor"], ["it","onu"]]
+    },
+    {
+      "en": "Now the Lion is the King of the forest animals!",
+      "tr": "Artık Aslan, orman hayvanlarının kralı!",
+      "w": [["now","artık"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["king","kral"], ["of","-in"], ["the","(belirli tanımlık)"], ["forest","orman"], ["animal","hayvanlar"]]
+    },
+    {
+      "en": "“I can come back to you,” he says. “But first I must help Dorothy.”",
+      "tr": "“Size geri gelebilirim,” diyor. “Ama önce Dorothy'ye yardım etmeliyim.”",
+      "w": [["I","ben"], ["can","-ebilirim"], ["come","gelmek"], ["back","geri"], ["to","-e"], ["you","size"], ["he","o (erkek)"], ["say","diyor"], ["but","ama"], ["first","önce"], ["I","ben"], ["must","-meli"], ["help","yardım etmek"], ["Dorothy","Dorothy (kız adı)"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"air","pos":"noun","tr":"hava","ipa":"/eə/","ex_en":"He fills it with hot air.","ex_tr":"Onu sıcak havayla dolduruyor."},
+    {"lemma":"rope","pos":"noun","tr":"halat, ip","ipa":"/rəʊp/","ex_en":"But the ropes break!","ex_tr":"Ama halatlar kopuyor!"},
+    {"lemma":"goodbye","pos":"exclamation","tr":"hoşça kal, güle güle","ipa":"/ɡʊdˈbaɪ/","ex_en":"“I can't come back, my dear. Goodbye!”","ex_tr":"“Geri gelemem, canım. Hoşça kal!”"},
+    {"lemma":"south","pos":"noun","tr":"güney","ipa":"/saʊθ/","ex_en":"Go to Glinda, the Good Witch of the South.","ex_tr":"Güney'in İyi Cadısı Glinda'ya gidin."},
+    {"lemma":"fight","pos":"verb","tr":"dövüşmek, kavga etmek","ipa":"/faɪt/","ex_en":"The trees fight!","ex_tr":"Ağaçlar dövüşüyor!"},
+    {"lemma":"branch","pos":"noun","tr":"dal","ipa":"/brɑːntʃ/","ex_en":"The Tin Woodman cuts a branch with his axe.","ex_tr":"Teneke Adam baltasıyla bir dalı kesiyor."},
+    {"lemma":"china","pos":"noun","tr":"porselen","ipa":"/ˈtʃaɪnə/","ex_en":"Everything here is china.","ex_tr":"Burada her şey porselen."},
+    {"lemma":"break","pos":"verb","tr":"kırılmak, kırmak; kopmak","ipa":"/breɪk/","ex_en":"The china people break easily.","ex_tr":"Porselen insanlar kolayca kırılıyor."},
+    {"lemma":"careful","pos":"adjective","tr":"dikkatli","ipa":"/ˈkeəfl/","ex_en":"Please be careful!","ex_tr":"Lütfen dikkatli olun!"},
+    {"lemma":"tail","pos":"noun","tr":"kuyruk","ipa":"/teɪl/","ex_en":"The Lion's tail hits a little china house.","ex_tr":"Aslan'ın kuyruğu küçük, porselen bir eve çarpıyor."},
+    {"lemma":"monster","pos":"noun","tr":"canavar","ipa":"/ˈmɒnstə/","ex_en":"A terrible monster lives in this forest.","ex_tr":"Bu ormanda korkunç bir canavar yaşıyor."},
+    {"lemma":"spider","pos":"noun","tr":"örümcek","ipa":"/ˈspaɪdə/","ex_en":"It is like a big spider.","ex_tr":"Büyük bir örümceğe benziyor."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"What is the balloon made of?","prompt_tr":"Balon neyden yapılmış?","options":["Green silk","Straw","Tin"],"answer":0},
+    {"type":"mcq","prompt":"Why does Dorothy not go in the balloon?","prompt_tr":"Dorothy neden balonla gidemiyor?","options":["She is afraid of the sky.","She runs after Toto, and the ropes break.","Oz says no."],"answer":1},
+    {"type":"mcq","prompt":"Who can help Dorothy now?","prompt_tr":"Artık Dorothy'ye kim yardım edebilir?","options":["The Wicked Witch","The china lady","Glinda, the Good Witch of the South"],"answer":2},
+    {"type":"mcq","prompt":"What is true about the china people?","prompt_tr":"Porselen insanlar hakkında hangisi doğru?","options":["They can fly.","They break easily.","They eat animals."],"answer":1},
+    {"type":"mcq","prompt":"Who is the new King of the forest animals?","prompt_tr":"Orman hayvanlarının yeni kralı kim?","options":["The Lion","The spider","The Tin Woodman"],"answer":0}
+  ]
+}

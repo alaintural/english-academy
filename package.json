@@ -1,0 +1,32 @@
+{
+  "name": "english-academy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run content && next dev",
+    "content": "node scripts/validate-content.ts && node scripts/build-content.ts",
+    "build": "npm run content && next build",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "validate-content": "node scripts/validate-content.ts",
+    "test:e2e": "node scripts/smoke-iphone.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^1.61.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.64.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  }
+}

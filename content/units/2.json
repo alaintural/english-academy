@@ -1,0 +1,151 @@
+{
+  "unit": 2,
+  "title_tr": "Kendini Tanıtma — Ünite Testi",
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "I ___ a student.",
+      "tr": "Ben bir öğrenciyim.",
+      "options": ["is", "am", "are"],
+      "answer": 1,
+      "explain_tr": "I ile am kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["She's engineer.", "She's a engineer.", "She's an engineer."],
+      "answer": 2,
+      "explain_tr": "engineer sesli harfle başlar → an engineer."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Meslekleri eşleştir.",
+      "pairs": [["doctor", "doktor"], ["nurse", "hemşire"], ["cook", "aşçı"], ["waiter", "garson"]]
+    },
+    {
+      "type": "listen",
+      "audio": "You're tired.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["I'm tired.", "You're tired.", "You're hungry."],
+      "answer": 1,
+      "explain_tr": "You're = sen …sin. tired = yorgun."
+    },
+    {
+      "type": "fill",
+      "prompt": "They ___ from Spain.",
+      "tr": "Onlar İspanya'dan.",
+      "options": ["are", "is", "am"],
+      "answer": 0,
+      "explain_tr": "they ile are kullanılır."
+    },
+    {
+      "type": "mcq",
+      "prompt": "This is Murat. ___ is my brother.",
+      "prompt_tr": "Murat için hangi zamir?",
+      "options": ["She", "It", "He"],
+      "answer": 2,
+      "explain_tr": "Murat erkek → he."
+    },
+    {
+      "type": "mcq",
+      "prompt": "This is my cat. ___ is white.",
+      "prompt_tr": "Kedi için hangi zamir?",
+      "options": ["It", "She", "They"],
+      "answer": 0,
+      "explain_tr": "Hayvan ve eşyalar için it kullanılır."
+    },
+    {
+      "type": "order",
+      "answer": "We are students from Turkey.",
+      "tr": "Biz Türkiyeli öğrencileriz."
+    },
+    {
+      "type": "match",
+      "prompt_tr": "Uzun ve kısa biçimleri eşleştir.",
+      "pairs": [["she is", "she's"], ["they are", "they're"], ["is not", "isn't"], ["are not", "aren't"]]
+    },
+    {
+      "type": "fill",
+      "prompt": "He ___ a teacher. He's a doctor.",
+      "tr": "O öğretmen değil. O doktor.",
+      "options": ["aren't", "isn't", "am not"],
+      "answer": 1,
+      "explain_tr": "he → is not → isn't."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which one is correct?",
+      "prompt_tr": "Hangisi doğru?",
+      "options": ["I amn't hungry.", "I'm not hungry.", "I not hungry."],
+      "answer": 1,
+      "explain_tr": "I am not → I'm not."
+    },
+    {
+      "type": "listen",
+      "audio": "They aren't at home.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["They're at home.", "We aren't at home.", "They aren't at home."],
+      "answer": 2,
+      "explain_tr": "aren't = are not (değil)."
+    },
+    {
+      "type": "order",
+      "answer": "It isn't my phone.",
+      "tr": "O benim telefonum değil."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ she a nurse?",
+      "tr": "O hemşire mi?",
+      "options": ["Are", "Am", "Is"],
+      "answer": 2,
+      "explain_tr": "Soruda is başa gelir: Is she …?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Are you from Turkey?",
+      "prompt_tr": "Olumlu kısa cevabı seç.",
+      "options": ["Yes, I am.", "Yes, I'm.", "Yes, you are."],
+      "answer": 0,
+      "explain_tr": "Olumlu kısa cevap kısaltılmaz: Yes, I am."
+    },
+    {
+      "type": "mcq",
+      "prompt": "___ old are you? I'm 18.",
+      "prompt_tr": "Hangi soru kelimesi gelir?",
+      "options": ["What", "How", "Where"],
+      "answer": 1,
+      "explain_tr": "Yaş sorusu: How old are you?"
+    },
+    {
+      "type": "order",
+      "answer": "Where is your teacher from?",
+      "tr": "Öğretmenin nereli?"
+    },
+    {
+      "type": "mcq",
+      "prompt": "Nice to meet you.",
+      "prompt_tr": "En uygun cevabı seç.",
+      "options": ["I'm fine, thank you.", "Yes, I am.", "Nice to meet you, too."],
+      "answer": 2,
+      "explain_tr": "Cevap: Nice to meet you, too."
+    },
+    {
+      "type": "listen",
+      "audio": "This is my friend, Elif.",
+      "prompt_tr": "Duyduğun cümleyi seç.",
+      "options": ["This is my friend, Elif.", "This is my sister, Elif.", "She is my teacher, Elif."],
+      "answer": 0,
+      "explain_tr": "This is my friend = Bu benim arkadaşım."
+    },
+    {
+      "type": "fill",
+      "prompt": "Good morning, ___ Brown. You're our new teacher.",
+      "tr": "Günaydın Bay Brown. Siz yeni öğretmenimizsiniz.",
+      "options": ["Mrs", "Mr", "Ms"],
+      "answer": 1,
+      "explain_tr": "Erkek için Mr kullanılır."
+    }
+  ]
+}

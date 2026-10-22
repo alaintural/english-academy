@@ -1,0 +1,216 @@
+{
+  "book": "oz",
+  "number": 5,
+  "title_en": "The Cowardly Lion",
+  "title_tr": "Korkak Aslan",
+  "sentences": [
+    {
+      "p": true,
+      "en": "The friends walk on through the dark forest.",
+      "tr": "Arkadaşlar karanlık ormanın içinden yürümeye devam ediyor.",
+      "w": [["the","(belirli tanımlık)"], ["friend","arkadaşlar"], ["walk","yürüyor"], ["on","devam (walk on: yürümeye devam etmek)"], ["through","içinden"], ["the","(belirli tanımlık)"], ["dark","karanlık"], ["forest","orman"]]
+    },
+    {
+      "en": "Suddenly they hear a loud roar.",
+      "tr": "Birden yüksek bir kükreme duyuyorlar.",
+      "w": [["suddenly","birden"], ["they","onlar"], ["hear","duyuyorlar"], ["a","bir"], ["loud","yüksek sesli"], ["roar","kükreme"]]
+    },
+    {
+      "en": "A big lion jumps onto the road!",
+      "tr": "Büyük bir aslan yola atlıyor!",
+      "w": [["a","bir"], ["big","büyük"], ["lion","aslan"], ["jump","atlıyor"], ["onto","üstüne"], ["the","(belirli tanımlık)"], ["road","yol"]]
+    },
+    {
+      "en": "He hits the Scarecrow with his big paw.",
+      "tr": "Büyük pençesiyle Korkuluk'a vuruyor.",
+      "w": [["he","o (erkek)"], ["hit","vuruyor"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["with","ile, -le"], ["his","onun (erkek)"], ["big","büyük"], ["paw","pençe"]]
+    },
+    {
+      "en": "The Scarecrow falls on the road.",
+      "tr": "Korkuluk yola düşüyor.",
+      "w": [["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["fall","düşüyor"], ["on","üstüne"], ["the","(belirli tanımlık)"], ["road","yol"]]
+    },
+    {
+      "en": "Then the Lion hits the Tin Woodman.",
+      "tr": "Sonra Aslan, Teneke Adam'a vuruyor.",
+      "w": [["then","sonra"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["hit","vuruyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "The Tin Woodman falls too, but the tin is strong.",
+      "tr": "Teneke Adam da düşüyor, ama teneke sağlam.",
+      "w": [["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"], ["fall","düşüyor"], ["too","de, da"], ["but","ama"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["be","-dir (olmak)"], ["strong","güçlü, sağlam"]]
+    },
+    {
+      "p": true,
+      "en": "Little Toto runs at the Lion and barks.",
+      "tr": "Küçük Toto, Aslan'ın üstüne koşuyor ve havlıyor.",
+      "w": [["little","küçük"], ["Toto","Toto (köpeğin adı)"], ["run","koşuyor"], ["at","-e doğru, üstüne"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["and","ve"], ["bark","havlıyor"]]
+    },
+    {
+      "en": "The Lion opens his big mouth. He wants to bite Toto.",
+      "tr": "Aslan kocaman ağzını açıyor. Toto'yu ısırmak istiyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["open","açıyor"], ["his","onun (erkek)"], ["big","büyük"], ["mouth","ağız"], ["he","o (erkek)"], ["want","istiyor"], ["to","(mastar eki) -mek"], ["bite","ısırmak"], ["Toto","Toto (köpeğin adı)"]]
+    },
+    {
+      "en": "Dorothy is afraid for Toto, but she runs to the Lion.",
+      "tr": "Dorothy, Toto için korkuyor, ama Aslan'a doğru koşuyor.",
+      "w": [["Dorothy","Dorothy (kız adı)"], ["be","-dir (olmak)"], ["afraid","korkmuş"], ["for","için"], ["Toto","Toto (köpeğin adı)"], ["but","ama"], ["she","o (kadın)"], ["run","koşuyor"], ["to","-e"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "She hits him on the nose with her hand.",
+      "tr": "Eliyle onun burnuna vuruyor.",
+      "w": [["she","o (kadın)"], ["hit","vuruyor"], ["him","ona"], ["on","üstüne"], ["the","(belirli tanımlık)"], ["nose","burun"], ["with","ile, -le"], ["her","onun (kadın)"], ["hand","el"]]
+    },
+    {
+      "en": "“Don't bite Toto!” she says.",
+      "tr": "“Toto'yu ısırma!” diyor.",
+      "w": [["do","-ma (olumsuz emir)"], ["bite","ısırmak"], ["Toto","Toto (köpeğin adı)"], ["she","o (kadın)"], ["say","diyor"]]
+    },
+    {
+      "en": "“You are a big animal, and he is a little dog!”",
+      "tr": "“Sen büyük bir hayvansın, o ise küçük bir köpek!”",
+      "w": [["you","sen"], ["be","-sin (olmak)"], ["a","bir"], ["big","büyük"], ["animal","hayvan"], ["and","ve"], ["he","o (erkek)"], ["be","-dir (olmak)"], ["a","bir"], ["little","küçük"], ["dog","köpek"]]
+    },
+    {
+      "en": "“You are a big coward!”",
+      "tr": "“Sen koca bir korkaksın!”",
+      "w": [["you","sen"], ["be","-sin (olmak)"], ["a","bir"], ["big","büyük"], ["coward","korkak"]]
+    },
+    {
+      "p": true,
+      "en": "The Lion puts his paw on his nose.",
+      "tr": "Aslan pençesini burnuna koyuyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["put","koyuyor"], ["his","onun (erkek)"], ["paw","pençe"], ["on","üstüne"], ["his","onun (erkek)"], ["nose","burun"]]
+    },
+    {
+      "en": "“Yes, I know,” he says sadly.",
+      "tr": "“Evet, biliyorum,” diyor üzgün bir sesle.",
+      "w": [["yes","evet"], ["I","ben"], ["know","biliyorum"], ["he","o (erkek)"], ["say","diyor"], ["sadly","üzgün bir şekilde"]]
+    },
+    {
+      "en": "“I am a coward. I am afraid of everything.”",
+      "tr": "“Ben bir korkağım. Her şeyden korkuyorum.”",
+      "w": [["I","ben"], ["be","-im (olmak)"], ["a","bir"], ["coward","korkak"], ["I","ben"], ["be","-im (olmak)"], ["afraid","korkmuş (afraid of: -den korkmak)"], ["of","-den"], ["everything","her şey"]]
+    },
+    {
+      "en": "“But all the animals think a lion is brave.”",
+      "tr": "“Ama bütün hayvanlar aslanın cesur olduğunu düşünüyor.”",
+      "w": [["but","ama"], ["all","bütün"], ["the","(belirli tanımlık)"], ["animal","hayvanlar"], ["think","düşünüyor"], ["a","bir"], ["lion","aslan"], ["be","-dir (olmak)"], ["brave","cesur"]]
+    },
+    {
+      "en": "“For them, the lion is the King of Beasts.”",
+      "tr": "“Onlara göre aslan, hayvanların kralıdır.”",
+      "w": [["for","için, -e göre"], ["them","onlar"], ["the","(belirli tanımlık)"], ["lion","aslan"], ["be","-dir (olmak)"], ["the","(belirli tanımlık)"], ["king","kral"], ["of","-in"], ["beast","hayvanlar, canavarlar"]]
+    },
+    {
+      "en": "“So I roar very loudly, and they run away.”",
+      "tr": "“Bu yüzden çok yüksek sesle kükrüyorum ve onlar kaçıyor.”",
+      "w": [["so","bu yüzden"], ["I","ben"], ["roar","kükrüyorum"], ["very","çok"], ["loudly","yüksek sesle"], ["and","ve"], ["they","onlar"], ["run","koşuyorlar"], ["away","uzağa (run away: kaçmak)"]]
+    },
+    {
+      "en": "“But inside, I am always afraid.”",
+      "tr": "“Ama içten içe hep korkuyorum.”",
+      "w": [["but","ama"], ["inside","içeride, içten içe"], ["I","ben"], ["be","-im (olmak)"], ["always","her zaman, hep"], ["afraid","korkmuş"]]
+    },
+    {
+      "p": true,
+      "en": "The Lion looks at the Scarecrow.",
+      "tr": "Aslan, Korkuluk'a bakıyor.",
+      "w": [["the","(belirli tanımlık)"], ["lion","aslan"], ["look","bakıyor"], ["at","-e"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"]]
+    },
+    {
+      "en": "“Is he full of straw?” he asks.",
+      "tr": "“Onun içi saman dolu mu?” diye soruyor.",
+      "w": [["be","mi (olmak)"], ["he","o (erkek)"], ["full","dolu"], ["of","-ile (full of: dolu)"], ["straw","saman"], ["he","o (erkek)"], ["ask","soruyor"]]
+    },
+    {
+      "en": "“Yes,” says Dorothy. “And the other man is tin.”",
+      "tr": "“Evet,” diyor Dorothy. “Öteki adam da teneke.”",
+      "w": [["yes","evet"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"], ["and","ve, de"], ["the","(belirli tanımlık)"], ["other","diğer, öteki"], ["man","adam"], ["be","-dir (olmak)"], ["tin","teneke"]]
+    },
+    {
+      "en": "“And what is this little animal?”",
+      "tr": "“Peki bu küçük hayvan ne?”",
+      "w": [["and","peki"], ["what","ne"], ["be","-dir (olmak)"], ["this","bu"], ["little","küçük"], ["animal","hayvan"]]
+    },
+    {
+      "en": "“He is my dog, Toto,” says Dorothy.",
+      "tr": "“O benim köpeğim, Toto,” diyor Dorothy.",
+      "w": [["he","o (erkek)"], ["be","-dir (olmak)"], ["my","benim"], ["dog","köpek"], ["Toto","Toto (köpeğin adı)"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "p": true,
+      "en": "“Where are you all going?” asks the Lion.",
+      "tr": "“Hepiniz nereye gidiyorsunuz?” diye soruyor Aslan.",
+      "w": [["where","nereye"], ["be","(yardımcı fiil)"], ["you","siz"], ["all","hepiniz"], ["go","gidiyorsunuz"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "“We are going to the great Oz,” says the Tin Woodman.",
+      "tr": "“Büyük Oz'a gidiyoruz,” diyor Teneke Adam.",
+      "w": [["we","biz"], ["be","(yardımcı fiil)"], ["go","gidiyoruz"], ["to","-e"], ["the","(belirli tanımlık)"], ["great","büyük, ulu"], ["Oz","Oz (büyücünün adı)"], ["say","diyor"], ["the","(belirli tanımlık)"], ["tin","teneke"], ["woodman","oduncu"]]
+    },
+    {
+      "en": "“He can give the Scarecrow brains and give me a heart.”",
+      "tr": "“Korkuluk'a beyin, bana da bir kalp verebilir.”",
+      "w": [["he","o (erkek)"], ["can","-ebilir"], ["give","vermek"], ["the","(belirli tanımlık)"], ["scarecrow","korkuluk"], ["brain","beyin"], ["and","ve"], ["give","vermek"], ["me","bana"], ["a","bir"], ["heart","kalp"]]
+    },
+    {
+      "en": "“And Dorothy wants to go home to Kansas.”",
+      "tr": "“Dorothy de Kansas'a, evine gitmek istiyor.”",
+      "w": [["and","ve"], ["Dorothy","Dorothy (kız adı)"], ["want","istiyor"], ["to","(mastar eki) -mek"], ["go","gitmek"], ["home","eve"], ["to","-e"], ["Kansas","Kansas (ABD'de bir eyalet)"]]
+    },
+    {
+      "en": "“Can Oz give me courage?” asks the Lion.",
+      "tr": "“Oz bana cesaret verebilir mi?” diye soruyor Aslan.",
+      "w": [["can","-ebilir mi"], ["Oz","Oz (büyücünün adı)"], ["give","vermek"], ["me","bana"], ["courage","cesaret"], ["ask","soruyor"], ["the","(belirli tanımlık)"], ["lion","aslan"]]
+    },
+    {
+      "en": "“Without courage, my life is very sad.”",
+      "tr": "“Cesaret olmadan hayatım çok üzücü.”",
+      "w": [["without","olmadan"], ["courage","cesaret"], ["my","benim"], ["life","hayat"], ["be","-dir (olmak)"], ["very","çok"], ["sad","üzücü, üzgün"]]
+    },
+    {
+      "p": true,
+      "en": "“Come with us,” says Dorothy.",
+      "tr": "“Bizimle gel,” diyor Dorothy.",
+      "w": [["come","gel"], ["with","ile, -le"], ["us","biz, bizimle"], ["say","diyor"], ["Dorothy","Dorothy (kız adı)"]]
+    },
+    {
+      "en": "“You can keep the other animals away from us.”",
+      "tr": "“Diğer hayvanları bizden uzak tutabilirsin.”",
+      "w": [["you","sen"], ["can","-ebilirsin"], ["keep","tutmak"], ["the","(belirli tanımlık)"], ["other","diğer"], ["animal","hayvanlar"], ["away","uzak"], ["from","-den / -dan"], ["us","biz"]]
+    },
+    {
+      "en": "So the Cowardly Lion walks with them on the yellow brick road.",
+      "tr": "Böylece Korkak Aslan da onlarla birlikte sarı tuğlalı yolda yürüyor.",
+      "w": [["so","böylece"], ["the","(belirli tanımlık)"], ["cowardly","korkak"], ["lion","aslan"], ["walk","yürüyor"], ["with","ile, -le"], ["them","onlar, onlarla"], ["on","üstünde"], ["the","(belirli tanımlık)"], ["yellow","sarı"], ["brick","tuğla"], ["road","yol"]]
+    },
+    {
+      "en": "Toto does not like him at first, but soon they are friends.",
+      "tr": "Toto önce onu sevmiyor, ama kısa sürede arkadaş oluyorlar.",
+      "w": [["Toto","Toto (köpeğin adı)"], ["do","(yardımcı fiil)"], ["not","-maz (olumsuz)"], ["like","sevmek, hoşlanmak"], ["him","onu"], ["at","(at first: önce)"], ["first","ilk, önce"], ["but","ama"], ["soon","kısa sürede, yakında"], ["they","onlar"], ["be","-dir (olmak)"], ["friend","arkadaşlar"]]
+    }
+  ],
+  "new_words": [
+    {"lemma":"lion","pos":"noun","tr":"aslan","ipa":"/ˈlaɪən/","ex_en":"A big lion jumps onto the road!","ex_tr":"Büyük bir aslan yola atlıyor!"},
+    {"lemma":"roar","pos":"noun, verb","tr":"kükreme; kükremek","ipa":"/rɔː/","ex_en":"Suddenly they hear a loud roar.","ex_tr":"Birden yüksek bir kükreme duyuyorlar."},
+    {"lemma":"jump","pos":"verb","tr":"atlamak, zıplamak","ipa":"/dʒʌmp/","ex_en":"A big lion jumps onto the road!","ex_tr":"Büyük bir aslan yola atlıyor!"},
+    {"lemma":"paw","pos":"noun","tr":"pençe, hayvan ayağı","ipa":"/pɔː/","ex_en":"He hits the Scarecrow with his big paw.","ex_tr":"Büyük pençesiyle Korkuluk'a vuruyor."},
+    {"lemma":"animal","pos":"noun","tr":"hayvan","ipa":"/ˈænɪml/","ex_en":"You are a big animal.","ex_tr":"Sen büyük bir hayvansın."},
+    {"lemma":"bite","pos":"verb","tr":"ısırmak","ipa":"/baɪt/","ex_en":"Don't bite Toto!","ex_tr":"Toto'yu ısırma!"},
+    {"lemma":"nose","pos":"noun","tr":"burun","ipa":"/nəʊz/","ex_en":"She hits him on the nose.","ex_tr":"Onun burnuna vuruyor."},
+    {"lemma":"coward","pos":"noun","tr":"korkak (kişi)","ipa":"/ˈkaʊəd/","ex_en":"You are a big coward!","ex_tr":"Sen koca bir korkaksın!"},
+    {"lemma":"cowardly","pos":"adjective","tr":"korkak","ipa":"/ˈkaʊədli/","ex_en":"The Cowardly Lion walks with them.","ex_tr":"Korkak Aslan onlarla yürüyor."},
+    {"lemma":"brave","pos":"adjective","tr":"cesur","ipa":"/breɪv/","ex_en":"All the animals think a lion is brave.","ex_tr":"Bütün hayvanlar aslanın cesur olduğunu düşünüyor."},
+    {"lemma":"courage","pos":"noun","tr":"cesaret","ipa":"/ˈkʌrɪdʒ/","ex_en":"Can Oz give me courage?","ex_tr":"Oz bana cesaret verebilir mi?"},
+    {"lemma":"king","pos":"noun","tr":"kral","ipa":"/kɪŋ/","ex_en":"The lion is the King of Beasts.","ex_tr":"Aslan, hayvanların kralıdır."},
+    {"lemma":"beast","pos":"noun","tr":"hayvan, canavar","ipa":"/biːst/","ex_en":"The lion is the King of Beasts.","ex_tr":"Aslan, hayvanların kralıdır."}
+  ],
+  "questions": [
+    {"type":"mcq","prompt":"What does the Lion do first?","prompt_tr":"Aslan önce ne yapıyor?","options":["He sings a song.","He hits the Scarecrow.","He eats corn."],"answer":1},
+    {"type":"mcq","prompt":"What does Dorothy do?","prompt_tr":"Dorothy ne yapıyor?","options":["She hits the Lion on the nose.","She runs away.","She gives the Lion a kiss."],"answer":0},
+    {"type":"mcq","prompt":"Why does the Lion roar?","prompt_tr":"Aslan neden kükrüyor?","options":["He is very happy.","He wants to sleep.","He wants the animals to run away."],"answer":2},
+    {"type":"mcq","prompt":"What does the Lion want from Oz?","prompt_tr":"Aslan Oz'dan ne istiyor?","options":["A heart","Courage","A home"],"answer":1},
+    {"type":"mcq","prompt":"Who are friends at the end?","prompt_tr":"Sonunda kimler arkadaş oluyor?","options":["The Lion and the crows","The Lion and the witch","Toto and the Lion"],"answer":2}
+  ]
+}

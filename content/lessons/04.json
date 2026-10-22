@@ -1,0 +1,134 @@
+{
+  "id": 4,
+  "unit": 1,
+  "title_tr": "İsim ve ülke söyleme",
+  "title_en": "Names and Countries",
+  "summary_tr": "Adını ve nereli olduğunu söylemeyi, ülke ve milliyet adlarını öğren.",
+  "learn": [
+    {
+      "type": "text",
+      "tr": "Tanışırken iki soru çok önemli: **What's your name?** (Adın ne?) ve **Where are you from?** (Nerelisin?). Bu derste ikisini de soracak ve cevaplayacaksın."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Adını söylemek",
+      "items": [
+        { "en": "What's your name?", "tr": "Adın ne?", "note_tr": "**What's** = What is" },
+        { "en": "My name is Elif.", "tr": "Benim adım Elif." },
+        { "en": "I'm Elif.", "tr": "Ben Elif'im.", "note_tr": "Daha kısa ve günlük." },
+        { "en": "Nice to meet you.", "tr": "Tanıştığımıza memnun oldum." },
+        { "en": "Nice to meet you, too.", "tr": "Ben de memnun oldum.", "note_tr": "**too** = de / da" }
+      ]
+    },
+    {
+      "type": "examples",
+      "title_tr": "Nerelisin?",
+      "items": [
+        { "en": "Where are you from?", "tr": "Nerelisin?", "note_tr": "**where** = nerede, nereye. **from** = -den / -dan." },
+        { "en": "I'm from Turkey.", "tr": "Türkiye'denim." },
+        { "en": "I'm from Istanbul.", "tr": "İstanbul'danım.", "note_tr": "Şehrini de söyleyebilirsin." },
+        { "en": "I'm Turkish.", "tr": "Türk'üm." }
+      ]
+    },
+    {
+      "type": "table",
+      "title_tr": "Ülkeler ve milliyetler",
+      "head": ["Ülke", "Milliyet", "Türkçe"],
+      "rows": [
+        ["Turkey", "Turkish", "Türkiye, Türk"],
+        ["England", "English", "İngiltere, İngiliz"],
+        ["the UK", "British", "Birleşik Krallık, Britanyalı"],
+        ["the USA", "American", "ABD, Amerikalı"],
+        ["Germany", "German", "Almanya, Alman"],
+        ["France", "French", "Fransa, Fransız"],
+        ["Spain", "Spanish", "İspanya, İspanyol"],
+        ["Italy", "Italian", "İtalya, İtalyan"],
+        ["Japan", "Japanese", "Japonya, Japon"],
+        ["China", "Chinese", "Çin, Çinli"]
+      ]
+    },
+    {
+      "type": "tip",
+      "tr": "Ülke ve milliyetler İngilizcede hep **büyük harfle** başlar: Turkey, Turkish. Milliyetle **from** kullanılmaz: **I'm Turkish.** doğru, “I'm from Turkish.” yanlış."
+    },
+    {
+      "type": "text",
+      "tr": "Milliyetlerin sonu çoğu zaman şöyle: **-ish** (Turkish, English, Spanish), **-an** (American, German, Italian), **-ese** (Japanese, Chinese). **French** ve **British** ezberlenir."
+    },
+    {
+      "type": "tip",
+      "tr": "**the USA** ve **the UK** önüne **the** gelir. Türkiye'nin resmî İngilizce adı artık **Türkiye**; günlük dilde **Turkey** de çok yaygındır. İkisini de duyabilirsin."
+    },
+    {
+      "type": "examples",
+      "title_tr": "Kısa bir diyalog",
+      "items": [
+        { "en": "Hello! What's your name?", "tr": "Merhaba! Adın ne?", "note_tr": "Elif" },
+        { "en": "Hi! I'm Tom. And you?", "tr": "Selam! Ben Tom. Ya sen?", "note_tr": "Tom" },
+        { "en": "My name is Elif. Nice to meet you.", "tr": "Benim adım Elif. Tanıştığımıza memnun oldum.", "note_tr": "Elif" },
+        { "en": "Nice to meet you, too. Where are you from?", "tr": "Ben de memnun oldum. Nerelisin?", "note_tr": "Tom" },
+        { "en": "I'm from Turkey. And you?", "tr": "Türkiye'denim. Ya sen?", "note_tr": "Elif" },
+        { "en": "I'm from England. I'm English.", "tr": "İngiltere'denim. İngilizim.", "note_tr": "Tom" }
+      ]
+    }
+  ],
+  "listen": [
+    { "en": "What's your name?", "tr": "Adın ne?" },
+    { "en": "My name is Elif.", "tr": "Benim adım Elif." },
+    { "en": "I'm Tom.", "tr": "Ben Tom." },
+    { "en": "Nice to meet you.", "tr": "Tanıştığımıza memnun oldum." },
+    { "en": "Nice to meet you, too.", "tr": "Ben de memnun oldum." },
+    { "en": "Where are you from?", "tr": "Nerelisin?" },
+    { "en": "I'm from Turkey. I'm Turkish.", "tr": "Türkiye'denim. Türk'üm." },
+    { "en": "I'm from England. I'm English.", "tr": "İngiltere'denim. İngilizim." },
+    { "en": "I'm from the USA. I'm American.", "tr": "ABD'denim. Amerikalıyım." },
+    { "en": "I'm from Japan. I'm Japanese.", "tr": "Japonya'danım. Japonum." },
+    { "en": "I'm from Spain. I'm Spanish.", "tr": "İspanya'danım. İspanyolum." }
+  ],
+  "practice": [
+    { "type": "match", "prompt_tr": "Ülkeyi Türkçesiyle eşleştir.", "pairs": [["Turkey", "Türkiye"], ["Germany", "Almanya"], ["France", "Fransa"], ["Spain", "İspanya"]] },
+    { "type": "match", "prompt_tr": "Ülkeyi milliyetle eşleştir.", "pairs": [["Japan", "Japanese"], ["Italy", "Italian"], ["England", "English"], ["the USA", "American"]] },
+    { "type": "fill", "prompt": "What's your ___?", "tr": "Adın ne?", "options": ["from", "name", "nice"], "answer": 1, "explain_tr": "What's your name? = Adın ne?" },
+    { "type": "fill", "prompt": "I'm ___ Turkey.", "tr": "Türkiye'denim.", "options": ["you", "my", "from"], "answer": 2, "explain_tr": "**from** = -den / -dan." },
+    { "type": "order", "answer": "Where are you from?", "tr": "Nerelisin?" },
+    { "type": "listen", "audio": "Nice to meet you.", "prompt_tr": "Ne duydun?", "options": ["Tanıştığımıza memnun oldum.", "Nerelisin?", "Adın ne?"], "answer": 0, "explain_tr": "Nice to meet you = Tanıştığımıza memnun oldum." },
+    { "type": "fill", "prompt": "I'm from Germany. I'm ___.", "tr": "Almanya'danım. Alman'ım.", "options": ["Germany", "German", "English"], "answer": 1, "explain_tr": "Germany ülke, German milliyet." },
+    { "type": "mcq", "prompt": "Where are you from?", "prompt_tr": "Doğru cevabı seç.", "options": ["I'm 20.", "I'm fine.", "I'm from Italy.", "Goodbye."], "answer": 2, "explain_tr": "Where are you from? sorusuna I'm from … ile cevap verilir." },
+    { "type": "listen", "audio": "I'm from Japan. I'm Japanese.", "prompt_tr": "Bu kişi nereli?", "options": ["Çin", "İspanya", "Japonya"], "answer": 2, "explain_tr": "Japan = Japonya, Japanese = Japon." },
+    { "type": "order", "answer": "Nice to meet you, too.", "tr": "Ben de memnun oldum." }
+  ],
+  "test": [
+    { "type": "fill", "prompt": "My name ___ Elif.", "tr": "Benim adım Elif.", "options": ["are", "is", "am"], "answer": 1, "explain_tr": "Kalıp: My name is …" },
+    { "type": "mcq", "prompt": "What's your name?", "prompt_tr": "Doğru cevap hangisi?", "options": ["I'm from France.", "Nice to meet you, too.", "I'm Tom."], "answer": 2, "explain_tr": "Adın sorulunca I'm … ya da My name is … dersin." },
+    { "type": "order", "answer": "I'm from Turkey.", "tr": "Türkiye'denim.", "explain_tr": "I'm + from + ülke." },
+    { "type": "fill", "prompt": "I'm from Spain. I'm ___.", "tr": "İspanya'danım. İspanyolum.", "options": ["Spanish", "Spain", "Japanese"], "answer": 0, "explain_tr": "Spain ülke, Spanish milliyet." },
+    { "type": "listen", "audio": "I'm from the USA. I'm American.", "prompt_tr": "Bu kişi nereli?", "options": ["İngiltere", "Almanya", "ABD", "İtalya"], "answer": 2, "explain_tr": "the USA = ABD, American = Amerikalı." },
+    { "type": "match", "prompt_tr": "Ülkeyi milliyetle eşleştir.", "pairs": [["France", "French"], ["Italy", "Italian"], ["China", "Chinese"], ["Turkey", "Turkish"]] },
+    { "type": "mcq", "prompt": "Nice to meet you.", "prompt_tr": "En uygun cevap hangisi?", "options": ["Good night.", "Nice to meet you, too.", "I'm 20."], "answer": 1, "explain_tr": "Cevap: Nice to meet you, too. (Ben de memnun oldum.)" },
+    { "type": "mcq", "prompt": "Hangisi doğru?", "options": ["I'm Turkey.", "I'm from Turkish.", "I'm from turkey.", "I'm Turkish."], "answer": 3, "explain_tr": "Milliyetle from kullanılmaz ve ülkeler büyük harfle yazılır." },
+    { "type": "listen", "audio": "Where are you from?", "prompt_tr": "Duyduğun soru ne demek?", "options": ["Adın ne?", "Nerelisin?", "Kaç yaşındasın?"], "answer": 1, "explain_tr": "Where are you from? = Nerelisin?" },
+    { "type": "fill", "prompt": "Where ___ you from?", "tr": "Nerelisin?", "options": ["are", "is", "am"], "answer": 0, "explain_tr": "you ile are kullanılır: Where are you from?" }
+  ],
+  "vocab": [
+    { "lemma": "what", "pos": "pron", "tr": "ne", "ipa": "/wɒt/", "ex_en": "What's your name?", "ex_tr": "Adın ne?" },
+    { "lemma": "where", "pos": "adv", "tr": "nerede, nereye", "ipa": "/weə/", "ex_en": "Where are you from?", "ex_tr": "Nerelisin?" },
+    { "lemma": "from", "pos": "prep", "tr": "-den, -dan", "ipa": "/frɒm/", "ex_en": "I'm from Turkey.", "ex_tr": "Türkiye'denim." },
+    { "lemma": "nice to meet you", "pos": "phrase", "tr": "tanıştığımıza memnun oldum", "ipa": "/ˌnaɪs tə ˈmiːt juː/", "ex_en": "Hi, Tom. Nice to meet you.", "ex_tr": "Merhaba Tom. Tanıştığımıza memnun oldum." },
+    { "lemma": "too", "pos": "adv", "tr": "de, da", "ipa": "/tuː/", "ex_en": "Nice to meet you, too.", "ex_tr": "Ben de memnun oldum." },
+    { "lemma": "Turkey", "pos": "name", "tr": "Türkiye", "ipa": "/ˈtɜːki/", "ex_en": "I'm from Turkey.", "ex_tr": "Türkiye'denim." },
+    { "lemma": "Turkish", "pos": "adj", "tr": "Türk; Türkçe", "ipa": "/ˈtɜːkɪʃ/", "ex_en": "I'm Turkish.", "ex_tr": "Türk'üm." },
+    { "lemma": "England", "pos": "name", "tr": "İngiltere", "ipa": "/ˈɪŋɡlənd/", "ex_en": "Tom is from England.", "ex_tr": "Tom İngiltere'den." },
+    { "lemma": "English", "pos": "adj", "tr": "İngiliz; İngilizce", "ipa": "/ˈɪŋɡlɪʃ/", "ex_en": "I'm from England. I'm English.", "ex_tr": "İngiltere'denim. İngilizim." },
+    { "lemma": "the USA", "pos": "name", "tr": "ABD", "ipa": "/ðə ˌjuː es ˈeɪ/", "ex_en": "I'm from the USA.", "ex_tr": "ABD'denim." },
+    { "lemma": "American", "pos": "adj", "tr": "Amerikalı", "ipa": "/əˈmerɪkən/", "ex_en": "I'm American.", "ex_tr": "Amerikalıyım." },
+    { "lemma": "Germany", "pos": "name", "tr": "Almanya", "ipa": "/ˈdʒɜːməni/", "ex_en": "I'm from Germany.", "ex_tr": "Almanya'danım." },
+    { "lemma": "German", "pos": "adj", "tr": "Alman; Almanca", "ipa": "/ˈdʒɜːmən/", "ex_en": "I'm German.", "ex_tr": "Alman'ım." },
+    { "lemma": "France", "pos": "name", "tr": "Fransa", "ipa": "/frɑːns/", "ex_en": "I'm from France.", "ex_tr": "Fransa'danım." },
+    { "lemma": "French", "pos": "adj", "tr": "Fransız; Fransızca", "ipa": "/frentʃ/", "ex_en": "I'm French.", "ex_tr": "Fransızım." },
+    { "lemma": "Spain", "pos": "name", "tr": "İspanya", "ipa": "/speɪn/", "ex_en": "I'm from Spain.", "ex_tr": "İspanya'danım." },
+    { "lemma": "Spanish", "pos": "adj", "tr": "İspanyol; İspanyolca", "ipa": "/ˈspænɪʃ/", "ex_en": "I'm Spanish.", "ex_tr": "İspanyolum." },
+    { "lemma": "Italian", "pos": "adj", "tr": "İtalyan; İtalyanca", "ipa": "/ɪˈtæliən/", "ex_en": "I'm from Italy. I'm Italian.", "ex_tr": "İtalya'danım. İtalyanım." },
+    { "lemma": "Japan", "pos": "name", "tr": "Japonya", "ipa": "/dʒəˈpæn/", "ex_en": "I'm from Japan.", "ex_tr": "Japonya'danım." },
+    { "lemma": "Japanese", "pos": "adj", "tr": "Japon; Japonca", "ipa": "/ˌdʒæpəˈniːz/", "ex_en": "I'm Japanese.", "ex_tr": "Japonum." }
+  ]
+}
