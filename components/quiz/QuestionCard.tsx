@@ -1,10 +1,9 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { Check, Volume2, X } from 'lucide-react';
+import { Check, Volume2, VolumeX, X } from 'lucide-react';
 import type { Question } from '@/lib/types';
-import { speak } from '@/lib/tts';
-import { useStore } from '@/lib/store';
+import { useSound } from '@/lib/sound';
 import { Button, SpeakButton } from '../ui';
 
 // Tek soru: cevapla → kontrol et → geri bildirim → devam.
@@ -32,7 +31,7 @@ const TITLES: Record<Question['type'], string> = {
 };
 
 export function QuestionCard({ q, seed, onDone }: { q: Question; seed: number; onDone: (correct: boolean) => void }) {
-  const { prefs } = useStore();
+  const { say: speakIt, on: soundOn } = useSound();
   const [picked, setPicked] = useState<number | null>(null);
   const [order, setOrder] = useState<number[]>([]);
   const [checked, setChecked] = useState<boolean | null>(null);
@@ -49,7 +48,7 @@ export function QuestionCard({ q, seed, onDone }: { q: Question; seed: number; o
   }, [q, chunks, seed]);
   const rightCol = useMemo(() => (q.type === 'match' ? shuffle(q.pairs.map((_, i) => i), seed + 7) : []), [q, seed]);
 
-  const say = (t: string) => speak(t, { rate: prefs.rate, voice: prefs.voice });
+  const say = (t: string) => speakIt(t);
 
   function check() {
     let ok = false;
@@ -126,15 +125,25 @@ export function QuestionCard({ q, seed, onDone }: { q: Question; seed: number; o
     body = (
       <>
         {q.prompt_tr && <p className="text-[17px] text-muted">{q.prompt_tr}</p>}
-        <div className="mt-4 flex justify-center">
-          <button type="button" onClick={() => say(q.audio)} aria-label="Sesi çal"
-            className="grid h-24 w-24 place-items-center rounded-full bg-primary text-on-primary shadow-lg active:scale-95">
-            <Volume2 size={40} />
-          </button>
-        </div>
-        <button type="button" onClick={() => speak(q.audio, { rate: 0.55, voice: prefs.voice })} className="mx-auto mt-2 block h-11 text-[15px] text-primary">
-          🐢 Yavaş dinle
-        </button>
+        {soundOn ? (
+          <>
+            <div className="mt-4 flex justify-center">
+              <button type="button" onClick={() => speakIt(q.audio, { explicit: true })} aria-label="Sesi çal"
+                className="grid h-24 w-24 place-items-center rounded-full bg-primary text-on-primary shadow-lg active:scale-95">
+                <Volume2 size={40} />
+              </button>
+            </div>
+            <button type="button" onClick={() => speakIt(q.audio, { slow: true, explicit: true })} className="mx-auto mt-2 block h-11 text-[15px] text-primary">
+              🐢 Yavaş dinle
+            </button>
+          </>
+        ) : (
+          // Ses kapalıyken soru okuma sorusuna dönüşür: puanlama aynı kalır.
+          <div className="mt-4 rounded-2xl border border-line bg-surface p-4 text-center">
+            <p className="flex items-center justify-center gap-1.5 text-[13px] font-semibold text-muted"><VolumeX size={16} aria-hidden /> Ses kapalı — yazılı hâlini oku</p>
+            <p lang="en" className="mt-2 font-serif text-[26px] font-bold">{q.audio}</p>
+          </div>
+        )}
         {options(q.options, q.answer)}
       </>
     );

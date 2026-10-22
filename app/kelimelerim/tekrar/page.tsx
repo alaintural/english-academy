@@ -5,11 +5,11 @@ import { useEffect, useMemo, useState } from 'react';
 import { X } from 'lucide-react';
 import { useStore } from '@/lib/store';
 import { isDue } from '@/lib/srs';
-import { speak } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import { getVocabulary } from '@/lib/content';
 import { useData } from '@/lib/useData';
 import type { UserWord } from '@/lib/types';
-import { Button, Empty, ProgressBar, SpeakButton, Spinner } from '@/components/ui';
+import { Button, Empty, ProgressBar, SoundToggle, SpeakButton, Spinner } from '@/components/ui';
 import { Result } from '@/components/quiz/Result';
 
 const SESSION = 15;
@@ -18,7 +18,8 @@ const SESSION = 15;
 // Kartlar sırayla çoktan seçmeli ve "hatırlıyor musun?" kartı olarak gelir.
 // Yanlış bilinen kelime 1. kutuya döner ve oturum sonunda bir kez daha sorulur.
 export default function ReviewPage() {
-  const { words, ready, reviewWord, prefs } = useStore();
+  const { words, ready, reviewWord } = useStore();
+  const { say } = useSound();
   const { data: bank } = useData(getVocabulary, []);
   const [queue, setQueue] = useState<string[] | null>(null);
   const [i, setI] = useState(0);
@@ -85,7 +86,8 @@ export default function ReviewPage() {
       <div className="pt-safe flex h-14 items-center gap-3 px-2">
         <Link href="/kelimelerim/" aria-label="Çık" className="grid h-11 w-11 place-items-center text-muted"><X size={26} /></Link>
         <ProgressBar value={(i / queue.length) * 100} className="h-3 flex-1" />
-        <span className="w-14 pr-2 text-right text-[14px] font-semibold text-muted tabular-nums">{i + 1}/{queue.length}</span>
+        <span className="text-right text-[14px] font-semibold text-muted tabular-nums">{i + 1}/{queue.length}</span>
+        <SoundToggle />
       </div>
 
       <div className="flex flex-1 flex-col px-4 pt-6">
@@ -105,7 +107,7 @@ export default function ReviewPage() {
               const cls = picked === null ? 'border-line bg-surface' : right ? 'border-success bg-success-soft' : picked === k ? 'border-danger bg-danger-soft' : 'border-line bg-surface opacity-50';
               return (
                 <button key={k} type="button" disabled={picked !== null}
-                  onClick={() => { setPicked(k); answer(right); if (right) speak(word.lemma, { rate: prefs.rate, voice: prefs.voice }); }}
+                  onClick={() => { setPicked(k); answer(right); if (right) say(word.lemma); }}
                   className={`min-h-[56px] rounded-2xl border-2 px-4 text-left text-[18px] font-medium ${cls}`}>{o}</button>
               );
             })}

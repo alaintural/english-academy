@@ -3,17 +3,17 @@
 import Link from 'next/link';
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { BookmarkCheck, BookmarkPlus, ChevronLeft, ChevronRight, Languages, Pause, Play, Type } from 'lucide-react';
+import { BookmarkCheck, BookmarkPlus, ChevronLeft, ChevronRight, Languages, Pause, Play, Type, VolumeX } from 'lucide-react';
 import { getBook, getChapter, getVocabulary } from '@/lib/content';
 import { useData } from '@/lib/useData';
 import { useStore } from '@/lib/store';
 import { segment, words } from '@/lib/tokenize';
 import { chapterId } from '@/lib/paths';
-import { speak, speakSequence, stopSpeaking } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import type { BookWithChapters, Chapter, Sentence, VocabWithSource } from '@/lib/types';
 import { Quiz, type QuizResult } from '@/components/quiz/Quiz';
 import { Result } from '@/components/quiz/Result';
-import { Badge, Button, ErrorBox, IconButton, Sheet, SpeakButton, Spinner } from '@/components/ui';
+import { Badge, Button, ErrorBox, IconButton, Sheet, SoundToggle, SpeakButton, Spinner } from '@/components/ui';
 import { ReaderSettings } from '@/components/ReaderSettings';
 
 type WordSel = { si: number; wi: number };
@@ -33,6 +33,7 @@ function Reader() {
 
 function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter: Chapter; vocab: VocabWithSource[] }) {
   const { prefs, words: myWords, saveWord, removeWord, getProgress, setProgress, addAttempt } = useStore();
+  const { say, sequence, on: soundOn } = useSound();
   const cid = chapterId(book.id, chapter.number);
   const ref = `chapter-${cid}`;
   const [wordSel, setWordSel] = useState<WordSel | null>(null);
@@ -88,9 +89,7 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
       return;
     }
     setPlaying(true);
-    stopRef.current = speakSequence(chapter.sentences.map((s) => s.en), current ?? topVisible.current, {
-      rate: prefs.rate,
-      voice: prefs.voice,
+    stopRef.current = sequence(chapter.sentences.map((s) => s.en), current ?? topVisible.current, {
       onSentence: (i) => {
         setCurrent(i);
         sentenceEls.current[i]?.scrollIntoView({ block: 'center', behavior: 'smooth' });
@@ -100,12 +99,12 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
         setCurrent(null);
       },
     });
-  }, [playing, chapter, current, prefs.rate, prefs.voice]);
+  }, [playing, chapter, current, sequence]);
 
   const openWord = (si: number, wi: number) => {
     if (playing) { stopRef.current?.(); setPlaying(false); }
     setWordSel({ si, wi });
-    speak(words(chapter.sentences[si].en)[wi] ?? '', { rate: prefs.rate, voice: prefs.voice });
+    say(words(chapter.sentences[si].en)[wi] ?? '');
   };
 
   const prev = book.chapters.find((c) => c.number === chapter.number - 1);
@@ -165,6 +164,7 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
             <p lang="en" className="truncate text-[11px] font-semibold tracking-wider text-muted uppercase">{book.title}</p>
             <p className="truncate text-[15px] font-semibold">Bölüm {chapter.number} — {chapter.title_en}</p>
           </div>
+          <SoundToggle />
           <IconButton label="Okuma ayarları" onClick={() => setSettings(true)}><Type size={22} /></IconButton>
         </div>
       </header>
@@ -195,7 +195,7 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
                   saved={myWords}
                   newWords={newWords}
                   onWord={openWord}
-                  onEnd={(i) => { setSentSel(i); speak(chapter.sentences[i].en, { rate: prefs.rate, voice: prefs.voice }); }}
+                  onEnd={(i) => { setSentSel(i); say(chapter.sentences[i].en); }}
                 />
               ))}
             </p>
@@ -227,11 +227,11 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
       <div className="pb-safe fixed inset-x-0 bottom-0 z-30 mx-auto max-w-[430px] border-t border-line bg-surface/92 backdrop-blur-xl">
         <div className="flex h-16 items-center gap-3 px-4">
           <button type="button" onClick={togglePlay} aria-label={playing ? 'Durdur' : 'Bölümü dinle'}
-            className="grid h-12 w-12 place-items-center rounded-full bg-primary text-on-primary shadow active:scale-95">
-            {playing ? <Pause size={22} /> : <Play size={22} className="ml-0.5" />}
+            className={`grid h-12 w-12 place-items-center rounded-full shadow active:scale-95 ${soundOn ? 'bg-primary text-on-primary' : 'bg-surface-2 text-muted'}`}>
+            {!soundOn ? <VolumeX size={22} /> : playing ? <Pause size={22} /> : <Play size={22} className="ml-0.5" />}
           </button>
           <div className="min-w-0 flex-1">
-            <p className="text-[15px] font-semibold">{playing ? 'Dinleniyor…' : 'Bölümü dinle'}</p>
+            <p className="text-[15px] font-semibold">{!soundOn ? 'Ses kapalı' : playing ? 'Dinleniyor…' : 'Bölümü dinle'}</p>
             <p className="text-[13px] text-muted">Hız ×{prefs.rate.toFixed(2)} · {savedHere} kelime kaydedildi</p>
           </div>
           <Link href="/kelimelerim/" className="flex h-11 items-center gap-1 rounded-full bg-surface-2 px-3 text-[14px] font-semibold">
@@ -300,7 +300,7 @@ function ReaderView({ book, chapter, vocab }: { book: BookWithChapters; chapter:
               <Languages size={22} className="mt-0.5 shrink-0 text-accent" aria-hidden />
               <p className="text-[18px] leading-snug">{chapter.sentences[sentSel].tr}</p>
             </div>
-            <button type="button" onClick={() => speak(chapter.sentences[sentSel].en, { rate: 0.55, voice: prefs.voice })}
+            <button type="button" onClick={() => say(chapter.sentences[sentSel].en, { slow: true, explicit: true })}
               className="mt-3 h-11 text-[15px] font-medium text-primary">🐢 Yavaş dinle</button>
           </div>
         )}

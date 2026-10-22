@@ -9,7 +9,7 @@ import { isDue } from '@/lib/srs';
 import { lessonDone, nextLesson } from '@/lib/academy';
 import { chapterId } from '@/lib/paths';
 import { BookCover } from '@/components/BookCover';
-import { Card, ProgressRing } from '@/components/ui';
+import { Card, ProgressRing, SoundToggle } from '@/components/ui';
 
 export default function HomePage() {
   const { data } = useData(() => Promise.all([getUnits(), getBooks()]), []);
@@ -44,9 +44,12 @@ export default function HomePage() {
 
   return (
     <div className="animate-fade">
-      <header className="pt-safe px-4">
-        <p className="pt-4 text-[15px] font-medium text-muted">{new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
-        <h1 className="text-[32px] leading-tight font-bold tracking-tight">Merhaba{name ? `, ${name}` : ''} 👋</h1>
+      <header className="pt-safe flex items-start gap-2 px-4">
+        <div className="min-w-0 flex-1">
+          <p className="pt-4 text-[15px] font-medium text-muted">{new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
+          <h1 className="text-[32px] leading-tight font-bold tracking-tight">Merhaba{name ? `, ${name}` : ''} 👋</h1>
+        </div>
+        <SoundToggle className="mt-3 -mr-2" />
       </header>
 
       <div className="grid gap-4 px-4 pt-4">

@@ -2,15 +2,17 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { ChevronRight, LogIn, LogOut, Shield, Trophy } from 'lucide-react';
+import { ChevronRight, LogIn, LogOut, Shield, Trophy, Volume2, VolumeX } from 'lucide-react';
 import { useStore } from '@/lib/store';
 import { hasSupabase } from '@/lib/supabase';
-import { englishVoices, speak } from '@/lib/tts';
+import { englishVoices } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import { Segmented } from '@/components/ReaderSettings';
 import { Button, Card, Screen } from '@/components/ui';
 
 export default function ProfilePage() {
   const { user, isAdmin, prefs, setPrefs, signOut, progress, words } = useStore();
+  const { say, on: soundOn, setOn } = useSound();
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   useEffect(() => {
     const load = () => setVoices(englishVoices());
@@ -56,6 +58,13 @@ export default function ProfilePage() {
       <h2 className="mt-7 mb-2 text-[13px] font-semibold tracking-wide text-muted uppercase">Tercihler</h2>
       <Card className="grid gap-5">
         <div>
+          <p className="mb-2 flex items-center gap-2 text-[15px] font-medium">
+            {soundOn ? <Volume2 size={18} aria-hidden /> : <VolumeX size={18} className="text-danger" aria-hidden />} Ses
+          </p>
+          <Segmented value={soundOn} onChange={setOn} options={[{ v: true, l: 'Açık' }, { v: false, l: 'Kapalı' }]} />
+          <p className="mt-2 text-[12px] text-muted">Sessiz ortamlarda kapat. Her ekranın sağ üstündeki düğmeden de değiştirebilirsin.</p>
+        </div>
+        <div>
           <p className="mb-2 text-[15px] font-medium">Tema</p>
           <Segmented value={prefs.theme} onChange={(v) => setPrefs({ theme: v })}
             options={[{ v: 'system', l: 'Otomatik' }, { v: 'light', l: 'Açık' }, { v: 'dark', l: 'Karanlık' }]} />
@@ -68,7 +77,7 @@ export default function ProfilePage() {
         {voices.length > 0 && (
           <div>
             <p className="mb-2 text-[15px] font-medium">İngilizce ses</p>
-            <select value={prefs.voice ?? ''} onChange={(e) => { setPrefs({ voice: e.target.value || undefined }); speak('Hello! Nice to meet you.', { voice: e.target.value || undefined, rate: prefs.rate }); }}
+            <select value={prefs.voice ?? ''} onChange={(e) => setPrefs({ voice: e.target.value || undefined })}
               className="h-11 w-full rounded-xl bg-surface-2 px-3">
               <option value="">Otomatik (önerilen)</option>
               {voices.map((v) => <option key={v.voiceURI} value={v.voiceURI}>{v.name} · {v.lang}</option>)}
@@ -76,7 +85,7 @@ export default function ProfilePage() {
             <p className="mt-2 text-[12px] text-muted">iPhone&apos;da daha doğal sesler için: Ayarlar › Erişilebilirlik › Seslendirilen İçerik › Sesler › İngilizce.</p>
           </div>
         )}
-        <Button variant="secondary" onClick={() => speak('This is how I sound. Nice to meet you!', { rate: prefs.rate, voice: prefs.voice })}>Sesi dene</Button>
+        <Button variant="secondary" onClick={() => say('This is how I sound. Nice to meet you!', { explicit: true })}>Sesi dene</Button>
       </Card>
 
       <h2 className="mt-7 mb-2 text-[13px] font-semibold tracking-wide text-muted uppercase">Hakkında</h2>

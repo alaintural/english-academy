@@ -61,13 +61,27 @@ async function answer(p: Page, q: Question) {
     }
   }
   await tapText('Kontrol et');
+  await handleWarning(p);
   await tapText('Devam');
+}
+
+// Oturumdaki ilk ses çalmadan önce "Ses açık" uyarısı çıkar; testte bir kez görülmesi beklenir.
+let warningsSeen = 0;
+async function handleWarning(p: Page) {
+  await p.waitForTimeout(120);
+  const sheet = p.getByRole('heading', { name: 'Ses açık' });
+  if (await sheet.isVisible()) {
+    warningsSeen++;
+    if (warningsSeen === 1) await shot('ses-uyarisi');
+    await p.getByRole('button', { name: 'Sesli devam et' }).click();
+  }
 }
 
 try {
   // ------------------------------------------------------------ ana sayfa
   await page.goto(url('/'));
   await page.getByText('Kaldığın yer').waitFor();
+  await page.getByRole('button', { name: 'Sesi kapat' }).waitFor();
   await shot('ana-sayfa');
 
   // ------------------------------------------------------------ akademi
@@ -94,6 +108,7 @@ try {
     await answer(page, q);
   }
   await page.getByText('%100').waitFor();
+  if (warningsSeen !== 1) throw new Error(`"Ses açık" uyarısı ${warningsSeen} kez görüldü (1 bekleniyordu)`);
   await shot('ders-sonuc');
 
   // ------------------------------------------------------------ kütüphane + okuyucu
@@ -108,6 +123,7 @@ try {
   await shot('okuyucu');
   await page.locator('article button').nth(1).click(); // ikinci kelime
   await page.getByText('Bu cümlede').waitFor();
+  if (await page.getByRole('heading', { name: 'Ses açık' }).isVisible()) throw new Error('Aynı oturumda uyarı tekrar çıktı');
   await shot('okuyucu-kelime');
   await tapText('Kelimelerime ekle');
   await page.getByText('Kelimelerimde').waitFor();
@@ -131,6 +147,49 @@ try {
   for (const q of ch.questions) await answer(page, q);
   await page.getByText('Bölüm 1 tamamlandı').waitFor();
   await shot('bolum-sonuc');
+
+  // ------------------------------------------------------------ sessiz mod
+  await page.goto(url('/okuyucu/?kitap=oz&bolum=1'));
+  await page.getByRole('button', { name: 'Sesi kapat' }).first().click();
+  await page.getByRole('button', { name: 'Sesi aç' }).first().waitFor();
+  await page.getByText('Ses kapalı').first().waitFor(); // alt çubuk
+  await page.locator('article button').nth(1).click();
+  await page.getByText('Bu cümlede').waitFor();
+  await page.getByRole('button', { name: /^Kelimeyi dinle/ }).click(); // bilerek basınca bildirim
+  await page.getByRole('status').filter({ hasText: 'Ses kapalı' }).waitFor();
+  await shot('ses-kapali-bildirim');
+  await page.keyboard.press('Escape');
+  // ses kapalıyken dinle-seç sorusu yazılı gösterilir
+  await page.goto(url('/akademi/ders/?id=1'));
+  await tapText('Dinlemeye geç');
+  await page.getByText('Ses kapalı. Cümleleri okuyarak').waitFor();
+  await tapText('Alıştırmalara geç');
+  const firstListen = lesson.practice.find((q) => q.type === 'listen');
+  if (lesson.practice[0].type === 'listen') {
+    await page.getByText('Ses kapalı — yazılı hâlini oku').waitFor();
+    await shot('ses-kapali-dinle-sorusu');
+    await answer(page, lesson.practice[0]);
+  } else if (!firstListen) console.log('(ders 1 alıştırmasında listen sorusu yok)');
+  // tercih kalıcı: yeniden yüklemede hâlâ kapalı, uyarı çıkmaz
+  await page.goto(url('/'));
+  await page.getByRole('button', { name: 'Sesi aç' }).waitFor();
+  await page.getByRole('button', { name: 'Sesi aç' }).click(); // bilerek açınca uyarı sorulmaz
+  await page.getByRole('button', { name: 'Sesi kapat' }).waitFor();
+
+  // yeni oturum (yeni sekme, boş sessionStorage) + ses açık → uyarı yeniden çıkar
+  {
+    const fresh = await browser.newContext({ ...devices['iPhone 13'], locale: 'tr-TR' });
+    const p2 = await fresh.newPage();
+    await p2.goto(url('/okuyucu/?kitap=oz&bolum=1'));
+    await p2.locator('article button').nth(1).click();
+    await p2.getByRole('heading', { name: 'Ses açık' }).waitFor();
+    await p2.getByRole('button', { name: 'Sesi kapat' }).last().click(); // karttaki "Sesi kapat"
+    await p2.getByRole('button', { name: 'Sesi aç' }).first().waitFor();
+    await p2.reload();
+    await p2.getByRole('button', { name: 'Sesi aç' }).first().waitFor();
+    await fresh.close();
+    console.log('✓ yeni oturumda uyarı + kalıcı sessiz tercih');
+  }
 
   // ------------------------------------------------------------ kelimeler + tekrar
   await page.goto(url('/kelimelerim/'));

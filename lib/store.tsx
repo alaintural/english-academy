@@ -11,7 +11,7 @@ import { newWord, review } from './srs';
 import type { Attempt, Prefs, ProgressEntry, ProgressKind, UserWord } from './types';
 
 const KEY = 'ea:v1';
-const DEFAULT_PREFS: Prefs = { theme: 'system', fontSize: 21, rate: 0.85, serif: true };
+const DEFAULT_PREFS: Prefs = { theme: 'system', fontSize: 21, rate: 0.85, serif: true, sound: true };
 
 type Data = {
   progress: Record<string, ProgressEntry>;

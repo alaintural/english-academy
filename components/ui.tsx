@@ -3,9 +3,8 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, type ReactNode } from 'react';
-import { ChevronLeft, Volume2, X } from 'lucide-react';
-import { speak } from '@/lib/tts';
-import { useStore } from '@/lib/store';
+import { ChevronLeft, Volume2, VolumeX, X } from 'lucide-react';
+import { useSound } from '@/lib/sound';
 
 // ---------------------------------------------------------------- ekran başlığı
 export function Screen({
@@ -13,7 +12,8 @@ export function Screen({
 }: {
   title: string; subtitle?: string; back?: string | true; right?: ReactNode; children: ReactNode; large?: boolean;
 }) {
-  // Geri/sağ düğmesi olmayan büyük başlıklı ekranlarda boş üst çubuk gösterilmez (iOS sekme kökleri gibi).
+  // Geri/sağ düğmesi olmayan büyük başlıklı ekranlarda boş üst çubuk gösterilmez (iOS sekme kökleri gibi);
+  // ses düğmesi o durumda başlık satırına geçer. Her ekranda ses düğmesi görünür.
   const bar = !large || back || right;
   return (
     <div className="animate-fade">
@@ -24,12 +24,16 @@ export function Screen({
           {!large && <h1 className="flex-1 truncate text-[17px] font-semibold">{title}</h1>}
           {large && <span className="flex-1" />}
           {right}
+          <SoundToggle />
         </div>
       </header>}
       {large && (
-        <div className="px-4 pt-1 pb-3">
-          <h1 className="text-[32px] leading-tight font-bold tracking-tight">{title}</h1>
-          {subtitle && <p className="mt-1 text-[15px] text-muted">{subtitle}</p>}
+        <div className="flex items-start gap-2 px-4 pt-1 pb-3">
+          <div className="min-w-0 flex-1">
+            <h1 className="text-[32px] leading-tight font-bold tracking-tight">{title}</h1>
+            {subtitle && <p className="mt-1 text-[15px] text-muted">{subtitle}</p>}
+          </div>
+          {!bar && <SoundToggle className="-mr-2" />}
         </div>
       )}
       <div className="px-4">{children}</div>
@@ -150,12 +154,24 @@ export function Badge({ children, tone = 'muted' }: { children: ReactNode; tone?
 
 // ---------------------------------------------------------------- ses
 export function SpeakButton({ text, label = 'Dinle', size = 20, className = '' }: { text: string; label?: string; size?: number; className?: string }) {
-  const { prefs } = useStore();
+  const { say, on } = useSound();
+  const Icon = on ? Volume2 : VolumeX;
   return (
     <button type="button" aria-label={`${label}: ${text}`}
-      onClick={(e) => { e.stopPropagation(); speak(text, { rate: prefs.rate, voice: prefs.voice }); }}
-      className={`grid h-11 w-11 shrink-0 place-items-center rounded-full bg-primary-soft text-primary active:scale-95 ${className}`}>
-      <Volume2 size={size} aria-hidden />
+      onClick={(e) => { e.stopPropagation(); say(text, { explicit: true }); }}
+      className={`grid h-11 w-11 shrink-0 place-items-center rounded-full active:scale-95 ${on ? 'bg-primary-soft text-primary' : 'bg-surface-2 text-muted'} ${className}`}>
+      <Icon size={size} aria-hidden />
+    </button>
+  );
+}
+
+/** Sesi aç/kapat — her ekranın üst kısmında. */
+export function SoundToggle({ className = '' }: { className?: string }) {
+  const { on, toggle } = useSound();
+  return (
+    <button type="button" onClick={toggle} aria-label={on ? 'Sesi kapat' : 'Sesi aç'} aria-pressed={!on} title={on ? 'Ses açık' : 'Ses kapalı'}
+      className={`grid h-11 w-11 shrink-0 place-items-center rounded-full active:bg-surface-2 ${on ? 'text-ink' : 'bg-danger-soft text-danger'} ${className}`}>
+      {on ? <Volume2 size={22} aria-hidden /> : <VolumeX size={22} aria-hidden />}
     </button>
   );
 }

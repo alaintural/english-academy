@@ -2,16 +2,16 @@
 
 import { Suspense, useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { BookmarkCheck, BookmarkPlus, Lightbulb, Play, Square } from 'lucide-react';
+import { BookmarkCheck, BookmarkPlus, Lightbulb, Play, Square, VolumeX } from 'lucide-react';
 import { getLesson, getUnits } from '@/lib/content';
 import { useData } from '@/lib/useData';
 import { useStore } from '@/lib/store';
 import { PASS_MARK, lessonUnlocked } from '@/lib/academy';
-import { speakSequence } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import type { LearnBlock, Lesson, Question, UnitMeta } from '@/lib/types';
 import { Quiz, type QuizResult } from '@/components/quiz/Quiz';
 import { Result } from '@/components/quiz/Result';
-import { BackButton, Button, Card, ErrorBox, Rich, SpeakButton, Spinner } from '@/components/ui';
+import { BackButton, Button, Card, ErrorBox, Rich, SoundToggle, SpeakButton, Spinner } from '@/components/ui';
 
 type Step = 'learn' | 'listen' | 'practice' | 'test-intro' | 'test' | 'result' | 'review';
 const STEPS: { key: Step[]; label: string }[] = [
@@ -107,7 +107,8 @@ function LessonFlow({ lesson, units }: { lesson: Lesson; units: UnitMeta[] }) {
       <header className="pt-safe sticky top-0 z-30 border-b border-line/60 bg-bg/90 backdrop-blur-xl">
         <div className="flex h-12 items-center px-1">
           <BackButton href="/akademi/" label="Akademi" />
-          <p className="flex-1 truncate pr-4 text-right text-[13px] font-semibold text-muted">Ünite {lesson.unit} · Ders {lesson.id}</p>
+          <p className="flex-1 truncate pr-1 text-right text-[13px] font-semibold text-muted">Ünite {lesson.unit} · Ders {lesson.id}</p>
+          <SoundToggle />
         </div>
         <ol className="flex gap-1.5 px-4 pb-3" aria-label="Ders adımları">
           {STEPS.map((s, i) => {
@@ -251,20 +252,25 @@ function VocabList({ lesson }: { lesson: Lesson }) {
 
 // ---------------------------------------------------------------- Dinle
 function ListenStep({ lesson }: { lesson: Lesson }) {
-  const { prefs } = useStore();
+  const { sequence, on: soundOn, setOn } = useSound();
   const [current, setCurrent] = useState<number | null>(null);
   const stop = useRef<(() => void) | null>(null);
   useEffect(() => () => stop.current?.(), []);
   const playAll = () => {
     if (current !== null) { stop.current?.(); setCurrent(null); return; }
-    stop.current = speakSequence(lesson.listen.map((x) => x.en), 0, {
-      rate: prefs.rate, voice: prefs.voice, onSentence: setCurrent, onDone: () => setCurrent(null),
-    });
+    stop.current = sequence(lesson.listen.map((x) => x.en), 0, { onSentence: setCurrent, onDone: () => setCurrent(null) });
   };
   return (
     <div className="animate-fade">
       <h1 className="text-[28px] font-bold">Dinle ve tekrar et</h1>
       <p className="mt-2 text-[16px] text-muted">Her cümleyi dinle ve yüksek sesle tekrar et. Konuşma, öğrenmenin en hızlı yoludur.</p>
+      {!soundOn && (
+        <Card className="mt-4 flex items-center gap-3 border-danger/30 bg-danger-soft">
+          <VolumeX size={22} className="shrink-0 text-danger" aria-hidden />
+          <p className="flex-1 text-[15px]">Ses kapalı. Cümleleri okuyarak çalışabilirsin.</p>
+          <Button variant="secondary" className="min-h-[44px] px-4 text-[15px]" onClick={() => setOn(true)}>Sesi aç</Button>
+        </Card>
+      )}
       <Button block variant="secondary" className="mt-4" onClick={playAll}>
         {current !== null ? <><Square size={18} /> Durdur</> : <><Play size={18} /> Hepsini sırayla dinle</>}
       </Button>

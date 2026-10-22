@@ -2,7 +2,7 @@
 
 import { Minus, Plus } from 'lucide-react';
 import { useStore } from '@/lib/store';
-import { speak } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import type { Prefs } from '@/lib/types';
 import { Sheet } from './ui';
 
@@ -27,6 +27,7 @@ export function Segmented<T extends string | boolean>({ value, options, onChange
 
 export function ReaderSettings({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { prefs, setPrefs } = useStore();
+  const { say } = useSound();
   const size = (d: number) => setPrefs({ fontSize: Math.max(16, Math.min(32, prefs.fontSize + d)) });
   return (
     <Sheet open={open} onClose={onClose} title="Okuma ayarları">
@@ -54,7 +55,7 @@ export function ReaderSettings({ open, onClose }: { open: boolean; onClose: () =
           </div>
           <input type="range" min={0.5} max={1.2} step={0.05} value={prefs.rate}
             onChange={(e) => setPrefs({ rate: Number(e.target.value) })}
-            onPointerUp={() => speak('This is my reading speed.', { rate: prefs.rate, voice: prefs.voice })}
+            onPointerUp={() => say('This is my reading speed.')}
             aria-label="Okuma hızı" className="h-11 w-full accent-[var(--primary)]" />
           <div className="flex justify-between text-[12px] text-muted"><span>Yavaş</span><span>Normal</span></div>
         </div>

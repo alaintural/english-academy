@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { X } from 'lucide-react';
 import type { Question } from '@/lib/types';
-import { ProgressBar } from '../ui';
+import { ProgressBar, SoundToggle } from '../ui';
 import { QuestionCard } from './QuestionCard';
 
 export type QuizResult = { correct: number; total: number; score: number; wrong: number[] };
@@ -35,7 +35,8 @@ export function Quiz({
             <X size={26} />
           </Link>
           <ProgressBar value={(i / questions.length) * 100} className="h-3 flex-1" />
-          <span className="w-14 pr-2 text-right text-[14px] font-semibold text-muted tabular-nums">{i + 1}/{questions.length}</span>
+          <span className="text-right text-[14px] font-semibold text-muted tabular-nums">{i + 1}/{questions.length}</span>
+          <SoundToggle />
         </div>
         <p className="px-4 pb-2 text-[13px] text-muted">{label}</p>
       </div>

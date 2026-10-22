@@ -8,7 +8,7 @@ import { clearContentCache, getChapter } from '@/lib/content';
 import { saveChapter } from '@/lib/admin';
 import { useStore } from '@/lib/store';
 import { words } from '@/lib/tokenize';
-import { speak } from '@/lib/tts';
+import { useSound } from '@/lib/sound';
 import type { Chapter, Sentence } from '@/lib/types';
 import { AdminGuard, Field, SaveBar, inputCls, jsonCls } from '@/components/AdminGuard';
 import { Button, Card, Spinner } from '@/components/ui';
@@ -31,6 +31,7 @@ function ChapterEditor() {
   const n = Number(params.get('bolum') ?? 1);
   const isNew = params.has('yeni');
   const { isAdmin } = useStore();
+  const { say } = useSound();
   const [c, setC] = useState<Chapter | null>(null);
   const [bookTitle, setBookTitle] = useState('');
   const [published, setPublished] = useState(true);
@@ -108,7 +109,7 @@ function ChapterEditor() {
                   <p className="text-[13px] font-semibold text-muted">Kelime · kök · bağlamsal anlam</p>
                   {words(s.en).map((tok, k) => (
                     <div key={k} className="grid grid-cols-[minmax(64px,auto)_1fr_1.4fr] items-center gap-1.5">
-                      <button type="button" onClick={() => speak(tok)} className="truncate text-left text-[14px] font-semibold">{tok}</button>
+                      <button type="button" onClick={() => say(tok, { explicit: true })} className="truncate text-left text-[14px] font-semibold">{tok}</button>
                       <input aria-label={`${tok} kök`} className={`${inputCls} min-h-10 px-2 text-[15px]`} value={s.w[k]?.[0] ?? ''}
                         onChange={(e) => setS(i, { ...s, w: s.w.map((p, x) => (x === k ? [e.target.value, p[1]] : p)) })} />
                       <input aria-label={`${tok} anlam`} className={`${inputCls} min-h-10 px-2 text-[15px] ${s.w[k]?.[1] ? '' : 'border-accent'}`} value={s.w[k]?.[1] ?? ''}

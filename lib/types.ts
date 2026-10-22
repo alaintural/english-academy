@@ -126,4 +126,6 @@ export type Prefs = {
   rate: number; // TTS hızı 0.5-1.2
   serif: boolean;
   voice?: string;
+  /** Seslendirme açık mı (sessiz ortamlar için kapatılabilir) */
+  sound: boolean;
 };

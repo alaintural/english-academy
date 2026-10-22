@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { StoreProvider } from '@/lib/store';
+import { SoundProvider } from '@/lib/sound';
 import { AppShell } from '@/components/AppShell';
 import { BASE } from '@/lib/paths';
 import './globals.css';
@@ -34,7 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <StoreProvider>
-          <AppShell>{children}</AppShell>
+          <SoundProvider>
+            <AppShell>{children}</AppShell>
+          </SoundProvider>
         </StoreProvider>
       </body>
     </html>

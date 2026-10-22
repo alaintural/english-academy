@@ -8,7 +8,7 @@ import { useStore } from '@/lib/store';
 import { PASS_MARK, unitTestUnlocked } from '@/lib/academy';
 import { Quiz, type QuizResult } from '@/components/quiz/Quiz';
 import { Result } from '@/components/quiz/Result';
-import { BackButton, Button, Card, ErrorBox, Spinner } from '@/components/ui';
+import { BackButton, Button, Card, ErrorBox, SoundToggle, Spinner } from '@/components/ui';
 
 function UnitTestFlow() {
   const unit = Number(useSearchParams().get('unite') ?? '1');
@@ -59,7 +59,7 @@ function UnitTestFlow() {
   const unlocked = meta ? unitTestUnlocked(progress, meta) : false;
   return (
     <div className="pt-safe min-h-dvh px-4">
-      <BackButton href="/akademi/" label="Akademi" />
+      <div className="flex items-center justify-between"><BackButton href="/akademi/" label="Akademi" /><SoundToggle /></div>
       <div className="pt-8 text-center">
         <div className="text-5xl" aria-hidden>🏆</div>
         <h1 className="mt-4 text-[26px] font-bold">Ünite {unit} testi</h1>
